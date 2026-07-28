@@ -1,0 +1,30 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "unidevhub@gmail.com",
+                "Name": "Олександр Афанасьєв"
+            }
+        ],
+        "Category": "Financial",
+        "Description": "Comprehensive Material You cryptocurrency monitoring widget for KDE Plasma 6 powered by CoinGecko & Alternative.me API",
+        "Description[uk]": "Багатофункціональний віджет моніторингу криптовалют у стилі Material You для KDE Plasma 6",
+        "Description[de]": "Funktionsreiches Material You Kryptowährungs-Widget für KDE Plasma 6",
+        "Description[es]": "Completo widget de monitoreo de criptomonedas estilo Material You para KDE Plasma 6",
+        "Description[pl]": "Bogaty w funkcje widżet do monitorowania kryptowalut w stylu Material You dla KDE Plasma 6",
+        "Description[fr]": "Widget complet de suivi de cryptomonnaies Material You pour KDE Plasma 6",
+        "Description[pt_BR]": "Widget completo de monitoramento de criptomonedas Material You para KDE Plasma 6",
+        "Description[tr]": "KDE Plasma 6 için Material You stilinde kapsamlı kripto para izleme aracı",
+        "Description[ja]": "KDE Plasma 6 向け高機能暗号資産モニタリングウィジェット",
+        "Description[zh_CN]": "专为 KDE Plasma 6 打造的功能丰富加密货币监控小部件",
+        "EnabledByDefault": true,
+        "Icon": "office-chart-line-percentage",
+        "Id": "org.kde.cryptohub",
+        "License": "GPL-3.0-or-later",
+        "Name": "Crypto-hub",
+        "Website": "https://github.com/Uni-Dev-Hub/Crypto-hub"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-HasConfigurationInterface": true
+}

@@ -1,0 +1,1231 @@
+# Chinese (Simplified) translations for Crypto-hub.
+# Crypto-hub 软件包的简体中文翻译。
+# Copyright (C) 2026 Crypto-hub AUTHORS
+# This file is distributed under the same license as the Crypto-hub package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"PO-Revision-Date: 2026-07-26 00:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+""
+
+#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr "常规"
+
+#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr "币种列表"
+
+#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr "提醒"
+
+#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr "支持与信息"
+
+#: contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr "添加币种"
+
+#: contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr "点击进行配置"
+
+#: contents/ui/main.qml:24
+msgid "Market consolidation phase in progress."
+msgstr "市场目前处于盘整筑底阶段。"
+
+#: contents/ui/main.qml:25
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "市场极度恐慌，伴随高波动和抛售潮。"
+
+#: contents/ui/main.qml:26
+msgid "Strong market growth and active buying momentum."
+msgstr "市场增长强劲，买盘动能活跃。"
+
+#: contents/ui/main.qml:27
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "山寨币表现超越 BTC，山寨币季全面到来。"
+
+#: contents/ui/main.qml:28
+msgid "Market correction phase. High caution among buyers."
+msgstr "市场回调阶段，买方观望情绪较浓。"
+
+#: contents/ui/main.qml:29
+msgid "Market is in an accumulation and consolidation range."
+msgstr "市场处于吸筹和横盘区间。"
+
+#: contents/ui/main.qml:31 contents/ui/main.qml:168
+#: contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Accumulation ⚖️"
+msgstr "筹码吸纳期 ⚖️"
+
+#: contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr "正在加载市场分析数据..."
+
+#: contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr "正在加载市场分析报告..."
+
+#: contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr "正在更新数据..."
+
+#: contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr "请求频率超出限制"
+
+#: contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr "(%1 秒后重试)"
+
+#: contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr "更新成功"
+
+#: contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr "(更新于 %1)"
+
+#: contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr "刷新数据"
+
+#: contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr "动态"
+
+#: contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr "自选"
+
+#: contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr "请稍候，正在更新数据..."
+
+#: contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr "自选列表为空"
+
+#: contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "在小部件设置中添加您关注的币种，即可在此标签页追踪其价格。"
+
+#: contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr "前往设置"
+
+#: contents/ui/settings/AlertsSettings.qml:102
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr "仅限一次"
+
+#: contents/ui/settings/AlertsSettings.qml:103
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr "每天一次"
+
+#: contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr "每次触发时"
+
+#: contents/ui/settings/AlertsSettings.qml:157
+#: contents/ui/settings/AlertsSettings.qml:168
+#: contents/code/alertSettingsHelper.js:37
+#: contents/code/alertSettingsHelper.js:48
+msgid "Selected Coin"
+msgstr "所选币种"
+
+#: contents/ui/settings/AlertsSettings.qml:158
+#: contents/ui/settings/AlertsSettings.qml:170
+#: contents/ui/settings/AlertsSettings.qml:626
+#: contents/ui/settings/GeneralSettings.qml:204
+#: contents/ui/components/cards/FearGreedCard.qml:63
+#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
+#: contents/code/alertSettingsHelper.js:38
+#: contents/code/alertSettingsHelper.js:50
+msgid "Fear & Greed Index"
+msgstr "恐慌与贪婪指数"
+
+#: contents/ui/settings/AlertsSettings.qml:159
+#: contents/ui/settings/AlertsSettings.qml:171
+#: contents/ui/settings/AlertsSettings.qml:627
+#: contents/ui/settings/GeneralSettings.qml:205
+#: contents/code/alertEngine.js:248 contents/code/alertEngine.js:252
+#: contents/code/alertSettingsHelper.js:39
+#: contents/code/alertSettingsHelper.js:51
+msgid "Global Market Cap"
+msgstr "全球总市值"
+
+#: contents/ui/settings/AlertsSettings.qml:160
+#: contents/ui/settings/AlertsSettings.qml:173
+#: contents/code/alertSettingsHelper.js:40
+#: contents/code/alertSettingsHelper.js:53
+msgid "Dominance (BTC / ETH)"
+msgstr "市值占有率 (BTC / ETH)"
+
+#: contents/ui/settings/AlertsSettings.qml:161
+#: contents/ui/settings/AlertsSettings.qml:175
+#: contents/ui/settings/AlertsSettings.qml:632
+#: contents/ui/settings/GeneralSettings.qml:207
+#: contents/code/alertEngine.js:296 contents/code/alertEngine.js:300
+#: contents/code/alertSettingsHelper.js:41
+#: contents/code/alertSettingsHelper.js:55
+msgid "Active Cryptocurrencies"
+msgstr "活跃加密货币"
+
+#: contents/ui/settings/AlertsSettings.qml:162
+#: contents/ui/settings/AlertsSettings.qml:172
+#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
+#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
+#: contents/code/alertSettingsHelper.js:52
+msgid "24h Total Volume"
+msgstr "24小时总成交量"
+
+#: contents/ui/settings/AlertsSettings.qml:163
+#: contents/ui/settings/AlertsSettings.qml:178
+#: contents/ui/settings/AlertsSettings.qml:634
+#: contents/ui/settings/GeneralSettings.qml:213
+#: contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
+#: contents/code/alertSettingsHelper.js:43
+#: contents/code/alertSettingsHelper.js:58
+msgid "ETH/BTC Ratio"
+msgstr "ETH/BTC 汇率比"
+
+#: contents/ui/settings/AlertsSettings.qml:164
+#: contents/ui/settings/AlertsSettings.qml:182
+#: contents/ui/settings/GeneralSettings.qml:214
+#: contents/ui/settings/GeneralSettings.qml:409
+#: contents/code/alertSettingsHelper.js:44
+#: contents/code/alertSettingsHelper.js:62
+msgid "BTC Halving Countdown"
+msgstr "BTC 减半倒计时"
+
+#: contents/ui/settings/AlertsSettings.qml:165
+#: contents/ui/settings/AlertsSettings.qml:179
+#: contents/ui/settings/AlertsSettings.qml:633
+#: contents/code/alertSettingsHelper.js:45
+#: contents/code/alertSettingsHelper.js:59
+msgid "BTC Rainbow Zone"
+msgstr "BTC 彩虹图区间"
+
+#: contents/ui/settings/AlertsSettings.qml:166
+#: contents/ui/settings/AlertsSettings.qml:174
+#: contents/ui/settings/AlertsSettings.qml:631
+#: contents/ui/settings/GeneralSettings.qml:216
+#: contents/code/alertSettingsHelper.js:46
+#: contents/code/alertSettingsHelper.js:54
+msgid "Stablecoin Dominance"
+msgstr "稳定币占比"
+
+#: contents/ui/settings/AlertsSettings.qml:206
+#: contents/code/alertSettingsHelper.js:71
+#: contents/code/alertSettingsHelper.js:142
+msgid "Price reaches"
+msgstr "价格达到"
+
+#: contents/ui/settings/AlertsSettings.qml:207
+#: contents/code/alertSettingsHelper.js:72
+msgid "Price above"
+msgstr "价格高于"
+
+#: contents/ui/settings/AlertsSettings.qml:208
+#: contents/code/alertSettingsHelper.js:73
+msgid "Price below"
+msgstr "价格低于"
+
+#: contents/ui/settings/AlertsSettings.qml:209
+#: contents/code/alertSettingsHelper.js:74
+msgid "24h Change above (%)"
+msgstr "24小时涨幅高于 (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:210
+#: contents/code/alertSettingsHelper.js:75
+msgid "24h Change below (%)"
+msgstr "24小时跌幅低于 (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:211
+#: contents/code/alertSettingsHelper.js:76
+msgid "ATH Reached"
+msgstr "达到历史最高价 (ATH)"
+
+#: contents/ui/settings/AlertsSettings.qml:212
+#: contents/code/alertSettingsHelper.js:77
+msgid "ATL Reached"
+msgstr "达到历史最低价 (ATL)"
+
+#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
+#: contents/code/alertSettingsHelper.js:78
+#: contents/code/alertSettingsHelper.js:149
+msgid "24h High Breakout"
+msgstr "突破24小时最高价"
+
+#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
+#: contents/code/alertSettingsHelper.js:79
+#: contents/code/alertSettingsHelper.js:150
+msgid "24h Low Breakout"
+msgstr "跌破24小时最低价"
+
+#: contents/ui/settings/AlertsSettings.qml:215
+#: contents/code/alertSettingsHelper.js:80
+msgid "Drop from ATH (%) >"
+msgstr "距历史最高价跌幅 (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:216
+#: contents/code/alertSettingsHelper.js:81
+msgid "Rise from ATL (%) >"
+msgstr "距历史最低价涨幅 (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:218
+#: contents/code/alertSettingsHelper.js:85
+msgid "Index above"
+msgstr "指数高于"
+
+#: contents/ui/settings/AlertsSettings.qml:219
+#: contents/code/alertSettingsHelper.js:86
+msgid "Index below"
+msgstr "指数低于"
+
+#: contents/ui/settings/AlertsSettings.qml:220
+#: contents/code/alertSettingsHelper.js:87
+msgid "Zone status changes"
+msgstr "区域状态变更"
+
+#: contents/ui/settings/AlertsSettings.qml:222
+#: contents/code/alertSettingsHelper.js:91
+msgid "Value above"
+msgstr "数值高于"
+
+#: contents/ui/settings/AlertsSettings.qml:223
+#: contents/code/alertSettingsHelper.js:92
+msgid "Value below"
+msgstr "数值低于"
+
+#: contents/ui/settings/AlertsSettings.qml:225
+#: contents/code/alertSettingsHelper.js:96
+msgid "Dominance above (%)"
+msgstr "占有率高于 (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:226
+#: contents/code/alertSettingsHelper.js:97
+msgid "Dominance below (%)"
+msgstr "占有率低于 (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:228
+#: contents/code/alertSettingsHelper.js:101
+msgid "Count above"
+msgstr "数量高于"
+
+#: contents/ui/settings/AlertsSettings.qml:229
+#: contents/code/alertSettingsHelper.js:102
+msgid "Count below"
+msgstr "数量低于"
+
+#: contents/ui/settings/AlertsSettings.qml:231
+#: contents/code/alertSettingsHelper.js:106
+msgid "Ratio above"
+msgstr "比率高于"
+
+#: contents/ui/settings/AlertsSettings.qml:232
+#: contents/code/alertSettingsHelper.js:107
+msgid "Ratio below"
+msgstr "比率低于"
+
+#: contents/ui/settings/AlertsSettings.qml:234
+#: contents/code/alertSettingsHelper.js:111
+msgid "Valuation Zone changes"
+msgstr "估值区域变更"
+
+#: contents/ui/settings/AlertsSettings.qml:236
+#: contents/code/alertSettingsHelper.js:115
+msgid "Days remaining less than"
+msgstr "剩余天数少于"
+
+#: contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr "目标："
+
+#: contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr "条件："
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr "已禁用"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr "自动"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr "数值"
+
+#: contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr "选项："
+
+#: contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr "备注（可选）"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr "创建提醒"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr "保存更改"
+
+#: contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr "测试提醒"
+
+#: contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr "取消"
+
+#: contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr "已配置的提醒："
+
+#: contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr "BTC 占有率"
+
+#: contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr "ETH 占有率"
+
+#: contents/ui/settings/AlertsSettings.qml:635
+#: contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: contents/code/alertEngine.js:322
+msgid "BTC Halving"
+msgstr "BTC 减半"
+
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr "每次"
+
+#: contents/ui/settings/CoinsSettings.qml:95
+msgid "Search or Add Coins:"
+msgstr "搜索或添加币种："
+
+#: contents/ui/settings/CoinsSettings.qml:96
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "名称、代码（如 btc）或批量添加（btc.eth.sol）..."
+
+#: contents/ui/settings/CoinsSettings.qml:187
+msgid "Coin list is empty"
+msgstr "币种列表为空"
+
+#: contents/ui/settings/CoinsSettings.qml:188
+msgid ""
+"Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
+"name."
+msgstr "使用上方搜索栏进行批量添加（例如 btc.eth.sol）或按名称搜索。"
+
+#: contents/ui/settings/CoinsSettings.qml:203
+msgid "Your watchlist (%1)"
+msgstr "您的自选列表 (%1)"
+
+#: contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
+msgstr "目标货币："
+
+#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — 美元"
+
+#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — 欧元"
+
+#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — 乌克兰格里夫纳"
+
+#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — 英镑"
+
+#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — 日元"
+
+#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — 加元"
+
+#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — 澳元"
+
+#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
+msgid "CHF — Swiss Franc"
+msgstr "CHF — 瑞士法郎"
+
+#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — 波兰兹罗提"
+
+#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — 土耳其里拉"
+
+#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — 人民币"
+
+#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — 捷克克朗"
+
+#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — 丹麦克朗"
+
+#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — 瑞典克朗"
+
+#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — 挪威克朗"
+
+#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — 匈牙利福林"
+
+#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — 以色列新谢克尔"
+
+#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — 印度卢比"
+
+#: contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
+msgstr "自动刷新间隔："
+
+#: contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
+msgstr "1 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
+msgstr "5 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
+msgstr "10 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
+msgstr "15 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
+msgstr "30 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
+msgstr "45 分钟"
+
+#: contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
+msgstr "1 小时"
+
+#: contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
+msgstr "桌面部件："
+
+#: contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
+msgstr "所选币种卡片"
+
+#: contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
+msgstr "市值占有率分布"
+
+#: contents/ui/settings/GeneralSettings.qml:208
+#: contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
+msgstr "滚动价格跑马灯"
+
+#: contents/ui/settings/GeneralSettings.qml:209
+#: contents/ui/components/cards/TopGainersCard.qml:43
+msgid "Top 5 Gainers"
+msgstr "涨幅前 5 名"
+
+#: contents/ui/settings/GeneralSettings.qml:210
+#: contents/ui/components/cards/TopLosersCard.qml:43
+msgid "Top 5 Losers"
+msgstr "跌幅前 5 名"
+
+#: contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
+msgstr "热门趋势币种"
+
+#: contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
+msgstr "24小时交易量"
+
+#: contents/ui/settings/GeneralSettings.qml:215
+#: contents/ui/components/cards/RainbowChartCard.qml:97
+msgid "BTC Price Valuation"
+msgstr "BTC 价格估值模型"
+
+#: contents/ui/settings/GeneralSettings.qml:217
+#: contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
+msgstr "市场分析摘要"
+
+#: contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
+msgstr "部件币种（ID 或 代码）："
+
+#: contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "例如 btc, eth, sol, doge..."
+
+#: contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
+msgstr "动态流设置"
+
+#: contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "核心指标（市值、成交量、恐慌与贪婪、占有率）"
+
+#: contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "分析模型（ETH/BTC、BTC 价格估值）"
+
+#: contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "榜单图表（涨幅、跌幅与热门趋势）"
+
+#: contents/ui/settings/SupportSettings.qml:97
+msgid ""
+"The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "专为 KDE Plasma 6 打造的功能丰富加密货币监控小部件。"
+
+#: contents/ui/settings/SupportSettings.qml:114
+msgid "What's New"
+msgstr "更新日志"
+
+#: contents/ui/settings/SupportSettings.qml:117
+msgid "About Project"
+msgstr "关于项目"
+
+#: contents/ui/settings/SupportSettings.qml:120
+msgid "Authors"
+msgstr "贡献者"
+
+#: contents/ui/settings/SupportSettings.qml:123
+msgid "Support"
+msgstr "支持与赞助"
+
+#: contents/ui/settings/SupportSettings.qml:126
+msgid "FAQ"
+msgstr "常见问题"
+
+#: contents/ui/settings/SupportSettings.qml:137
+msgid ""
+"Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
+"types, auto-refresh, and a local SQLite database for offline coin search. "
+"The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub 通过 15 种桌面卡片类型、自动刷新以及用于离线搜索的本地 SQLite 数据库，提供实时加密货币市场监控。本项目根据 GNU GPLv3 许可证完全开源。"
+
+#: contents/ui/settings/SupportSettings.qml:168
+msgid "Key features of version v1.0.0:"
+msgstr "v1.0.0 版本核心特性："
+
+#: contents/ui/settings/SupportSettings.qml:182
+msgid ""
+"🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+"🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, "
+"Rainbow Zone, etc.).\n"
+"📊 Market analytics feed with top gainers, losers, and trending coins.\n"
+"🔔 Flexible system notification builder for price breakouts, ATH/ATL, and "
+"Fear & Greed shifts.\n"
+"🗄️ Offline coin cache powered by a local SQLite database.\n"
+"🎨 Dynamic market condition status icon on the Plasma panel."
+msgstr ""
+
+#: contents/ui/settings/SupportSettings.qml:227
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "通用开发中心 (UniDevHub)"
+
+#: contents/ui/settings/SupportSettings.qml:241
+msgid ""
+"The UniDevHub project was created by a visually impaired developer from "
+"Ukraine to build open-source software products, primarily for Linux and "
+"Android."
+msgstr "UniDevHub (通用开发中心) 项目由来自乌克兰的一位视障开发者发起，旨在开发开源软件产品，主要面向 Linux 和 Android 平台。"
+
+#: contents/ui/settings/SupportSettings.qml:250
+msgid "Project Goals:"
+msgstr "项目目标："
+
+#: contents/ui/settings/SupportSettings.qml:263
+msgid "1. Create software products missing in daily use."
+msgstr "1. 开发日常使用中所缺失的软件产品。"
+
+#: contents/ui/settings/SupportSettings.qml:273
+msgid "2. Involve more people in open-source development."
+msgstr "2. 吸引更多人参与开源开发。"
+
+#: contents/ui/settings/SupportSettings.qml:283
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. 推广开源软件与数字主权。"
+
+#: contents/ui/settings/SupportSettings.qml:293
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. 与社区保持紧密联系，确保软件面向所有人无障碍可用。"
+
+#: contents/ui/settings/SupportSettings.qml:330
+msgid "Join the UniDevHub project!"
+msgstr "加入 UniDevHub 项目！"
+
+#: contents/ui/settings/SupportSettings.qml:337
+msgid ""
+"Whether you are a developer, designer, translator, or user — your ideas and "
+"contribution will help make open-source software better and more accessible "
+"for everyone."
+msgstr "无论您是开发者、设计师、翻译员还是普通用户，您的想法和贡献都将有助于让开源软件变得更好、更无障碍。"
+
+#: contents/ui/settings/SupportSettings.qml:378
+msgid "Development Team:"
+msgstr "开发团队："
+
+#: contents/ui/settings/SupportSettings.qml:394
+msgid "• Concept & Development:"
+msgstr "• 概念与开发："
+
+#: contents/ui/settings/SupportSettings.qml:406
+msgid "• Design & Base Localization:"
+msgstr "• 设计与基础本地化："
+
+#: contents/ui/settings/SupportSettings.qml:418
+msgid "Open project repository on GitHub"
+msgstr "在 GitHub 上打开项目仓库"
+
+#: contents/ui/settings/SupportSettings.qml:456
+msgid ""
+"By supporting us financially, you support not only the development of this "
+"widget, but also other open-source projects for the Linux community from our "
+"team!"
+msgstr "通过资金支持，您不仅支持了本小部件的持续开发，也支持了我们团队为 Linux 社区打造的其他开源项目！"
+
+#: contents/ui/settings/SupportSettings.qml:471
+msgid "Community & Development"
+msgstr "社区与开发"
+
+#: contents/ui/settings/SupportSettings.qml:476
+msgid "Contact Email:"
+msgstr "联系邮箱："
+
+#: contents/ui/settings/SupportSettings.qml:490
+#: contents/ui/settings/SupportSettings.qml:556
+#: contents/ui/settings/SupportSettings.qml:576
+#: contents/ui/settings/SupportSettings.qml:596
+#: contents/ui/settings/SupportSettings.qml:616
+#: contents/ui/settings/SupportSettings.qml:636
+msgid "Copy"
+msgstr "复制"
+
+#: contents/ui/settings/SupportSettings.qml:496
+msgid "YouTube channel:"
+msgstr "YouTube 频道："
+
+#: contents/ui/settings/SupportSettings.qml:507
+msgid "Subscribe"
+msgstr "订阅频道"
+
+#: contents/ui/settings/SupportSettings.qml:514
+msgid "GitHub team:"
+msgstr "GitHub 团队："
+
+#: contents/ui/settings/SupportSettings.qml:519
+msgid "Join us in improving the code"
+msgstr "参与代码改进"
+
+#: contents/ui/settings/SupportSettings.qml:525
+msgid "Join"
+msgstr "加入我们"
+
+#: contents/ui/settings/SupportSettings.qml:537
+msgid "Financial Support (Donations)"
+msgstr "资金赞助（捐赠）"
+
+#: contents/ui/settings/SupportSettings.qml:650
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "常见问题解答 (FAQ)："
+
+#: contents/ui/settings/SupportSettings.qml:684
+msgid "❓ How to add a new coin to the widget?"
+msgstr "❓ 如何向小部件添加新币种？"
+
+#: contents/ui/settings/SupportSettings.qml:709
+msgid ""
+"Go to the \"Coin List\" tab in settings and use the search bar by name or "
+"ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "前往设置中的“币种列表”标签页，使用名称或代码（如 btc, eth, sol）搜索，或使用点号分隔进行批量添加（例如 btc.eth.sol）。"
+
+#: contents/ui/settings/SupportSettings.qml:742
+msgid "❓ What does \"Rate limit exceeded\" mean?"
+msgstr "❓ “Rate limit exceeded” 是什么意思？"
+
+#: contents/ui/settings/SupportSettings.qml:767
+msgid ""
+"The free public CoinGecko API has a request limit per minute. If this limit "
+"is exceeded, the widget automatically enables a 60-second protective "
+"countdown timer and will resume updating data after it finishes."
+msgstr "CoinGecko 的免费公共 API 有每分钟请求限制。如果超出此限制，小部件会自动启动 60 秒的保护性倒计时，倒计时结束后将恢复更新。"
+
+#: contents/ui/settings/SupportSettings.qml:800
+msgid "❓ How do system notifications (Alerts) work?"
+msgstr "❓ 系统通知提醒（Alerts）是如何工作的？"
+
+#: contents/ui/settings/SupportSettings.qml:825
+msgid ""
+"In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
+"prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
+"(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "在“提醒”标签页中，您可以针对币种达到特定价格、24小时最高/最低突破、触及 ATH/ATL 以及宏观指标（恐慌与贪婪指数变动、BTC/ETH 占比等）设置触发器。"
+
+#: contents/ui/settings/SupportSettings.qml:858
+msgid "❓ Why does the panel icon emoji change?"
+msgstr "❓ 为什么面板图标上的 Emoji 会改变？"
+
+#: contents/ui/settings/SupportSettings.qml:883
+msgid ""
+"The emoji on the Plasma panel reflects the real-time overall state of the "
+"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
+"accumulation, ⚡ — altseason)."
+msgstr "Plasma 面板上的 Emoji 实时反映了加密货币市场的整体状态（例如：🐻 — 恐慌/回调，🚀 — 大涨/牛市，⚖️ — 横盘/吸筹，⚡ — 山寨币季）。"
+
+#: contents/ui/settings/SupportSettings.qml:916
+msgid "❓ How to select an individual card for the desktop?"
+msgstr "❓ 如何为桌面选择单独的卡片？"
+
+#: contents/ui/settings/SupportSettings.qml:941
+msgid ""
+"When placing the widget directly on the desktop (desktop mode), open "
+"\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
+"Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "直接将小部件放置在桌面上时（桌面模式），打开“常规设置”并从 15 种卡片类型（币种卡片、恐慌与贪婪指数、全球总市值、BTC 减半、ETH/BTC、彩虹图等）中选择一种。"
+
+#: contents/ui/settings/SupportSettings.qml:974
+msgid "❓ Where does the widget fetch price data from?"
+msgstr "❓ 小部件从哪里获取价格数据？"
+
+#: contents/ui/settings/SupportSettings.qml:999
+msgid ""
+"The widget receives current price quotes from the CoinGecko API, and the "
+"Fear & Greed Index from the Alternative.me API."
+msgstr "小部件通过 CoinGecko API 获取最新价格行情，通过 Alternative.me API 获取恐慌与贪婪指数。"
+
+#: contents/ui/settings/SupportSettings.qml:1032
+msgid "❓ Does the widget work without an internet connection?"
+msgstr "❓ 在没有网络连接的情况下能否工作？"
+
+#: contents/ui/settings/SupportSettings.qml:1057
+msgid ""
+"Searching and adding coins work offline thanks to a local SQLite database. "
+"An active internet connection is required to update real-time prices."
+msgstr "得益于本地 SQLite 数据库，搜索和添加币种支持离线使用。更新实时价格需要有效的网络连接。"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr "活跃加密货币"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr "市场上的币种数"
+
+#: contents/ui/components/cards/DominanceCard.qml:74
+#: contents/code/alertEngine.js:270
+msgid "Dominance"
+msgstr "占有率"
+
+#: contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: contents/ui/components/cards/RainbowChartCard.qml:159
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: contents/ui/components/cards/TrendingCard.qml:111
+#: contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr "加载中..."
+
+#: contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr "极度恐慌"
+
+#: contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr "恐慌"
+
+#: contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr "中立"
+
+#: contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr "贪婪"
+
+#: contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr "极度贪婪"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr "%1 天"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:78
+#, javascript-format
+msgid "Epoch progress: %1%"
+msgstr "周期进度：%1%"
+
+#: contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr "总市值"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "市场处于低波动盘整盘局区间。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Panic / Crash 🚨"
+msgstr "恐慌 / 暴跌 🚨"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "市场处于极度恐慌状态。历史性建仓机会区间。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Rally / Bull Run 🚀"
+msgstr "强劲拉升 / 狂牛 🚀"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Strong bullish momentum across major assets."
+msgstr "主要资产呈现强劲看涨动能。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Altseason Peak ⚡"
+msgstr "山寨币季爆发 ⚡"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "资金正积极流入山寨币，BTC 占有率有所下降。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Correction / Fear 🐻"
+msgstr "调整 / 回调 🐻"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:32
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "市场回调阶段。买方在支撑位附近表现谨慎。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:85
+msgid "Market Summary:"
+msgstr "市场简报："
+
+#: contents/ui/components/cards/RainbowChartCard.qml:57
+#: contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr "抄底甩卖 📉"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:58
+#: contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr "买入！ 🟢"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:59
+#: contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr "逢低吸筹 🟡"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:60
+#: contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr "产生 FOMO 情绪？ 🟠"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:61
+#: contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr "泡沫极点！ 🚨"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr "稳定币占有率"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear) 🛡️"
+msgstr "避险（恐慌） 🛡️"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying) 🚀"
+msgstr "风险偏好（买入） 🚀"
+
+#: contents/ui/components/cards/TopGainersCard.qml:111
+#: contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr "暂无数据"
+
+#: contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr "当前热门"
+
+#: contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr "24小时成交量"
+
+#: contents/code/alertEngine.js:149
+msgid "Price Reached Target"
+msgstr "达到目标价格"
+
+#: contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
+msgstr "%1 达到目标价格：%2"
+
+#: contents/code/alertEngine.js:155
+msgid "Price Above Target"
+msgstr "价格高于目标"
+
+#: contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 高于 %2（当前：%3）"
+
+#: contents/code/alertEngine.js:161
+msgid "Price Below Target"
+msgstr "价格低于目标"
+
+#: contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 低于 %2（当前：%3）"
+
+#: contents/code/alertEngine.js:167
+msgid "24h Surge"
+msgstr "24小时成交量"
+
+#: contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 24小时涨幅：+%2% (> %3%)"
+
+#: contents/code/alertEngine.js:173
+msgid "24h Drop"
+msgstr "24小时掉落"
+
+#: contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 24小时跌幅：%2% (< %3%)"
+
+#: contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
+msgstr "新的ATH！ 🚀"
+
+#: contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 创下历史新高 (ATH)：$%2"
+
+#: contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
+msgstr "新 ATL 🚨"
+
+#: contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 跌至 %2 的历史新低"
+
+#: contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
+msgstr "%1 突破 24 小时最高价 ($%2)"
+
+#: contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
+msgstr "%1 跌破 24 小时最低价 ($%2)"
+
+#: contents/code/alertEngine.js:205
+msgid "Drop from ATH"
+msgstr "距 ATH 跌幅 >"
+
+#: contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 距 ATH 跌幅达 %2% (> %3%)"
+
+#: contents/code/alertEngine.js:214
+msgid "Rise from ATL"
+msgstr "距 ATL 涨幅 >"
+
+#: contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 距 ATL 涨幅达 %2% (> %3%)"
+
+#: contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "恐慌与贪婪指数为 %1（> %2）"
+
+#: contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "恐慌与贪婪指数为 %1（< %2）"
+
+#: contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr "恐慌与贪婪指数"
+
+#: contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "市场情绪更改为 %1 (%2)"
+
+#: contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
+msgstr "全球总市值"
+
+#: contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr "全球总市值"
+
+#: contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr "24小时总交易量高于目标值"
+
+#: contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr "24小时总交易量低于目标值"
+
+#: contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 距 ATH 跌幅达 %2% (> %3%)"
+
+#: contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 24小时跌幅：%2% (< %3%)"
+
+#: contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "活跃加密货币数量为 %1 (> %2)"
+
+#: contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "活跃加密货币数量为 %1 (< %2)"
+
+#: contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "ETH/BTC 汇率比为 %1 (> %2)"
+
+#: contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "ETH/BTC 汇率比为 %1 (< %2)"
+
+#: contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "距 BTC 减半剩余天数：%1 天（< %2 天）"
+
+#: contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr "价格 >"
+
+#: contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr "价格 <"
+
+#: contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr "24小时涨幅 >"
+
+#: contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr "24小时跌幅 <"
+
+#: contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr "触及 ATH"
+
+#: contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr "触及 ATL"
+
+#: contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr "距 ATH 跌幅 >"
+
+#: contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr "距 ATL 涨幅 >"
+
+#: contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr "指数 >"
+
+#: contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr "指数 <"
+
+#: contents/code/alertSettingsHelper.js:155
+#: contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr "区域切换"
+
+#: contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr "数值 >"
+
+#: contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr "数值 <"
+
+#: contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr "占有率 >"
+
+#: contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr "占有率 <"
+
+#: contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr "数量 >"
+
+#: contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr "数量 <"
+
+#: contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr "比率 >"
+
+#: contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr "比率 <"
+
+#: contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr "剩余天数 <"
+
+#: contents/services/NotificationManager.qml:13
+#: contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+#: contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr "测试通知正常工作！"
+
+#, kde-format
+#~ msgid "🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+#~ msgstr "🚀 KDE Plasma 6 和 Qt 6 环境的正式版本。"

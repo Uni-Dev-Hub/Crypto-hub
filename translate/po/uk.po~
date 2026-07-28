@@ -1,0 +1,1234 @@
+# Ukrainian translations for Crypto-hub.
+# Переклад українською мовою для пакета Crypto-hub.
+# Copyright (C) 2026 Crypto-hub AUTHORS
+# This file is distributed under the same license as the Crypto-hub package.
+# Олександр <alex@myagustik-pc>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"PO-Revision-Date: 2026-07-25 17:55+0300\n"
+"Last-Translator: Олександр <alex@myagustik-pc>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+""
+
+#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr "Загальні"
+
+#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr "Список монет"
+
+#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr "Сповіщення"
+
+#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr "Підтримка та інформація"
+
+#: contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr "Додати монету"
+
+#: contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr "Натисніть для налаштування"
+
+#: contents/ui/main.qml:24
+msgid "Market consolidation phase in progress."
+msgstr "Триває фаза консолідації ринку."
+
+#: contents/ui/main.qml:25
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "Екстремальний страх на ринку з високою волатильністю та панічними продажами."
+
+#: contents/ui/main.qml:26
+msgid "Strong market growth and active buying momentum."
+msgstr "Сильне зростання ринку та активний імпульс покупок."
+
+#: contents/ui/main.qml:27
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "Альтсезон у розпалі, альткоїни випереджають BTC."
+
+#: contents/ui/main.qml:28
+msgid "Market correction phase. High caution among buyers."
+msgstr "Фаза корекції ринку. Висока обережність серед покупців."
+
+#: contents/ui/main.qml:29
+msgid "Market is in an accumulation and consolidation range."
+msgstr "Ринок знаходиться у діапазоні накопичення та консолідації."
+
+#: contents/ui/main.qml:31 contents/ui/main.qml:168
+#: contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Accumulation ⚖️"
+msgstr "Накопичення ⚖️"
+
+#: contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr "Завантаження даних аналітики ринку..."
+
+#: contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr "Завантаження аналітичного звіту ринку..."
+
+#: contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr "Оновлення даних..."
+
+#: contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr "Перевищено ліміт запитів"
+
+#: contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr "(повтор через %1 сек.)"
+
+#: contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr "Успішно оновлено"
+
+#: contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr "(о %1)"
+
+#: contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr "Оновити дані"
+
+#: contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr "Стрічка"
+
+#: contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr "Обране"
+
+#: contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr "Будь ласка, зачекайте, оновлення даних..."
+
+#: contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr "Список обраного порожній"
+
+#: contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "Додайте ваші улюблені монети в налаштуваннях віджета, щоб відстежувати їхні ціни на цій вкладці."
+
+#: contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr "Перейти до налаштувань"
+
+#: contents/ui/settings/AlertsSettings.qml:102
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr "Лише один раз"
+
+#: contents/ui/settings/AlertsSettings.qml:103
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr "Один раз на день"
+
+#: contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr "Щоразу при досягненні"
+
+#: contents/ui/settings/AlertsSettings.qml:157
+#: contents/ui/settings/AlertsSettings.qml:168
+#: contents/code/alertSettingsHelper.js:37
+#: contents/code/alertSettingsHelper.js:48
+msgid "Selected Coin"
+msgstr "Обрана монета"
+
+#: contents/ui/settings/AlertsSettings.qml:158
+#: contents/ui/settings/AlertsSettings.qml:170
+#: contents/ui/settings/AlertsSettings.qml:626
+#: contents/ui/settings/GeneralSettings.qml:204
+#: contents/ui/components/cards/FearGreedCard.qml:63
+#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
+#: contents/code/alertSettingsHelper.js:38
+#: contents/code/alertSettingsHelper.js:50
+msgid "Fear & Greed Index"
+msgstr "Індекс страху та жадібності"
+
+#: contents/ui/settings/AlertsSettings.qml:159
+#: contents/ui/settings/AlertsSettings.qml:171
+#: contents/ui/settings/AlertsSettings.qml:627
+#: contents/ui/settings/GeneralSettings.qml:205
+#: contents/code/alertEngine.js:248 contents/code/alertEngine.js:252
+#: contents/code/alertSettingsHelper.js:39
+#: contents/code/alertSettingsHelper.js:51
+msgid "Global Market Cap"
+msgstr "Глобальна капіталізація"
+
+#: contents/ui/settings/AlertsSettings.qml:160
+#: contents/ui/settings/AlertsSettings.qml:173
+#: contents/code/alertSettingsHelper.js:40
+#: contents/code/alertSettingsHelper.js:53
+msgid "Dominance (BTC / ETH)"
+msgstr "Домінація (BTC / ETH)"
+
+#: contents/ui/settings/AlertsSettings.qml:161
+#: contents/ui/settings/AlertsSettings.qml:175
+#: contents/ui/settings/AlertsSettings.qml:632
+#: contents/ui/settings/GeneralSettings.qml:207
+#: contents/code/alertEngine.js:296 contents/code/alertEngine.js:300
+#: contents/code/alertSettingsHelper.js:41
+#: contents/code/alertSettingsHelper.js:55
+msgid "Active Cryptocurrencies"
+msgstr "Активні криптовалюти"
+
+#: contents/ui/settings/AlertsSettings.qml:162
+#: contents/ui/settings/AlertsSettings.qml:172
+#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
+#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
+#: contents/code/alertSettingsHelper.js:52
+msgid "24h Total Volume"
+msgstr "Загальний об'єм торгів"
+
+#: contents/ui/settings/AlertsSettings.qml:163
+#: contents/ui/settings/AlertsSettings.qml:178
+#: contents/ui/settings/AlertsSettings.qml:634
+#: contents/ui/settings/GeneralSettings.qml:213
+#: contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
+#: contents/code/alertSettingsHelper.js:43
+#: contents/code/alertSettingsHelper.js:58
+msgid "ETH/BTC Ratio"
+msgstr "Співвідношення ETH/BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:164
+#: contents/ui/settings/AlertsSettings.qml:182
+#: contents/ui/settings/GeneralSettings.qml:214
+#: contents/ui/settings/GeneralSettings.qml:409
+#: contents/code/alertSettingsHelper.js:44
+#: contents/code/alertSettingsHelper.js:62
+msgid "BTC Halving Countdown"
+msgstr "Зворотний відлік до Халвінгу BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:165
+#: contents/ui/settings/AlertsSettings.qml:179
+#: contents/ui/settings/AlertsSettings.qml:633
+#: contents/code/alertSettingsHelper.js:45
+#: contents/code/alertSettingsHelper.js:59
+msgid "BTC Rainbow Zone"
+msgstr "Зона BTC Rainbow"
+
+#: contents/ui/settings/AlertsSettings.qml:166
+#: contents/ui/settings/AlertsSettings.qml:174
+#: contents/ui/settings/AlertsSettings.qml:631
+#: contents/ui/settings/GeneralSettings.qml:216
+#: contents/code/alertSettingsHelper.js:46
+#: contents/code/alertSettingsHelper.js:54
+msgid "Stablecoin Dominance"
+msgstr "Домінація стейблкоїнів"
+
+#: contents/ui/settings/AlertsSettings.qml:206
+#: contents/code/alertSettingsHelper.js:71
+#: contents/code/alertSettingsHelper.js:142
+msgid "Price reaches"
+msgstr "Ціна досягає"
+
+#: contents/ui/settings/AlertsSettings.qml:207
+#: contents/code/alertSettingsHelper.js:72
+msgid "Price above"
+msgstr "Ціна вище"
+
+#: contents/ui/settings/AlertsSettings.qml:208
+#: contents/code/alertSettingsHelper.js:73
+msgid "Price below"
+msgstr "Ціна нижче"
+
+#: contents/ui/settings/AlertsSettings.qml:209
+#: contents/code/alertSettingsHelper.js:74
+msgid "24h Change above (%)"
+msgstr "Зміна за 24г вище (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:210
+#: contents/code/alertSettingsHelper.js:75
+msgid "24h Change below (%)"
+msgstr "Зміна за 24г нижче (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:211
+#: contents/code/alertSettingsHelper.js:76
+msgid "ATH Reached"
+msgstr "Досягнуто ATH"
+
+#: contents/ui/settings/AlertsSettings.qml:212
+#: contents/code/alertSettingsHelper.js:77
+msgid "ATL Reached"
+msgstr "Досягнуто ATL"
+
+#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
+#: contents/code/alertSettingsHelper.js:78
+#: contents/code/alertSettingsHelper.js:149
+msgid "24h High Breakout"
+msgstr "Пробиття 24г максимуму"
+
+#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
+#: contents/code/alertSettingsHelper.js:79
+#: contents/code/alertSettingsHelper.js:150
+msgid "24h Low Breakout"
+msgstr "Пробиття 24г мінімуму"
+
+#: contents/ui/settings/AlertsSettings.qml:215
+#: contents/code/alertSettingsHelper.js:80
+msgid "Drop from ATH (%) >"
+msgstr "Падіння від ATH (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:216
+#: contents/code/alertSettingsHelper.js:81
+msgid "Rise from ATL (%) >"
+msgstr "Зростання від ATL (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:218
+#: contents/code/alertSettingsHelper.js:85
+msgid "Index above"
+msgstr "Індекс вище"
+
+#: contents/ui/settings/AlertsSettings.qml:219
+#: contents/code/alertSettingsHelper.js:86
+msgid "Index below"
+msgstr "Індекс нижче"
+
+#: contents/ui/settings/AlertsSettings.qml:220
+#: contents/code/alertSettingsHelper.js:87
+msgid "Zone status changes"
+msgstr "Зміна статусу зони"
+
+#: contents/ui/settings/AlertsSettings.qml:222
+#: contents/code/alertSettingsHelper.js:91
+msgid "Value above"
+msgstr "Значення вище"
+
+#: contents/ui/settings/AlertsSettings.qml:223
+#: contents/code/alertSettingsHelper.js:92
+msgid "Value below"
+msgstr "Значення нижче"
+
+#: contents/ui/settings/AlertsSettings.qml:225
+#: contents/code/alertSettingsHelper.js:96
+msgid "Dominance above (%)"
+msgstr "Домінація вище (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:226
+#: contents/code/alertSettingsHelper.js:97
+msgid "Dominance below (%)"
+msgstr "Домінація нижче (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:228
+#: contents/code/alertSettingsHelper.js:101
+msgid "Count above"
+msgstr "Кількість вище"
+
+#: contents/ui/settings/AlertsSettings.qml:229
+#: contents/code/alertSettingsHelper.js:102
+msgid "Count below"
+msgstr "Кількість нижче"
+
+#: contents/ui/settings/AlertsSettings.qml:231
+#: contents/code/alertSettingsHelper.js:106
+msgid "Ratio above"
+msgstr "Співвідношення вище"
+
+#: contents/ui/settings/AlertsSettings.qml:232
+#: contents/code/alertSettingsHelper.js:107
+msgid "Ratio below"
+msgstr "Співвідношення нижче"
+
+#: contents/ui/settings/AlertsSettings.qml:234
+#: contents/code/alertSettingsHelper.js:111
+msgid "Valuation Zone changes"
+msgstr "Зміна зони оцінки"
+
+#: contents/ui/settings/AlertsSettings.qml:236
+#: contents/code/alertSettingsHelper.js:115
+msgid "Days remaining less than"
+msgstr "Днів залишилося менше ніж"
+
+#: contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr "Ціль:"
+
+#: contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr "Умова:"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr "Авто"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr "Значення"
+
+#: contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr "Параметри:"
+
+#: contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr "Примітка (необов'язково)"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr "Створити сповіщення"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr "Тестове сповіщення"
+
+#: contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr "Налаштовані сповіщення:"
+
+#: contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr "Домінація BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr "Домінація ETH"
+
+#: contents/ui/settings/AlertsSettings.qml:635
+#: contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: contents/code/alertEngine.js:322
+msgid "BTC Halving"
+msgstr "Халвінг BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr "Щоразу"
+
+#: contents/ui/settings/CoinsSettings.qml:95
+msgid "Search or Add Coins:"
+msgstr "Пошук або додавання монет:"
+
+#: contents/ui/settings/CoinsSettings.qml:96
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "Назва, тікер (наприклад btc) або пакет (btc.eth.sol)..."
+
+#: contents/ui/settings/CoinsSettings.qml:187
+msgid "Coin list is empty"
+msgstr "Список монет порожній"
+
+#: contents/ui/settings/CoinsSettings.qml:188
+msgid ""
+"Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
+"name."
+msgstr "Використовуйте рядок пошуку вище для пакетного додавання (наприклад btc.eth.sol) або пошуку за назвою."
+
+#: contents/ui/settings/CoinsSettings.qml:203
+msgid "Your watchlist (%1)"
+msgstr "Ваш список відстеження (%1)"
+
+#: contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
+msgstr "Цільова валюта:"
+
+#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — Долар США"
+
+#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — Євро"
+
+#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — Українська гривня"
+
+#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — Британський фунт"
+
+#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — Японська єна"
+
+#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — Канадський долар"
+
+#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — Австралійський долар"
+
+#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
+msgid "CHF — Swiss Franc"
+msgstr "CHF — Швейцарський франк"
+
+#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — Польський злотий"
+
+#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — Турецька ліра"
+
+#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — Китайський юань"
+
+#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — Чеська крона"
+
+#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — Данська крона"
+
+#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — Шведська крона"
+
+#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — Норвезька крона"
+
+#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — Угорський форинт"
+
+#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — Ізраїльський шекель"
+
+#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — Індійська рупія"
+
+#: contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
+msgstr "Інтервал автооновлення:"
+
+#: contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
+msgstr "1 хвилина"
+
+#: contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
+msgstr "5 хвилин"
+
+#: contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
+msgstr "10 хвилин"
+
+#: contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
+msgstr "15 хвилин"
+
+#: contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
+msgstr "30 хвилин"
+
+#: contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
+msgstr "45 хвилин"
+
+#: contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
+msgstr "1 година"
+
+#: contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
+msgstr "Віджет робочого столу:"
+
+#: contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
+msgstr "Картка обраної монети"
+
+#: contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
+msgstr "Розподіл домінації"
+
+#: contents/ui/settings/GeneralSettings.qml:208
+#: contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
+msgstr "Рядок з цінами (тікер)"
+
+#: contents/ui/settings/GeneralSettings.qml:209
+#: contents/ui/components/cards/TopGainersCard.qml:43
+msgid "Top 5 Gainers"
+msgstr "Топ-5 зростання"
+
+#: contents/ui/settings/GeneralSettings.qml:210
+#: contents/ui/components/cards/TopLosersCard.qml:43
+msgid "Top 5 Losers"
+msgstr "Топ-5 падіння"
+
+#: contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
+msgstr "Популярні монети"
+
+#: contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
+msgstr "Об'єм торгів за 24г"
+
+#: contents/ui/settings/GeneralSettings.qml:215
+#: contents/ui/components/cards/RainbowChartCard.qml:97
+msgid "BTC Price Valuation"
+msgstr "Оцінка ціни BTC"
+
+#: contents/ui/settings/GeneralSettings.qml:217
+#: contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
+msgstr "Аналітичний підсумок ринку"
+
+#: contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
+msgstr "Монета віджета (ID або тікер):"
+
+#: contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "наприклад: btc, eth, sol, doge..."
+
+#: contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
+msgstr "Налаштування стрічки"
+
+#: contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "Ключові метрики (Капіталізація, Об'єм, Страх і Жадібність, Домінація)"
+
+#: contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "Аналітичні моделі (ETH/BTC, Оцінка ціни BTC)"
+
+#: contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "Таблиці лідерів (Зростання, Падіння та Тренди)"
+
+#: contents/ui/settings/SupportSettings.qml:97
+msgid ""
+"The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "Перший багатофункціональний віджет моніторингу криптовалют для KDE Plasma 6."
+
+#: contents/ui/settings/SupportSettings.qml:114
+msgid "What's New"
+msgstr "Що нового"
+
+#: contents/ui/settings/SupportSettings.qml:117
+msgid "About Project"
+msgstr "Про проєкт"
+
+#: contents/ui/settings/SupportSettings.qml:120
+msgid "Authors"
+msgstr "Автори"
+
+#: contents/ui/settings/SupportSettings.qml:123
+msgid "Support"
+msgstr "Підтримка"
+
+#: contents/ui/settings/SupportSettings.qml:126
+msgid "FAQ"
+msgstr "FAQ"
+
+#: contents/ui/settings/SupportSettings.qml:137
+msgid ""
+"Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
+"types, auto-refresh, and a local SQLite database for offline coin search. "
+"The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub забезпечує моніторинг криптовалютного ринку в реальному часі за допомогою 15 типів карток для робочого столу, автооновлення та локальної бази даних SQLite для офлайн-пошуку монет. Проєкт повністю відкритий під ліцензією GNU GPLv3."
+
+#: contents/ui/settings/SupportSettings.qml:168
+msgid "Key features of version v1.0.0:"
+msgstr "Ключові можливості версії v1.0.0:"
+
+#: contents/ui/settings/SupportSettings.qml:182
+msgid ""
+"🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+"🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, "
+"Rainbow Zone, etc.).\n"
+"📊 Market analytics feed with top gainers, losers, and trending coins.\n"
+"🔔 Flexible system notification builder for price breakouts, ATH/ATL, and "
+"Fear & Greed shifts.\n"
+"🗄️ Offline coin cache powered by a local SQLite database.\n"
+"🎨 Dynamic market condition status icon on the Plasma panel."
+msgstr ""
+"🚀 Офіційний реліз для середовища KDE Plasma 6 та Qt 6.\n"
+"🪙 15 модульних карток віджету для робочого столу (Ціна, Капіталізація, Халвінг, ETH/BTC, Rainbow Zone тощо).\n"
+"📊 Стрічка аналітики ринку з лідерами зростання, падіння та трендами.\n"
+"🔔 Гнучкий конструктор системних сповіщень про пробиття цін, ATH/ATL та зміни Fear & Greed.\n"
+"🗄️ Офлайн-кеш монет на основі локальної бази даних SQLite.\n"
+"🎨 Динамічна іконка стану ринку на панелі Plasma."
+
+#: contents/ui/settings/SupportSettings.qml:227
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "Хаб універсальної розробки (UniDevHub)"
+
+#: contents/ui/settings/SupportSettings.qml:241
+msgid ""
+"The UniDevHub project was created by a visually impaired developer from "
+"Ukraine to build open-source software products, primarily for Linux and "
+"Android."
+msgstr "Проєкт хаб універсальної розробки \"UniDevHub\" було створено розробником з вадами зору з України, задля створення програмних продуктів з відкритим вихідним кодом, переважно для Linux/Android."
+
+#: contents/ui/settings/SupportSettings.qml:250
+msgid "Project Goals:"
+msgstr "Мета проєкту:"
+
+#: contents/ui/settings/SupportSettings.qml:263
+msgid "1. Create software products missing in daily use."
+msgstr "1. Створювати програмні продукти, котрих не вистачає у повсякденному використанні."
+
+#: contents/ui/settings/SupportSettings.qml:273
+msgid "2. Involve more people in open-source development."
+msgstr "2. Залучати до відкритої розробки більше людей."
+
+#: contents/ui/settings/SupportSettings.qml:283
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. Просувати ідею відкритого коду та цифрового суверенітету."
+
+#: contents/ui/settings/SupportSettings.qml:293
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. Бути на одній хвилі зі спільнотою і робити все, щоб програмні продукти були доступними кожному."
+
+#: contents/ui/settings/SupportSettings.qml:330
+msgid "Join the UniDevHub project!"
+msgstr "Приєднуйтесь до проєкту UniDevHub!"
+
+#: contents/ui/settings/SupportSettings.qml:337
+msgid ""
+"Whether you are a developer, designer, translator, or user — your ideas and "
+"contribution will help make open-source software better and more accessible "
+"for everyone."
+msgstr "Незалежно від того, чи ви розробник, дизайнер, перекладач або просто користувач — ваші ідеї та внесок допоможуть зробити відкрите програмне забезпечення кращим та доступнішим для всіх."
+
+#: contents/ui/settings/SupportSettings.qml:378
+msgid "Development Team:"
+msgstr "Команда розробників:"
+
+#: contents/ui/settings/SupportSettings.qml:394
+msgid "• Concept & Development:"
+msgstr "• Концепція та розробка:"
+
+#: contents/ui/settings/SupportSettings.qml:406
+msgid "• Design & Base Localization:"
+msgstr "• Дизайн та базова локалізація:"
+
+#: contents/ui/settings/SupportSettings.qml:418
+msgid "Open project repository on GitHub"
+msgstr "Відкрити репозиторій проєкту на GitHub"
+
+#: contents/ui/settings/SupportSettings.qml:456
+msgid ""
+"By supporting us financially, you support not only the development of this "
+"widget, but also other open-source projects for the Linux community from our "
+"team!"
+msgstr "Підтримуючи нас фінансово, ви підтримуєте не лише розробку цього віджета, а й інші відкриті проєкти для спільноти Linux від нашої команди!"
+
+#: contents/ui/settings/SupportSettings.qml:471
+msgid "Community & Development"
+msgstr "Спільнота та розробка"
+
+#: contents/ui/settings/SupportSettings.qml:476
+msgid "Contact Email:"
+msgstr "Контактний Email:"
+
+#: contents/ui/settings/SupportSettings.qml:490
+#: contents/ui/settings/SupportSettings.qml:556
+#: contents/ui/settings/SupportSettings.qml:576
+#: contents/ui/settings/SupportSettings.qml:596
+#: contents/ui/settings/SupportSettings.qml:616
+#: contents/ui/settings/SupportSettings.qml:636
+msgid "Copy"
+msgstr "Копіювати"
+
+#: contents/ui/settings/SupportSettings.qml:496
+msgid "YouTube channel:"
+msgstr "YouTube-канал:"
+
+#: contents/ui/settings/SupportSettings.qml:507
+msgid "Subscribe"
+msgstr "Підписатися"
+
+#: contents/ui/settings/SupportSettings.qml:514
+msgid "GitHub team:"
+msgstr "Команда GitHub:"
+
+#: contents/ui/settings/SupportSettings.qml:519
+msgid "Join us in improving the code"
+msgstr "Приєднуйтесь до вдосконалення коду"
+
+#: contents/ui/settings/SupportSettings.qml:525
+msgid "Join"
+msgstr "Приєднатися"
+
+#: contents/ui/settings/SupportSettings.qml:537
+msgid "Financial Support (Donations)"
+msgstr "Фінансова підтримка (Донати)"
+
+#: contents/ui/settings/SupportSettings.qml:650
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "Часті запитання (FAQ):"
+
+#: contents/ui/settings/SupportSettings.qml:684
+msgid "❓ How to add a new coin to the widget?"
+msgstr "❓ Як додати нову монету у віджет?"
+
+#: contents/ui/settings/SupportSettings.qml:709
+msgid ""
+"Go to the \"Coin List\" tab in settings and use the search bar by name or "
+"ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "Перейдіть на вкладку «Список монет» у налаштуваннях та скористайтеся пошуком за назвою або тікером (btc, eth, sol), або використовуйте пакетне додавання через крапку (btc.eth.sol)."
+
+#: contents/ui/settings/SupportSettings.qml:742
+msgid "❓ What does \"Rate limit exceeded\" mean?"
+msgstr "❓ Що означає «Rate limit exceeded»?"
+
+#: contents/ui/settings/SupportSettings.qml:767
+msgid ""
+"The free public CoinGecko API has a request limit per minute. If this limit "
+"is exceeded, the widget automatically enables a 60-second protective "
+"countdown timer and will resume updating data after it finishes."
+msgstr "Безкоштовний публічний CoinGecko API має ліміт запитів на хвилину. Якщо цей ліміт перевищено, віджет автоматично вмикає захисний 60-секундний таймер зворотного відліку та відновить оновлення даних після його завершення."
+
+#: contents/ui/settings/SupportSettings.qml:800
+msgid "❓ How do system notifications (Alerts) work?"
+msgstr "❓ Як працюють системні сповіщення (Alerts)?"
+
+#: contents/ui/settings/SupportSettings.qml:825
+msgid ""
+"In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
+"prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
+"(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "На вкладці «Сповіщення» ви можете налаштувати тригери досягнення монетами певних цін, пробиття максимумів/мінімумів за 24г, досягнення ATH/ATL, a також макроіндикаторів (зміни Індексу Страху та Жадібності, домінації BTC/ETH тощо)."
+
+#: contents/ui/settings/SupportSettings.qml:858
+msgid "❓ Why does the panel icon emoji change?"
+msgstr "❓ Чому змінюється емодзі на іконці панелі?"
+
+#: contents/ui/settings/SupportSettings.qml:883
+msgid ""
+"The emoji on the Plasma panel reflects the real-time overall state of the "
+"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
+"accumulation, ⚡ — altseason)."
+msgstr "Емодзі на панелі Plasma відображає поточний загальний стан крипторинку в реальному часі (наприклад, 🐻 — паніка/корекція, 🚀 — ралі/зростання, ⚖️ — флет/накопичення, ⚡ — альтсезон)."
+
+#: contents/ui/settings/SupportSettings.qml:916
+msgid "❓ How to select an individual card for the desktop?"
+msgstr "❓ Як обрати окрему картку для робочого столу?"
+
+#: contents/ui/settings/SupportSettings.qml:941
+msgid ""
+"When placing the widget directly on the desktop (desktop mode), open "
+"\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
+"Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "При розміщенні віджета безпосередньо на робочому столі (десктопний режим), відкрийте «Загальні налаштування» та оберіть один із 15 типів карток (Картка монети, Індекс страху та жадібності, Глобальна капіталізація, Халвінг BTC, ETH/BTC, Rainbow Zone тощо)."
+
+#: contents/ui/settings/SupportSettings.qml:974
+msgid "❓ Where does the widget fetch price data from?"
+msgstr "❓ Звідки віджет отримує дані про ціни?"
+
+#: contents/ui/settings/SupportSettings.qml:999
+msgid ""
+"The widget receives current price quotes from the CoinGecko API, and the "
+"Fear & Greed Index from the Alternative.me API."
+msgstr "Віджет отримує актуальні котирування цін з CoinGecko API, а Індекс страху та жадібності — з Alternative.me API."
+
+#: contents/ui/settings/SupportSettings.qml:1032
+msgid "❓ Does the widget work without an internet connection?"
+msgstr "❓ Чи працює віджет без підключення до інтернету?"
+
+#: contents/ui/settings/SupportSettings.qml:1057
+msgid ""
+"Searching and adding coins work offline thanks to a local SQLite database. "
+"An active internet connection is required to update real-time prices."
+msgstr "Пошук та додавання монет працюють офлайн завдяки локальній базі даних SQLite. Активне інтернет-з'єднання потрібне для оновлення актуальних цін у реальному часі."
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr "Активні крипто"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr "монет на ринку"
+
+#: contents/ui/components/cards/DominanceCard.qml:74
+#: contents/code/alertEngine.js:270
+msgid "Dominance"
+msgstr "Домінація"
+
+#: contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: contents/ui/components/cards/RainbowChartCard.qml:159
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: contents/ui/components/cards/TrendingCard.qml:111
+#: contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr "Екстремальний страх"
+
+#: contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr "Страх"
+
+#: contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr "Нейтрально"
+
+#: contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr "Жадібність"
+
+#: contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr "Екстремальна жадібність"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr "%1 дн."
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:78
+#, javascript-format
+msgid "Epoch progress: %1%"
+msgstr "Прогрес епохи: %1%"
+
+#: contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr "Капіталізація"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "Ринок знаходиться у боковому діапазоні низької волатильності."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Panic / Crash 🚨"
+msgstr "Паніка / Крах 🚨"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "Екстремальний страх на ринку. Зона історичних можливостей для покупки."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Rally / Bull Run 🚀"
+msgstr "Ралі / Бичий ринок 🚀"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Strong bullish momentum across major assets."
+msgstr "Сильний бичий імпульс серед основних активів."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Altseason Peak ⚡"
+msgstr "Пік альтсезону ⚡"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "Капітал активно перетікає в альткоїни, поки домінація BTC знижується."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Correction / Fear 🐻"
+msgstr "Корекція / Страх 🐻"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:32
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "Фаза корекції ринку. Покупці виявляють обережність біля рівнів підтримки."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:85
+msgid "Market Summary:"
+msgstr "Підсумок ринку:"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:57
+#: contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr "Розпродаж 📉"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:58
+#: contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr "Купуй! 🟢"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:59
+#: contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr "Накопичуй 🟡"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:60
+#: contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr "Це вже FOMO? 🟠"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:61
+#: contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr "Максимальна бульбашка! 🚨"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr "Домінація стейблів"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear) 🛡️"
+msgstr "Захист капіталу (Страх) 🛡️"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying) 🚀"
+msgstr "Вхід у ризик (Покупки) 🚀"
+
+#: contents/ui/components/cards/TopGainersCard.qml:111
+#: contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr "Немає даних"
+
+#: contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr "Зараз у тренді"
+
+#: contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr "Об'єм за 24г"
+
+#: contents/code/alertEngine.js:149
+msgid "Price Reached Target"
+msgstr "Ціна досягла цілі"
+
+#: contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
+msgstr "%1 досяг цільової ціни: %2"
+
+#: contents/code/alertEngine.js:155
+msgid "Price Above Target"
+msgstr "Ціна вище цілі"
+
+#: contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 вище %2 (поточна: %3)"
+
+#: contents/code/alertEngine.js:161
+msgid "Price Below Target"
+msgstr "Ціна нижче цілі"
+
+#: contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 нижче %2 (поточна: %3)"
+
+#: contents/code/alertEngine.js:167
+msgid "24h Surge"
+msgstr "Зростання за 24г"
+
+#: contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 зміна за 24г: +%2% (> %3%)"
+
+#: contents/code/alertEngine.js:173
+msgid "24h Drop"
+msgstr "Падіння за 24г"
+
+#: contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 зміна за 24г: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
+msgstr "Новий ATH! 🚀"
+
+#: contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 досяг нового ATH: %2"
+
+#: contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
+msgstr "Новий ATL 🚨"
+
+#: contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 опустився до нового ATL: %2"
+
+#: contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
+msgstr "%1 пробив 24г максимум (%2)"
+
+#: contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
+msgstr "%1 пробив 24г мінімум (%2)"
+
+#: contents/code/alertEngine.js:205
+msgid "Drop from ATH"
+msgstr "Падіння від ATH"
+
+#: contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 впав на %2% від ATH (> %3%)"
+
+#: contents/code/alertEngine.js:214
+msgid "Rise from ATL"
+msgstr "Зростання від ATL"
+
+#: contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 виріс на %2% від ATL (> %3%)"
+
+#: contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "Індекс страху та жадібності складає %1 (> %2)"
+
+#: contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "Індекс страху та жадібності складає %1 (< %2)"
+
+#: contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr "Зміна зони Страху/Жадібності"
+
+#: contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "Настрій ринку змінився на %1 (%2)"
+
+#: contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
+msgstr "Глобальна капіталізація вища за цільову"
+
+#: contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr "Глобальна капіталізація нижча за цільову"
+
+#: contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr "Добовий об'єм торгів вищий за цільовий"
+
+#: contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr "Добовий об'єм торгів нижчий за цільовий"
+
+#: contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 складає %2% (> %3%)"
+
+#: contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 складає %2% (< %3%)"
+
+#: contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "Кількість активних криптовалют складає %1 (> %2)"
+
+#: contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "Кількість активних криптовалют складає %1 (< %2)"
+
+#: contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "Паритет ETH/BTC складає %1 (> %2)"
+
+#: contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "Паритет ETH/BTC складає %1 (< %2)"
+
+#: contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "До халвінгу BTC залишилося: %1 дн. (< %2 дн.)"
+
+#: contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr "Ціна >"
+
+#: contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr "Ціна <"
+
+#: contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr "Зміна за 24г >"
+
+#: contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr "Зміна за 24г <"
+
+#: contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr "Досягнуто ATH"
+
+#: contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr "Досягнуто ATL"
+
+#: contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr "Падіння від ATH >"
+
+#: contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr "Зростання від ATL >"
+
+#: contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr "Індекс >"
+
+#: contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr "Індекс <"
+
+#: contents/code/alertSettingsHelper.js:155
+#: contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr "Зміна зони"
+
+#: contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr "Значення >"
+
+#: contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr "Значення <"
+
+#: contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr "Домінація >"
+
+#: contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr "Домінація <"
+
+#: contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr "Кількість >"
+
+#: contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr "Кількість <"
+
+#: contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr "Співвідношення >"
+
+#: contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr "Співвідношення <"
+
+#: contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr "Днів залишилось <"
+
+#: contents/services/NotificationManager.qml:13
+#: contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+#: contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr "Тестове сповіщення працює коректно!"

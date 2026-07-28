@@ -1,0 +1,1231 @@
+# Japanese translations for Crypto-hub.
+# Crypto-hub パッケージに対する日本語翻訳。
+# Copyright (C) 2026 Crypto-hub AUTHORS
+# This file is distributed under the same license as the Crypto-hub package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"PO-Revision-Date: 2026-07-26 00:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+""
+
+#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr "一般"
+
+#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr "通貨リスト"
+
+#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr "アラート"
+
+#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr "サポートと情報"
+
+#: contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr "通貨を追加"
+
+#: contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr "クリックして設定"
+
+#: contents/ui/main.qml:24
+msgid "Market consolidation phase in progress."
+msgstr "市場の保ち合い（コンソリデーション）が進行中です。"
+
+#: contents/ui/main.qml:25
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "ボラティリティが高く、パニック売りを伴う極度の恐怖状態です。"
+
+#: contents/ui/main.qml:26
+msgid "Strong market growth and active buying momentum."
+msgstr "力強い市場の成長と活発な買いモメンタム。"
+
+#: contents/ui/main.qml:27
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "アルトコインがBTCを上回り、アルトシーズンが全盛期を迎えています。"
+
+#: contents/ui/main.qml:28
+msgid "Market correction phase. High caution among buyers."
+msgstr "市場の調整局面。買い手の間で慎重姿勢が強まっています。"
+
+#: contents/ui/main.qml:29
+msgid "Market is in an accumulation and consolidation range."
+msgstr "市場は蓄積とレンジの範囲内にあります。"
+
+#: contents/ui/main.qml:31 contents/ui/main.qml:168
+#: contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Accumulation ⚖️"
+msgstr "蓄積期 ⚖️"
+
+#: contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr "市場分析データを読み込み中..."
+
+#: contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr "市場分析レポートを読み込み中..."
+
+#: contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr "データを更新中..."
+
+#: contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr "リクエスト制限を超えました"
+
+#: contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr "(%1 秒後に再試行)"
+
+#: contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr "更新成功"
+
+#: contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr "(%1 時点)"
+
+#: contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr "データを更新"
+
+#: contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr "フィード"
+
+#: contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr "お待ちください。データを更新中..."
+
+#: contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr "お気に入りリストが空です"
+
+#: contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "ウィジェット設定でお気に入りの通貨を追加すると、このタブで価格を追跡できます。"
+
+#: contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr "設定へ移動"
+
+#: contents/ui/settings/AlertsSettings.qml:102
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr "1回のみ"
+
+#: contents/ui/settings/AlertsSettings.qml:103
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr "1日1回"
+
+#: contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr "到達する度に毎回"
+
+#: contents/ui/settings/AlertsSettings.qml:157
+#: contents/ui/settings/AlertsSettings.qml:168
+#: contents/code/alertSettingsHelper.js:37
+#: contents/code/alertSettingsHelper.js:48
+msgid "Selected Coin"
+msgstr "選択中の通貨"
+
+#: contents/ui/settings/AlertsSettings.qml:158
+#: contents/ui/settings/AlertsSettings.qml:170
+#: contents/ui/settings/AlertsSettings.qml:626
+#: contents/ui/settings/GeneralSettings.qml:204
+#: contents/ui/components/cards/FearGreedCard.qml:63
+#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
+#: contents/code/alertSettingsHelper.js:38
+#: contents/code/alertSettingsHelper.js:50
+msgid "Fear & Greed Index"
+msgstr "恐怖＆強欲指数"
+
+#: contents/ui/settings/AlertsSettings.qml:159
+#: contents/ui/settings/AlertsSettings.qml:171
+#: contents/ui/settings/AlertsSettings.qml:627
+#: contents/ui/settings/GeneralSettings.qml:205
+#: contents/code/alertEngine.js:248 contents/code/alertEngine.js:252
+#: contents/code/alertSettingsHelper.js:39
+#: contents/code/alertSettingsHelper.js:51
+msgid "Global Market Cap"
+msgstr "世界時価総額"
+
+#: contents/ui/settings/AlertsSettings.qml:160
+#: contents/ui/settings/AlertsSettings.qml:173
+#: contents/code/alertSettingsHelper.js:40
+#: contents/code/alertSettingsHelper.js:53
+msgid "Dominance (BTC / ETH)"
+msgstr "ドミナンス (BTC / ETH)"
+
+#: contents/ui/settings/AlertsSettings.qml:161
+#: contents/ui/settings/AlertsSettings.qml:175
+#: contents/ui/settings/AlertsSettings.qml:632
+#: contents/ui/settings/GeneralSettings.qml:207
+#: contents/code/alertEngine.js:296 contents/code/alertEngine.js:300
+#: contents/code/alertSettingsHelper.js:41
+#: contents/code/alertSettingsHelper.js:55
+msgid "Active Cryptocurrencies"
+msgstr "アクティブな暗号資産"
+
+#: contents/ui/settings/AlertsSettings.qml:162
+#: contents/ui/settings/AlertsSettings.qml:172
+#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
+#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
+#: contents/code/alertSettingsHelper.js:52
+msgid "24h Total Volume"
+msgstr "24時間総取引高"
+
+#: contents/ui/settings/AlertsSettings.qml:163
+#: contents/ui/settings/AlertsSettings.qml:178
+#: contents/ui/settings/AlertsSettings.qml:634
+#: contents/ui/settings/GeneralSettings.qml:213
+#: contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
+#: contents/code/alertSettingsHelper.js:43
+#: contents/code/alertSettingsHelper.js:58
+msgid "ETH/BTC Ratio"
+msgstr "ETH/BTC比率"
+
+#: contents/ui/settings/AlertsSettings.qml:164
+#: contents/ui/settings/AlertsSettings.qml:182
+#: contents/ui/settings/GeneralSettings.qml:214
+#: contents/ui/settings/GeneralSettings.qml:409
+#: contents/code/alertSettingsHelper.js:44
+#: contents/code/alertSettingsHelper.js:62
+msgid "BTC Halving Countdown"
+msgstr "BTC半減期カウントダウン"
+
+#: contents/ui/settings/AlertsSettings.qml:165
+#: contents/ui/settings/AlertsSettings.qml:179
+#: contents/ui/settings/AlertsSettings.qml:633
+#: contents/code/alertSettingsHelper.js:45
+#: contents/code/alertSettingsHelper.js:59
+msgid "BTC Rainbow Zone"
+msgstr "BTCレインボーゾーン"
+
+#: contents/ui/settings/AlertsSettings.qml:166
+#: contents/ui/settings/AlertsSettings.qml:174
+#: contents/ui/settings/AlertsSettings.qml:631
+#: contents/ui/settings/GeneralSettings.qml:216
+#: contents/code/alertSettingsHelper.js:46
+#: contents/code/alertSettingsHelper.js:54
+msgid "Stablecoin Dominance"
+msgstr "ステーブルコインのドミナンス"
+
+#: contents/ui/settings/AlertsSettings.qml:206
+#: contents/code/alertSettingsHelper.js:71
+#: contents/code/alertSettingsHelper.js:142
+msgid "Price reaches"
+msgstr "価格が到達"
+
+#: contents/ui/settings/AlertsSettings.qml:207
+#: contents/code/alertSettingsHelper.js:72
+msgid "Price above"
+msgstr "価格が上回る"
+
+#: contents/ui/settings/AlertsSettings.qml:208
+#: contents/code/alertSettingsHelper.js:73
+msgid "Price below"
+msgstr "価格が下回る"
+
+#: contents/ui/settings/AlertsSettings.qml:209
+#: contents/code/alertSettingsHelper.js:74
+msgid "24h Change above (%)"
+msgstr "24時間変動率が上回る (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:210
+#: contents/code/alertSettingsHelper.js:75
+msgid "24h Change below (%)"
+msgstr "24時間変動率が下回る (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:211
+#: contents/code/alertSettingsHelper.js:76
+msgid "ATH Reached"
+msgstr "ATH (過去最高値) 到達"
+
+#: contents/ui/settings/AlertsSettings.qml:212
+#: contents/code/alertSettingsHelper.js:77
+msgid "ATL Reached"
+msgstr "ATL (過去最安値) 到達"
+
+#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
+#: contents/code/alertSettingsHelper.js:78
+#: contents/code/alertSettingsHelper.js:149
+msgid "24h High Breakout"
+msgstr "24時間高値ブレイクアウト"
+
+#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
+#: contents/code/alertSettingsHelper.js:79
+#: contents/code/alertSettingsHelper.js:150
+msgid "24h Low Breakout"
+msgstr "24時間安値ブレイクアウト"
+
+#: contents/ui/settings/AlertsSettings.qml:215
+#: contents/code/alertSettingsHelper.js:80
+msgid "Drop from ATH (%) >"
+msgstr "ATHからの下落率 (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:216
+#: contents/code/alertSettingsHelper.js:81
+msgid "Rise from ATL (%) >"
+msgstr "ATLからの上昇率 (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:218
+#: contents/code/alertSettingsHelper.js:85
+msgid "Index above"
+msgstr "指数が上回る"
+
+#: contents/ui/settings/AlertsSettings.qml:219
+#: contents/code/alertSettingsHelper.js:86
+msgid "Index below"
+msgstr "指数が下回る"
+
+#: contents/ui/settings/AlertsSettings.qml:220
+#: contents/code/alertSettingsHelper.js:87
+msgid "Zone status changes"
+msgstr "ゾーンステータス変更"
+
+#: contents/ui/settings/AlertsSettings.qml:222
+#: contents/code/alertSettingsHelper.js:91
+msgid "Value above"
+msgstr "値が上回る"
+
+#: contents/ui/settings/AlertsSettings.qml:223
+#: contents/code/alertSettingsHelper.js:92
+msgid "Value below"
+msgstr "値が下回る"
+
+#: contents/ui/settings/AlertsSettings.qml:225
+#: contents/code/alertSettingsHelper.js:96
+msgid "Dominance above (%)"
+msgstr "ドミナンスが上回る (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:226
+#: contents/code/alertSettingsHelper.js:97
+msgid "Dominance below (%)"
+msgstr "ドミナンスが下回る (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:228
+#: contents/code/alertSettingsHelper.js:101
+msgid "Count above"
+msgstr "数が上回る"
+
+#: contents/ui/settings/AlertsSettings.qml:229
+#: contents/code/alertSettingsHelper.js:102
+msgid "Count below"
+msgstr "数が下回る"
+
+#: contents/ui/settings/AlertsSettings.qml:231
+#: contents/code/alertSettingsHelper.js:106
+msgid "Ratio above"
+msgstr "比率が上回る"
+
+#: contents/ui/settings/AlertsSettings.qml:232
+#: contents/code/alertSettingsHelper.js:107
+msgid "Ratio below"
+msgstr "比率が下回る"
+
+#: contents/ui/settings/AlertsSettings.qml:234
+#: contents/code/alertSettingsHelper.js:111
+msgid "Valuation Zone changes"
+msgstr "評価ゾーン変更"
+
+#: contents/ui/settings/AlertsSettings.qml:236
+#: contents/code/alertSettingsHelper.js:115
+msgid "Days remaining less than"
+msgstr "残り日数が指定未満"
+
+#: contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr "ターゲット:"
+
+#: contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr "条件:"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr "無効"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr "自動"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr "値"
+
+#: contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr "オプション:"
+
+#: contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr "メモ (任意)"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr "アラートを作成"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr "テストアラート"
+
+#: contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr "設定済みアラート:"
+
+#: contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr "BTCドミナンス"
+
+#: contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr "ETHドミナンス"
+
+#: contents/ui/settings/AlertsSettings.qml:635
+#: contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: contents/code/alertEngine.js:322
+msgid "BTC Halving"
+msgstr "BTC半減期"
+
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr "毎回"
+
+#: contents/ui/settings/CoinsSettings.qml:95
+msgid "Search or Add Coins:"
+msgstr "通貨を検索または追加:"
+
+#: contents/ui/settings/CoinsSettings.qml:96
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "名称、ティッカー (例: btc) または一括 (btc.eth.sol)..."
+
+#: contents/ui/settings/CoinsSettings.qml:187
+msgid "Coin list is empty"
+msgstr "通貨リストが空です"
+
+#: contents/ui/settings/CoinsSettings.qml:188
+msgid ""
+"Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
+"name."
+msgstr "一括追加 (例: btc.eth.sol) や名称検索には上の検索バーを使用してください。"
+
+#: contents/ui/settings/CoinsSettings.qml:203
+msgid "Your watchlist (%1)"
+msgstr "ウォッチリスト (%1)"
+
+#: contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
+msgstr "対象通貨:"
+
+#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — 米ドル"
+
+#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — ユーロ"
+
+#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — ウクライナ・フリヴニャ"
+
+#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — 英ポンド"
+
+#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — 日本円"
+
+#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — カナダドル"
+
+#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — 豪ドル"
+
+#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
+msgid "CHF — Swiss Franc"
+msgstr "CHF — スイスフラン"
+
+#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — ポーランドズロチ"
+
+#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — トルコリラ"
+
+#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — 中国人民元"
+
+#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — チェココルナ"
+
+#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — デンマーククローネ"
+
+#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — スウェーデンクローネ"
+
+#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — ノルウェークローネ"
+
+#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — ハンガリーフォリント"
+
+#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — イスラエルシェケル"
+
+#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — インドルピー"
+
+#: contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
+msgstr "自動更新間隔:"
+
+#: contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
+msgstr "1分"
+
+#: contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
+msgstr "5分"
+
+#: contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
+msgstr "10分"
+
+#: contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
+msgstr "15分"
+
+#: contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
+msgstr "30分"
+
+#: contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
+msgstr "45分"
+
+#: contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
+msgstr "1時間"
+
+#: contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
+msgstr "デスクトップウィジェット:"
+
+#: contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
+msgstr "選択中の通貨カード"
+
+#: contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
+msgstr "ドミナンス分布"
+
+#: contents/ui/settings/GeneralSettings.qml:208
+#: contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
+msgstr "価格テロップ (ティッカー)"
+
+#: contents/ui/settings/GeneralSettings.qml:209
+#: contents/ui/components/cards/TopGainersCard.qml:43
+msgid "Top 5 Gainers"
+msgstr "値上がり率トップ5"
+
+#: contents/ui/settings/GeneralSettings.qml:210
+#: contents/ui/components/cards/TopLosersCard.qml:43
+msgid "Top 5 Losers"
+msgstr "値下がり率トップ5"
+
+#: contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
+msgstr "トレンド中の通貨"
+
+#: contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
+msgstr "24時間取引高"
+
+#: contents/ui/settings/GeneralSettings.qml:215
+#: contents/ui/components/cards/RainbowChartCard.qml:97
+msgid "BTC Price Valuation"
+msgstr "BTC価格評価モデル"
+
+#: contents/ui/settings/GeneralSettings.qml:217
+#: contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
+msgstr "市場分析サマリー"
+
+#: contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
+msgstr "ウィジェットの通貨 (IDまたはティッカー):"
+
+#: contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "例: btc, eth, sol, doge..."
+
+#: contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
+msgstr "フィード設定"
+
+#: contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "主要指標 (時価総額、取引高、恐怖＆強欲、ドミナンス)"
+
+#: contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "分析モデル (ETH/BTC、BTC価格評価)"
+
+#: contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "ランキング表 (値上がり、値下がり、トレンド)"
+
+#: contents/ui/settings/SupportSettings.qml:97
+msgid ""
+"The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "KDE Plasma 6 向けの高機能暗号資産モニタリングウィジェット。"
+
+#: contents/ui/settings/SupportSettings.qml:114
+msgid "What's New"
+msgstr "新機能"
+
+#: contents/ui/settings/SupportSettings.qml:117
+msgid "About Project"
+msgstr "プロジェクトについて"
+
+#: contents/ui/settings/SupportSettings.qml:120
+msgid "Authors"
+msgstr "作者"
+
+#: contents/ui/settings/SupportSettings.qml:123
+msgid "Support"
+msgstr "サポート"
+
+#: contents/ui/settings/SupportSettings.qml:126
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: contents/ui/settings/SupportSettings.qml:137
+msgid ""
+"Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
+"types, auto-refresh, and a local SQLite database for offline coin search. "
+"The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub は、15種類のデスクトップカード、自動更新、オフライン検索用ローカル SQLite データベースを通じて、暗号資産市場のリアルタイムモニタリングを提供します。GNU GPLv3 ライセンスに基づく完全オープンソースです。"
+
+#: contents/ui/settings/SupportSettings.qml:168
+msgid "Key features of version v1.0.0:"
+msgstr "バージョン v1.0.0 の主な機能:"
+
+#: contents/ui/settings/SupportSettings.qml:182
+msgid ""
+"🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+"🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, "
+"Rainbow Zone, etc.).\n"
+"📊 Market analytics feed with top gainers, losers, and trending coins.\n"
+"🔔 Flexible system notification builder for price breakouts, ATH/ATL, and "
+"Fear & Greed shifts.\n"
+"🗄️ Offline coin cache powered by a local SQLite database.\n"
+"🎨 Dynamic market condition status icon on the Plasma panel."
+msgstr ""
+
+#: contents/ui/settings/SupportSettings.qml:227
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "Universal Development Hub (UniDevHub)"
+
+#: contents/ui/settings/SupportSettings.qml:241
+msgid ""
+"The UniDevHub project was created by a visually impaired developer from "
+"Ukraine to build open-source software products, primarily for Linux and "
+"Android."
+msgstr "UniDevHub (Universal Development Hub) プロジェクトは、ウクライナの視覚障害を持つ開発者によって、主に Linux や Android 向けのオープンソースソフトウェアを開発するために設立されました。"
+
+#: contents/ui/settings/SupportSettings.qml:250
+msgid "Project Goals:"
+msgstr "プロジェクトの目標:"
+
+#: contents/ui/settings/SupportSettings.qml:263
+msgid "1. Create software products missing in daily use."
+msgstr "1. 日常利用で不足しているソフトウェア製品を作成する。"
+
+#: contents/ui/settings/SupportSettings.qml:273
+msgid "2. Involve more people in open-source development."
+msgstr "2. より多くの人をオープンソース開発に巻き込む。"
+
+#: contents/ui/settings/SupportSettings.qml:283
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. オープンソースソフトウェアとデジタル主権を推進する。"
+
+#: contents/ui/settings/SupportSettings.qml:293
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. コミュニティと連携し、あらゆる人にアクセシビリティを保証する。"
+
+#: contents/ui/settings/SupportSettings.qml:330
+msgid "Join the UniDevHub project!"
+msgstr "UniDevHub プロジェクトに参加しよう！"
+
+#: contents/ui/settings/SupportSettings.qml:337
+msgid ""
+"Whether you are a developer, designer, translator, or user — your ideas and "
+"contribution will help make open-source software better and more accessible "
+"for everyone."
+msgstr "開発者、デザイナー、翻訳者、ユーザーを問わず、あなたのアイデアや貢献がオープンソースソフトウェアをより良く、すべての人が利用しやすいものにするのに役立ちます。"
+
+#: contents/ui/settings/SupportSettings.qml:378
+msgid "Development Team:"
+msgstr "開発チーム:"
+
+#: contents/ui/settings/SupportSettings.qml:394
+msgid "• Concept & Development:"
+msgstr "• コンセプト＆開発:"
+
+#: contents/ui/settings/SupportSettings.qml:406
+msgid "• Design & Base Localization:"
+msgstr "• デザイン＆基本ローカライズ:"
+
+#: contents/ui/settings/SupportSettings.qml:418
+msgid "Open project repository on GitHub"
+msgstr "GitHub でリポジトリを開く"
+
+#: contents/ui/settings/SupportSettings.qml:456
+msgid ""
+"By supporting us financially, you support not only the development of this "
+"widget, but also other open-source projects for the Linux community from our "
+"team!"
+msgstr "資金援助を通じて、本ウィジェットの開発だけでなく、当チームが Linux コミュニティに提供する他のオープンソースプロジェクトも支援できます！"
+
+#: contents/ui/settings/SupportSettings.qml:471
+msgid "Community & Development"
+msgstr "コミュニティ＆開発"
+
+#: contents/ui/settings/SupportSettings.qml:476
+msgid "Contact Email:"
+msgstr "連絡先メールアドレス:"
+
+#: contents/ui/settings/SupportSettings.qml:490
+#: contents/ui/settings/SupportSettings.qml:556
+#: contents/ui/settings/SupportSettings.qml:576
+#: contents/ui/settings/SupportSettings.qml:596
+#: contents/ui/settings/SupportSettings.qml:616
+#: contents/ui/settings/SupportSettings.qml:636
+msgid "Copy"
+msgstr "コピー"
+
+#: contents/ui/settings/SupportSettings.qml:496
+msgid "YouTube channel:"
+msgstr "YouTube チャンネル:"
+
+#: contents/ui/settings/SupportSettings.qml:507
+msgid "Subscribe"
+msgstr "チャンネル登録"
+
+#: contents/ui/settings/SupportSettings.qml:514
+msgid "GitHub team:"
+msgstr "GitHub チーム:"
+
+#: contents/ui/settings/SupportSettings.qml:519
+msgid "Join us in improving the code"
+msgstr "コード改善に参加する"
+
+#: contents/ui/settings/SupportSettings.qml:525
+msgid "Join"
+msgstr "参加"
+
+#: contents/ui/settings/SupportSettings.qml:537
+msgid "Financial Support (Donations)"
+msgstr "資金支援 (寄付)"
+
+#: contents/ui/settings/SupportSettings.qml:650
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "よくある質問 (FAQ):"
+
+#: contents/ui/settings/SupportSettings.qml:684
+msgid "❓ How to add a new coin to the widget?"
+msgstr "❓ 新しい通貨をウィジェットに追加するには？"
+
+#: contents/ui/settings/SupportSettings.qml:709
+msgid ""
+"Go to the \"Coin List\" tab in settings and use the search bar by name or "
+"ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "設定の「通貨リスト」タブを開き、名称やティッカー (btc, eth, sol) で検索するか、ドット区切りの一括追加 (btc.eth.sol) を使用してください。"
+
+#: contents/ui/settings/SupportSettings.qml:742
+msgid "❓ What does \"Rate limit exceeded\" mean?"
+msgstr "❓ 「Rate limit exceeded」とはどういう意味ですか？"
+
+#: contents/ui/settings/SupportSettings.qml:767
+msgid ""
+"The free public CoinGecko API has a request limit per minute. If this limit "
+"is exceeded, the widget automatically enables a 60-second protective "
+"countdown timer and will resume updating data after it finishes."
+msgstr "CoinGecko の無料公開 API には1分あたりのリクエスト制限があります。制限を超えた場合、ウィジェットは自動的に60秒間の保護タイマーを作動させ、終了後に更新を再開します。"
+
+#: contents/ui/settings/SupportSettings.qml:800
+msgid "❓ How do system notifications (Alerts) work?"
+msgstr "❓ システム通知 (アラート) はどのように機能しますか？"
+
+#: contents/ui/settings/SupportSettings.qml:825
+msgid ""
+"In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
+"prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
+"(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "「アラート」タブでは、特定の価格到達、24時間高値/安値ブレイクアウト、ATH/ATL到達、およびマクロ指標 (恐怖＆強欲指数の変化、BTC/ETH ドミナンスなど) のトリガーを設定できます。"
+
+#: contents/ui/settings/SupportSettings.qml:858
+msgid "❓ Why does the panel icon emoji change?"
+msgstr "❓ パネルアイコンの絵文字が変わるのはなぜですか？"
+
+#: contents/ui/settings/SupportSettings.qml:883
+msgid ""
+"The emoji on the Plasma panel reflects the real-time overall state of the "
+"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
+"accumulation, ⚡ — altseason)."
+msgstr "Plasma パネルの絵文字は、暗号資産市場のリアルタイムな全体状態を表しています (例: 🐻 — パニック/調整、🚀 — ラリー/上昇、⚖️ — レンジ/蓄積、⚡ — アルトシーズン)。"
+
+#: contents/ui/settings/SupportSettings.qml:916
+msgid "❓ How to select an individual card for the desktop?"
+msgstr "❓ デスクトップ用に個別のカードを選択するには？"
+
+#: contents/ui/settings/SupportSettings.qml:941
+msgid ""
+"When placing the widget directly on the desktop (desktop mode), open "
+"\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
+"Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "ウィジェットをデスクトップに直接配置する場合 (デスクトップモード)、「一般設定」を開き、15種類のカードタイプ (通貨カード、恐怖＆強欲指数、世界時価総額、BTC半減期、ETH/BTC、レインボーゾーンなど) から選択します。"
+
+#: contents/ui/settings/SupportSettings.qml:974
+msgid "❓ Where does the widget fetch price data from?"
+msgstr "❓ 価格データはどこから取得していますか？"
+
+#: contents/ui/settings/SupportSettings.qml:999
+msgid ""
+"The widget receives current price quotes from the CoinGecko API, and the "
+"Fear & Greed Index from the Alternative.me API."
+msgstr "ウィジェットは CoinGecko API から最新の価格レートを、Alternative.me API から恐怖＆強欲指数を取得しています。"
+
+#: contents/ui/settings/SupportSettings.qml:1032
+msgid "❓ Does the widget work without an internet connection?"
+msgstr "❓ インターネット接続がなくても動作しますか？"
+
+#: contents/ui/settings/SupportSettings.qml:1057
+msgid ""
+"Searching and adding coins work offline thanks to a local SQLite database. "
+"An active internet connection is required to update real-time prices."
+msgstr "ローカル SQLite データベースのおかげで通貨の検索と追加はオフラインで動作します。リアルタイム価格の更新にはアクティブなインターネット接続が必要です。"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr "アクティブ銘柄"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr "市場の全銘柄数"
+
+#: contents/ui/components/cards/DominanceCard.qml:74
+#: contents/code/alertEngine.js:270
+msgid "Dominance"
+msgstr "ドミナンス"
+
+#: contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: contents/ui/components/cards/RainbowChartCard.qml:159
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: contents/ui/components/cards/TrendingCard.qml:111
+#: contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr "読み込み中..."
+
+#: contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr "極度の恐怖"
+
+#: contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr "恐怖"
+
+#: contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr "中立"
+
+#: contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr "強欲"
+
+#: contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr "極度の強欲"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr "%1日"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:78
+#, javascript-format
+msgid "Epoch progress: %1%"
+msgstr "エポック進捗: %1%"
+
+#: contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr "時価総額"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "市場はボラティリティが低い保ち合い（コンソリデーション）状態です。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Panic / Crash 🚨"
+msgstr "パニック / 暴落 🚨"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "市場に極度の恐怖が広がっています。歴史的な絶好の買い場ゾーン。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Rally / Bull Run 🚀"
+msgstr "ラリー / 強気相場 🚀"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Strong bullish momentum across major assets."
+msgstr "主要資産全体で強い上昇モメンタムが発生しています。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Altseason Peak ⚡"
+msgstr "アルトシーズン最盛期 ⚡"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "BTCドミナンスが低下し、資金がアルトコインへ積極的に流入しています。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Correction / Fear 🐻"
+msgstr "調整 / 恐怖 🐻"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:32
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "市場の調整局面。買方勢力はサポートライン付近で慎重姿勢を見せています。"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:85
+msgid "Market Summary:"
+msgstr "市場サマリー:"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:57
+#: contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr "投げ売り 📉"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:58
+#: contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr "買い目！ 🟢"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:59
+#: contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr "買い増し 🟡"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:60
+#: contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr "FOMO発生？ 🟠"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:61
+#: contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr "最大バブル！ 🚨"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr "ステーブルドミナンス"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear) 🛡️"
+msgstr "リスクオフ (恐怖) 🛡️"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying) 🚀"
+msgstr "リスクオン (買い) 🚀"
+
+#: contents/ui/components/cards/TopGainersCard.qml:111
+#: contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr "データなし"
+
+#: contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr "トレンド中"
+
+#: contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr "24時間取引高"
+
+#: contents/code/alertEngine.js:149
+msgid "Price Reached Target"
+msgstr "目標価格到達"
+
+#: contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
+msgstr "%1 が目標価格に到達: %2"
+
+#: contents/code/alertEngine.js:155
+msgid "Price Above Target"
+msgstr "価格が目標を上回る"
+
+#: contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 が%2を上回りました (現在: %3)"
+
+#: contents/code/alertEngine.js:161
+msgid "Price Below Target"
+msgstr "価格が目標を下回る"
+
+#: contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 が%2を下回りました (現在: %3)"
+
+#: contents/code/alertEngine.js:167
+msgid "24h Surge"
+msgstr "24時間取引高"
+
+#: contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 24時間変動率: +%2% (> %3%)"
+
+#: contents/code/alertEngine.js:173
+msgid "24h Drop"
+msgstr "24時間ドロップ"
+
+#: contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 24時間変動率: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
+msgstr "新しいATH! 🚀"
+
+#: contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 新最高値(ATH)到達: $%2"
+
+#: contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
+msgstr "新しい ATL 🚨"
+
+#: contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 は過去最低の %2 に下落しました"
+
+#: contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
+msgstr "%1 24時間高値をブレイク ($%2)"
+
+#: contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
+msgstr "%1 24時間安値をブレイク ($%2)"
+
+#: contents/code/alertEngine.js:205
+msgid "Drop from ATH"
+msgstr "ATHからの下落 >"
+
+#: contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 ATHからの下落率は %2% (> %3%)"
+
+#: contents/code/alertEngine.js:214
+msgid "Rise from ATL"
+msgstr "ATLからの上昇 >"
+
+#: contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 ATLからの上昇率は %2% (> %3%)"
+
+#: contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "恐怖＆強欲指数: %1 (> %2)"
+
+#: contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "恐怖＆強欲指数: %1 (< %2)"
+
+#: contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr "恐怖＆強欲指数"
+
+#: contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "市場センチメントが %1 (%2) に変化"
+
+#: contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
+msgstr "世界時価総額"
+
+#: contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr "世界時価総額"
+
+#: contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr "24時間の総量が目標値を上回っている"
+
+#: contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr "24時間の総量が目標値を下回っています"
+
+#: contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 ATHからの下落率は %2% (> %3%)"
+
+#: contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 24時間変動率: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "アクティブな暗号資産数: %1 (> %2)"
+
+#: contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "アクティブな暗号資産数: %1 (< %2)"
+
+#: contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "ETH/BTC比率: %1 (> %2)"
+
+#: contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "ETH/BTC比率: %1 (< %2)"
+
+#: contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "BTC半減期までの残り日数: %1日 (< %2日)"
+
+#: contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr "価格 >"
+
+#: contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr "価格 <"
+
+#: contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr "24時間変動率 >"
+
+#: contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr "24時間変動率 <"
+
+#: contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr "ATH到達"
+
+#: contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr "ATL到達"
+
+#: contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr "ATHからの下落 >"
+
+#: contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr "ATLからの上昇 >"
+
+#: contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr "指数 >"
+
+#: contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr "指数 <"
+
+#: contents/code/alertSettingsHelper.js:155
+#: contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr "ゾーン移行"
+
+#: contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr "値 >"
+
+#: contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr "値 <"
+
+#: contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr "ドミナンス >"
+
+#: contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr "ドミナンス <"
+
+#: contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr "数 >"
+
+#: contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr "数 <"
+
+#: contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr "比率 >"
+
+#: contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr "比率 <"
+
+#: contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr "残り日数 <"
+
+#: contents/services/NotificationManager.qml:13
+#: contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+#: contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr "テスト通知は正常に機能しています！"
+
+#, kde-format
+#~ msgid "🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+#~ msgstr "🚀 KDE Plasma 6 および Qt 6 環境向けの正式リリース。"
