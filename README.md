@@ -1,5 +1,16 @@
 # Crypto-hub for KDE Plasma 6
 
+<p align="center">
+  <img width="420" alt="Crypto-hub Popup Light" src="https://github.com/user-attachments/assets/aa94366c-3dc8-4252-8b75-d40d324c334a" />
+  <img width="420" alt="Crypto-hub Popup Dark" src="https://github.com/user-attachments/assets/eb43de60-154c-44c0-acf0-bda28aed25e9" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Crypto-hub Desktop Mode 1" src="https://github.com/user-attachments/assets/e60816f9-bbca-47e6-9156-af63157ce559" />
+  <br><br>
+  <img width="800" alt="Crypto-hub Desktop Mode 2" src="https://github.com/user-attachments/assets/e2c24b99-fbcb-4aee-ac95-b7de726da28c" />
+</p>
+
 **Crypto-hub** is a feature-rich, Material You styled cryptocurrency monitoring widget designed specifically for **KDE Plasma 6**. Track real-time prices, global market metrics, analytical valuation models, and receive smart desktop notifications.
 
 ---
