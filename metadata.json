@@ -23,6 +23,7 @@
         "Id": "org.kde.cryptohub",
         "License": "GPL-3.0-or-later",
         "Name": "Crypto-hub",
+        "Version": "1.0.1",
         "Website": "https://github.com/Uni-Dev-Hub/Crypto-hub"
     },
     "X-Plasma-API-Minimum-Version": "6.0",
