@@ -1,77 +1,47 @@
-Ось готовий, 100% чистий текст файлу `README.md`. 
+# Crypto-hub for KDE Plasma 6
 
-Виділіть і скопіюйте вміст із блоку нижче:
-
-```markdown
-# 🪙 Crypto-hub for KDE Plasma 6
-
-**Crypto-hub** is a modern, feature-rich cryptocurrency monitoring widget designed specifically for **KDE Plasma 6** and built according to Material You design guidelines.
-
-![KDE Plasma 6](https://img.shields.io/badge/KDE-Plasma_6-blue.svg)
-![Qt Version](https://img.shields.io/badge/Qt-6.0%2B-green.svg)
-![License](https://img.shields.io/badge/License-GPL_v3-blue.svg)
+**Crypto-hub** is a feature-rich, Material You styled cryptocurrency monitoring widget designed specifically for **KDE Plasma 6**. Track real-time prices, global market metrics, analytical valuation models, and receive smart desktop notifications.
 
 ---
 
-## ✨ Key Features
-
-- **15 Modular Desktop Cards**: Choose individual cards (Coin Price, Market Cap, Fear & Greed Index, BTC Halving, ETH/BTC Parity, BTC Rainbow Zone, etc.) or full feed view.
-- **Full Feed & Favorites View**: Seamless sliding panel with market summaries, top gainers/losers, trending coins, and customizable list monitoring.
-- **Smart System Notifications**: Flexible triggers for price breakouts, ATH/ATL reach, 24h highs/lows, Fear & Greed shifts, and macro indicator alerts.
-- **Rate-Limit Safe**: Built-in cascade request scheduling to prevent API blockages.
-- **Offline Coins Cache**: Fast search and ticker resolution powered by a local SQLite database and fallback CDN sync.
-
----
-
-## 🛠️ Installation
-
-### Option 1: Automatic via Installation Script
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Uni-Dev-Hub/Crypto-hub.git
-   cd Crypto-hub
-   ```
-
-2. Make script executable and run:
-   ```bash
-   chmod +x install.sh
-   ./install.sh
-   ```
-
-### Option 2: Manual via kpackagetool6
-
-To install:
-```bash
-kpackagetool6 -t Plasma/Applet -i .
-```
-
-To update an existing installation:
-```bash
-kpackagetool6 -t Plasma/Applet -u .
-```
+### 15 Modular Desktop Widget Cards
+When placed directly on the desktop, choose from 15 standalone card types:
+1. **Selected Coin Card**: Track price, 24h change, logo, and active alerts count.
+2. **Fear & Greed Index**: Gauge market sentiment with a visual spectrum bar.
+3. **Global Market Cap**: Total crypto market valuation and 24h change.
+4. **24h Trading Volume**: Global 24h volume tracking.
+5. **Dominance Distribution**: Visual breakdown of BTC, ETH, and top coins market share.
+6. **Stablecoin Dominance**: Risk-On / Risk-Off market sentiment indicator.
+7. **Active Cryptocurrencies**: Total count of active coins on the market.
+8. **ETH/BTC Ratio**: Measure Ethereum performance relative to Bitcoin.
+9. **BTC Rainbow Zone Valuation**: Logarithmic regression price model (Buy, Accumulate, Bubble, etc.).
+10. **BTC Halving Countdown**: Epoch progress and days remaining until the next Bitcoin halving.
+11. **Marquee Price Ticker**: Smoothly scrolling live price ticker for your watchlist.
+12. **Top 5 Gainers**: Live leaderboard of market gainers.
+13. **Top 5 Losers**: Live leaderboard of market losers.
+14. **Trending Coins**: Most searched coins right now.
+15. **Market Analytics Summary**: Automated status report of overall market conditions.
 
 ---
 
-## ⚙️ Configuration
-
-- **Target Currency**: Choose your preferred display currency (USD, EUR, UAH, GBP, PLN, JPY, etc.).
-- **Update Interval**: From 1 minute to 1 hour.
-- **Widget Mode**: Set unique desktop widget view or standard panel pop-up.
-- **Feed Customization**: Toggle individual sections on/off in the pop-up view.
-
----
-
-## 📐 Architecture & Technology Stack
-
-Built using a strict Layered Architecture (Separation of Concerns):
-- **Pure JS Logic** (`contents/code/`): Clean JS modules for calculations, alerts evaluation, and SQLite handling.
-- **QML Services** (`contents/services/`): Non-visual state managers handling network traffic and native system notifications (`KNotification`).
-- **QML Visual UI** (`contents/ui/`): 100% pure Kirigami UI with zero network or business logic pollution.
+### Key Features
+- **Pop-Up Panel Feed & Watchlist**: Smooth sliding navigation between Market Feed and custom Favorites list.
+- **Smart System Notifications (Alerts)**: Set custom triggers for price targets, 24h breakouts, ATH/ATL reach, Fear & Greed shifts, and macro metrics.
+- **Rate-Limit Safe**: Built-in cascade request scheduler prevents HTTP 429 errors from public CoinGecko API.
+- **Offline SQLite Search**: Instant coin search powered by a local SQLite database (works offline).
+- **Dynamic Panel Icon**: Real-time market status indicator on your Plasma panel.
 
 ---
 
-## 📄 License
-
-Distributed under the GNU General Public License v3.0 or later. See `LICENSE.md` for more details.
-```
+### Supported Languages
+Crypto-hub is localized in 10 languages:
+- English
+- Ukrainian (Українська)
+- German (Deutsch)
+- Spanish (Español)
+- French (Français)
+- Polish (Polski)
+- Turkish (Türkçe)
+- Japanese (日本語)
+- Chinese Simplified (简体中文)
+- Portuguese Brazil (Português do Brasil)
