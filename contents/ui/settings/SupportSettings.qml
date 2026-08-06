@@ -12,7 +12,6 @@ Kirigami.ScrollablePage {
     title: i18n("Support & Info")
     topPadding: 0
 
-    // Оголошення cfg_* властивостей для сумісності з Plasma 6 ConfigModel
     readonly property string cfg_alertsJsonDefault: "{\"alerts\":[]}"
     readonly property int cfg_desktopCardTypeDefault: 0
     readonly property string cfg_favoriteCoinsDefault: ""
@@ -58,7 +57,6 @@ Kirigami.ScrollablePage {
         width: parent.width
         spacing: Kirigami.Units.mediumSpacing
 
-        // Баннер проєкту
         Rectangle {
             Layout.fillWidth: true
             implicitHeight: bannerCol.implicitHeight + Kirigami.Units.largeSpacing * 2
@@ -88,7 +86,7 @@ Kirigami.ScrollablePage {
                     spacing: 4
 
                     Controls.Label {
-                        text: "Crypto-hub v1.0.0"
+                        text: "Crypto-hub v1.0.1"
                         font.bold: true
                         font.pointSize: 12
                     }
@@ -127,7 +125,6 @@ Kirigami.ScrollablePage {
             }
         }
 
-        // Вкладка 0: Що нового
         ColumnLayout {
             Layout.fillWidth: true
             spacing: Kirigami.Units.mediumSpacing
@@ -165,7 +162,7 @@ Kirigami.ScrollablePage {
                             color: Kirigami.Theme.highlightColor
                         }
                         Controls.Label {
-                            text: i18n("Key features of version v1.0.0:")
+                            text: i18n("Changes in version v1.0.1:")
                             font.bold: true
                             font.pointSize: 10
                         }
@@ -179,12 +176,7 @@ Kirigami.ScrollablePage {
                     }
 
                     Controls.Label {
-                        text: i18n("🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n" +
-                        "🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, Rainbow Zone, etc.).\n" +
-                        "📊 Market analytics feed with top gainers, losers, and trending coins.\n" +
-                        "🔔 Flexible system notification builder for price breakouts, ATH/ATL, and Fear & Greed shifts.\n" +
-                        "🗄️ Offline coin cache powered by a local SQLite database.\n" +
-                        "🎨 Dynamic market condition status icon on the Plasma panel.")
+                        text: i18n("• Continuous single-direction text marquee scrolling with initial pause for long coin names and tickers.\n• Fixed layout jumps and twitching when searching, adding, or removing coins in settings.\n• Improved geometry and alignment stability across settings tabs.\n• General performance optimizations and UI refinements.")
                         wrapMode: Text.Wrap
                         Layout.fillWidth: true
                         font.pointSize: 9
@@ -195,7 +187,6 @@ Kirigami.ScrollablePage {
             }
         }
 
-        // Вкладка 1: Про проєкт
         ColumnLayout {
             Layout.fillWidth: true
             spacing: Kirigami.Units.mediumSpacing
@@ -346,7 +337,6 @@ Kirigami.ScrollablePage {
             }
         }
 
-        // Вкладка 2: Автори
         ColumnLayout {
             Layout.fillWidth: true
             spacing: Kirigami.Units.mediumSpacing
@@ -422,7 +412,6 @@ Kirigami.ScrollablePage {
             }
         }
 
-        // Вкладка 3: Підтримка
         ColumnLayout {
             Layout.fillWidth: true
             spacing: Kirigami.Units.mediumSpacing
@@ -640,7 +629,6 @@ Kirigami.ScrollablePage {
             }
         }
 
-        // Вкладка 4: FAQ
         ColumnLayout {
             Layout.fillWidth: true
             spacing: Kirigami.Units.mediumSpacing
@@ -681,7 +669,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ How to add a new coin to the widget?")
+                                text: i18n("How to add a new coin to the widget?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -739,7 +727,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ What does \"Rate limit exceeded\" mean?")
+                                text: i18n("What does \"Rate limit exceeded\" mean?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -797,7 +785,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ How do system notifications (Alerts) work?")
+                                text: i18n("How do system notifications (Alerts) work?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -855,7 +843,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ Why does the panel icon emoji change?")
+                                text: i18n("Why does the panel indicator status change?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -880,7 +868,7 @@ Kirigami.ScrollablePage {
                             id: ans4
                             anchors.fill: parent
                             anchors.margins: 10
-                            text: i18n("The emoji on the Plasma panel reflects the real-time overall state of the crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/accumulation, ⚡ — altseason).")
+                            text: i18n("The indicator on the Plasma panel reflects the real-time overall state of the crypto market (e.g. panic/correction, rally/growth, flat/accumulation, altseason).")
                             wrapMode: Text.Wrap
                             font.pointSize: 8.5
                             opacity: 0.85
@@ -913,7 +901,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ How to select an individual card for the desktop?")
+                                text: i18n("How to select an individual card for the desktop?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -971,7 +959,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ Where does the widget fetch price data from?")
+                                text: i18n("Where does the widget fetch price data from?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }
@@ -1029,7 +1017,7 @@ Kirigami.ScrollablePage {
                             anchors.rightMargin: 12
 
                             Controls.Label {
-                                text: i18n("❓ Does the widget work without an internet connection?")
+                                text: i18n("Does the widget work without an internet connection?")
                                 font.bold: true
                                 Layout.fillWidth: true
                             }

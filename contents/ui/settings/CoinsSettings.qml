@@ -14,7 +14,7 @@ import "../../code/coinSettingsHelper.js" as CoinSettingsHelper
 Kirigami.ScrollablePage {
     id: root
     title: i18n("Coin List")
-    topPadding: 0
+    topPadding: Kirigami.Units.smallSpacing
 
     readonly property string cfg_alertsJsonDefault: "{\"alerts\":[]}"
     readonly property int cfg_desktopCardTypeDefault: 0
@@ -86,35 +86,39 @@ Kirigami.ScrollablePage {
         }
     }
 
-    Kirigami.FormLayout {
-        id: formLayout
-        Layout.fillWidth: true
+    ColumnLayout {
+        width: parent.width
+        spacing: Kirigami.Units.mediumSpacing
 
-        Controls.TextField {
-            id: searchField
-            Kirigami.FormData.label: i18n("Search or Add Coins:")
-            placeholderText: i18n("Name, ticker (e.g. btc) or batch (btc.eth.sol)...")
+        Kirigami.FormLayout {
             Layout.fillWidth: true
 
-            onTextChanged: {
-                root.activeSearchIndex = -1;
-                searchTimer.restart();
-            }
+            Controls.TextField {
+                id: searchField
+                Kirigami.FormData.label: i18n("Search or Add Coins:")
+                placeholderText: i18n("Name, ticker (e.g. btc) or batch (btc.eth.sol)...")
+                Layout.fillWidth: true
 
-            Keys.onPressed: (event) => {
-                if (event.key === Qt.Key_Down) {
-                    if (searchResultsModel.count > 0) {
-                        root.activeSearchIndex = Math.min(searchResultsModel.count - 1, root.activeSearchIndex + 1);
+                onTextChanged: {
+                    root.activeSearchIndex = -1;
+                    searchTimer.restart();
+                }
+
+                Keys.onPressed: (event) => {
+                    if (event.key === Qt.Key_Down) {
+                        if (searchResultsModel.count > 0) {
+                            root.activeSearchIndex = Math.min(searchResultsModel.count - 1, root.activeSearchIndex + 1);
+                            event.accepted = true;
+                        }
+                    } else if (event.key === Qt.Key_Up) {
+                        if (searchResultsModel.count > 0) {
+                            root.activeSearchIndex = Math.max(-1, root.activeSearchIndex - 1);
+                            event.accepted = true;
+                        }
+                    } else if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
                         event.accepted = true;
+                        root.executeAdd();
                     }
-                } else if (event.key === Qt.Key_Up) {
-                    if (searchResultsModel.count > 0) {
-                        root.activeSearchIndex = Math.max(-1, root.activeSearchIndex - 1);
-                        event.accepted = true;
-                    }
-                } else if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                    event.accepted = true;
-                    root.executeAdd();
                 }
             }
         }
@@ -191,151 +195,156 @@ Kirigami.ScrollablePage {
             icon.name: "list-add-symbolic"
         }
 
-        ListView {
-            id: favoritesListView
+        ColumnLayout {
             Layout.fillWidth: true
-            implicitHeight: Math.min(350, contentHeight)
-            model: favoritesModel
-            clip: true
             visible: favoritesModel.count > 0
+            spacing: Kirigami.Units.smallSpacing
 
-            header: PlasmaComponents.Label {
+            PlasmaComponents.Label {
                 text: i18n("Your watchlist (%1)").arg(favoritesModel.count)
                 font {
                     bold: true
                     pointSize: 9
                 }
                 opacity: 0.7
-                height: 25
             }
 
-            delegate: Rectangle {
-                id: delegateItem
-                width: favoritesListView.width
-                height: 48
-                color: Kirigami.Theme.alternateBackgroundColor
-                radius: 6
-                border.color: Qt.rgba(Kirigami.Theme.textColor.r, Kirigami.Theme.textColor.g, Kirigami.Theme.textColor.b, 0.08)
-                border.width: 1
+            ListView {
+                id: favoritesListView
+                Layout.fillWidth: true
+                implicitHeight: contentHeight
+                model: favoritesModel
+                interactive: false
+                spacing: 4
 
-                required property string coinId
-                required property string name
-                required property string symbol
-                required property string thumb
-                required property int index
+                delegate: Rectangle {
+                    id: delegateItem
+                    width: favoritesListView.width
+                    height: 48
+                    color: Kirigami.Theme.alternateBackgroundColor
+                    radius: 6
+                    border.color: Qt.rgba(Kirigami.Theme.textColor.r, Kirigami.Theme.textColor.g, Kirigami.Theme.textColor.b, 0.08)
+                    border.width: 1
 
-                RowLayout {
-                    anchors.fill: parent
-                    anchors.leftMargin: 10
-                    anchors.rightMargin: 10
-                    spacing: Kirigami.Units.mediumSpacing
+                    required property string coinId
+                    required property string name
+                    required property string symbol
+                    required property string thumb
+                    required property int index
 
-                    PlasmaComponents.Label {
-                        text: (delegateItem.index + 1) + "."
-                        font.bold: true
-                        opacity: 0.4
-                        Layout.alignment: Qt.AlignVCenter
-                    }
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.leftMargin: 10
+                        anchors.rightMargin: 10
+                        spacing: Kirigami.Units.mediumSpacing
 
-                    Item {
-                        Layout.preferredWidth: 28
-                        Layout.preferredHeight: 28
-                        Layout.alignment: Qt.AlignVCenter
-
-                        Rectangle {
-                            anchors.fill: parent
-                            radius: width / 2
-                            color: Kirigami.Theme.highlightColor
-                            opacity: 0.2
-                            visible: coinImg.status !== Image.Ready
-
-                            PlasmaComponents.Label {
-                                anchors.centerIn: parent
-                                text: delegateItem.symbol ? delegateItem.symbol.substring(0, 1).toUpperCase() : "?"
-                                font.bold: true
-                                font.pointSize: 9
-                                color: Kirigami.Theme.highlightColor
-                            }
-                        }
-
-                        Image {
-                            id: coinImg
-                            anchors.fill: parent
-                            source: delegateItem.thumb || ""
-                            fillMode: Image.PreserveAspectCrop
-                            asynchronous: true
-                            visible: coinImg.status === Image.Ready
-
-                            layer.enabled: true
-                            layer.effect: MultiEffect {
-                                maskEnabled: true
-                                maskSource: maskRect
-                            }
+                        PlasmaComponents.Label {
+                            text: (delegateItem.index + 1) + "."
+                            font.bold: true
+                            opacity: 0.4
+                            Layout.alignment: Qt.AlignVCenter
                         }
 
                         Item {
-                            id: maskRect
-                            anchors.fill: parent
-                            layer.enabled: true
-                            visible: false
+                            Layout.preferredWidth: 28
+                            Layout.preferredHeight: 28
+                            Layout.alignment: Qt.AlignVCenter
+
                             Rectangle {
                                 anchors.fill: parent
                                 radius: width / 2
-                                color: "black"
+                                color: Kirigami.Theme.highlightColor
+                                opacity: 0.2
+                                visible: coinImg.status !== Image.Ready
+
+                                PlasmaComponents.Label {
+                                    anchors.centerIn: parent
+                                    text: delegateItem.symbol ? delegateItem.symbol.substring(0, 1).toUpperCase() : "?"
+                                    font.bold: true
+                                    font.pointSize: 9
+                                    color: Kirigami.Theme.highlightColor
+                                }
+                            }
+
+                            Image {
+                                id: coinImg
+                                anchors.fill: parent
+                                source: delegateItem.thumb || ""
+                                fillMode: Image.PreserveAspectCrop
+                                asynchronous: true
+                                visible: coinImg.status === Image.Ready
+
+                                layer.enabled: true
+                                layer.effect: MultiEffect {
+                                    maskEnabled: true
+                                    maskSource: maskRect
+                                }
+                            }
+
+                            Item {
+                                id: maskRect
+                                anchors.fill: parent
+                                layer.enabled: true
+                                visible: false
+                                Rectangle {
+                                    anchors.fill: parent
+                                    radius: width / 2
+                                    color: "black"
+                                }
                             }
                         }
-                    }
 
-                    ColumnLayout {
-                        Layout.fillWidth: true
-                        spacing: 0
-                        Layout.alignment: Qt.AlignVCenter
-
-                        PlasmaComponents.Label {
-                            text: delegateItem.name
-                            font.bold: true
+                        ColumnLayout {
                             Layout.fillWidth: true
-                            elide: Text.ElideRight
+                            spacing: 0
+                            Layout.alignment: Qt.AlignVCenter
+
+                            PlasmaComponents.Label {
+                                text: delegateItem.name
+                                font.bold: true
+                                Layout.fillWidth: true
+                                elide: Text.ElideRight
+                            }
+
+                            PlasmaComponents.Label {
+                                text: delegateItem.symbol !== "" ? (delegateItem.symbol + " • ID: " + delegateItem.coinId) : ("ID: " + delegateItem.coinId)
+                                font.pointSize: 8
+                                opacity: 0.5
+                                Layout.fillWidth: true
+                                elide: Text.ElideRight
+                            }
                         }
 
-                        PlasmaComponents.Label {
-                            text: delegateItem.symbol !== "" ? (delegateItem.symbol + " • ID: " + delegateItem.coinId) : ("ID: " + delegateItem.coinId)
-                            font.pointSize: 8
-                            opacity: 0.5
-                            Layout.fillWidth: true
-                            elide: Text.ElideRight
+                        Controls.Button {
+                            icon.name: "arrow-up-symbolic"
+                            display: Controls.AbstractButton.IconOnly
+                            enabled: delegateItem.index > 0
+                            flat: true
+                            onClicked: {
+                                favoritesModel.move(delegateItem.index, delegateItem.index - 1, 1);
+                                root.serialize();
+                            }
                         }
-                    }
 
-                    Controls.Button {
-                        icon.name: "arrow-up-symbolic"
-                        display: Controls.AbstractButton.IconOnly
-                        enabled: delegateItem.index > 0
-                        flat: true
-                        onClicked: {
-                            favoritesModel.move(delegateItem.index, delegateItem.index - 1, 1);
-                            root.serialize();
+                        Controls.Button {
+                            icon.name: "arrow-down-symbolic"
+                            display: Controls.AbstractButton.IconOnly
+                            enabled: delegateItem.index < favoritesModel.count - 1
+                            flat: true
+                            onClicked: {
+                                favoritesModel.move(delegateItem.index, delegateItem.index + 1, 1);
+                                root.serialize();
+                            }
                         }
-                    }
 
-                    Controls.Button {
-                        icon.name: "arrow-down-symbolic"
-                        display: Controls.AbstractButton.IconOnly
-                        enabled: delegateItem.index < favoritesModel.count - 1
-                        flat: true
-                        onClicked: {
-                            favoritesModel.move(delegateItem.index, delegateItem.index + 1, 1);
-                            root.serialize();
-                        }
-                    }
-
-                    Controls.Button {
-                        icon.name: "delete"
-                        display: Controls.AbstractButton.IconOnly
-                        flat: true
-                        onClicked: {
-                            favoritesModel.remove(delegateItem.index);
-                            root.serialize();
+                        Controls.Button {
+                            icon.name: "delete"
+                            display: Controls.AbstractButton.IconOnly
+                            flat: true
+                            onClicked: {
+                                favoritesModel.remove(delegateItem.index);
+                                root.serialize();
+                            }
                         }
                     }
                 }

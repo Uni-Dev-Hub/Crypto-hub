@@ -20,7 +20,6 @@ PlasmoidItem {
     Plasmoid.icon: "office-chart-line-percentage"
     Plasmoid.title: "Crypto-hub"
 
-    // Декларативні тригери локалізації для текстів аналітики
     readonly property var _trTT1: i18n("Market consolidation phase in progress.")
     readonly property var _trTT2: i18n("Extreme market fear with high volatility and panic selling.")
     readonly property var _trTT3: i18n("Strong market growth and active buying momentum.")
@@ -28,11 +27,11 @@ PlasmoidItem {
     readonly property var _trTT5: i18n("Market correction phase. High caution among buyers.")
     readonly property var _trTT6: i18n("Market is in an accumulation and consolidation range.")
 
-    property string summaryStatus: i18n("Accumulation ⚖️")
+    property string rawSummaryStatus: "Accumulation"
+    property string summaryStatus: i18n("Accumulation")
     property string shortSummaryDesc: i18n("Loading market analytics data...")
     property var currentMarketState: null
 
-    // Нативна спливаюча підказка Plasma 6
     toolTipItem: Item {
         id: tooltipRoot
         implicitWidth: toolTipCol.implicitWidth + 16
@@ -47,13 +46,13 @@ PlasmoidItem {
             }
 
             var status = root.summaryStatus || "";
-            if (status.indexOf("🐻") !== -1 || status.indexOf("🚨") !== -1 || status.indexOf("😱") !== -1) {
+            if (status.indexOf("Panic") !== -1 || status.indexOf("Crash") !== -1 || status.indexOf("Correction") !== -1 || status.indexOf("Fear") !== -1 || status.indexOf("Паніка") !== -1 || status.indexOf("Корекція") !== -1) {
                 return Kirigami.Theme.negativeTextColor;
             }
-            if (status.indexOf("🚀") !== -1 || status.indexOf("🟢") !== -1 || status.indexOf("🐂") !== -1) {
+            if (status.indexOf("Rally") !== -1 || status.indexOf("Bull") !== -1 || status.indexOf("Buying") !== -1 || status.indexOf("Ралі") !== -1 || status.indexOf("Бичий") !== -1) {
                 return Kirigami.Theme.positiveTextColor;
             }
-            if (status.indexOf("⚡") !== -1) {
+            if (status.indexOf("Altseason") !== -1 || status.indexOf("Альтсезон") !== -1) {
                 return Kirigami.Theme.highlightColor;
             }
             return Kirigami.Theme.neutralTextColor;
@@ -165,7 +164,8 @@ PlasmoidItem {
         );
         if (summary) {
             root.currentMarketState = summary;
-            root.summaryStatus = summary.status ? i18n(summary.status) : i18n("Accumulation ⚖️");
+            root.rawSummaryStatus = summary.status ? summary.status : "Accumulation";
+            root.summaryStatus = summary.status ? (i18n(summary.status) + (summary.icon ? (" " + summary.icon) : "")) : i18n("Accumulation");
             root.shortSummaryDesc = summary.shortDesc ? i18n(summary.shortDesc) : i18n("Loading market analytics report...");
         }
     }
@@ -205,10 +205,8 @@ PlasmoidItem {
         }
     }
 
-    // Безпечний виклик діалогу налаштувань для Plasma 6
     function openConfiguration() {
         try {
-            // Варіант 1: Офіційний Plasma 6 internalAction
             if (typeof Plasmoid.internalAction === "function") {
                 var intAct = Plasmoid.internalAction("configure");
                 if (intAct && typeof intAct.trigger === "function") {
@@ -217,7 +215,6 @@ PlasmoidItem {
                 }
             }
 
-            // Варіант 2: Пошук екшену "configure" серед контекстних дій
             if (Plasmoid.contextualActions && Plasmoid.contextualActions.length > 0) {
                 for (var i = 0; i < Plasmoid.contextualActions.length; i++) {
                     var act = Plasmoid.contextualActions[i];
@@ -236,6 +233,7 @@ PlasmoidItem {
 
     compactRepresentation: CompactRepresentation {
         summaryStatus: root.summaryStatus
+        rawSummaryStatus: root.rawSummaryStatus
         onToggleExpand: root.expanded = !root.expanded
     }
 

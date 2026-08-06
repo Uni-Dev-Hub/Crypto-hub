@@ -54,11 +54,11 @@ Item {
         const expectedLog = 5.84 * (Math.log(days) / Math.LN10) - 17.015;
         const offset = logBtc - expectedLog;
 
-        if (offset < -0.3) return { "text": i18n("Fire Sale 📉"), "color": Kirigami.Theme.highlightColor };
-        if (offset < -0.1) return { "text": i18n("Buy! 🟢"), "color": Kirigami.Theme.positiveTextColor };
-        if (offset < 0.1)  return { "text": i18n("Accumulate 🟡"), "color": Kirigami.Theme.neutralTextColor };
-        if (offset < 0.3)  return { "text": i18n("Is this FOMO? 🟠"), "color": Kirigami.Theme.neutralTextColor };
-        return { "text": i18n("Maximum Bubble! 🚨"), "color": Kirigami.Theme.negativeTextColor };
+        if (offset < -0.3) return { "text": i18n("Fire Sale"), "color": Kirigami.Theme.highlightColor };
+        if (offset < -0.1) return { "text": i18n("Buy!"), "color": Kirigami.Theme.positiveTextColor };
+        if (offset < 0.1)  return { "text": i18n("Accumulate"), "color": Kirigami.Theme.neutralTextColor };
+        if (offset < 0.3)  return { "text": i18n("Is this FOMO?"), "color": Kirigami.Theme.neutralTextColor };
+        return { "text": i18n("Maximum Bubble!"), "color": Kirigami.Theme.negativeTextColor };
     }
 
     Rectangle {

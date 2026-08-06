@@ -19,16 +19,15 @@ Item {
     implicitWidth: Kirigami.Units.gridUnit * 9
     implicitHeight: mainLayout.implicitHeight + Math.round(Kirigami.Units.gridUnit * 1.3 * summaryCard.scaleFactor)
 
-    // Declarative i18n triggers so xgettext extracts all possible summary texts
-    readonly property var _trSummary1: i18n("Accumulation ⚖️")
+    readonly property var _trSummary1: i18n("Accumulation")
     readonly property var _trSummary2: i18n("Market is range-bound in a low volatility consolidation phase.")
-    readonly property var _trSummary3: i18n("Panic / Crash 🚨")
+    readonly property var _trSummary3: i18n("Panic / Crash")
     readonly property var _trSummary4: i18n("Extreme fear in the market. Historic buying opportunity zone.")
-    readonly property var _trSummary5: i18n("Rally / Bull Run 🚀")
+    readonly property var _trSummary5: i18n("Rally / Bull Run")
     readonly property var _trSummary6: i18n("Strong bullish momentum across major assets.")
-    readonly property var _trSummary7: i18n("Altseason Peak ⚡")
+    readonly property var _trSummary7: i18n("Altseason Peak")
     readonly property var _trSummary8: i18n("Capital actively flowing into altcoins while BTC dominance decreases.")
-    readonly property var _trSummary9: i18n("Correction / Fear 🐻")
+    readonly property var _trSummary9: i18n("Correction / Fear")
     readonly property var _trSummary10: i18n("Market correction phase. Buyers show caution near support levels.")
 
     readonly property var marketState: MarketSummary.evaluateMarketSummary(
@@ -89,7 +88,7 @@ Item {
                 }
 
                 PlasmaComponents.Label {
-                    text: summaryCard.marketState ? i18n(summaryCard.marketState.status) : ""
+                    text: summaryCard.marketState ? (i18n(summaryCard.marketState.status) + (summaryCard.marketState.icon ? (" " + summaryCard.marketState.icon) : "")) : ""
                     font {
                         bold: true
                         pointSize: 10 * summaryCard.scaleFactor

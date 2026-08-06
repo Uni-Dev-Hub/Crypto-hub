@@ -86,7 +86,7 @@ Item {
                 spacing: 2
 
                 PlasmaComponents.Label {
-                    text: stableDomCard.dominance > 12.0 ? i18n("Risk-Off (Fear) 🛡️") : i18n("Risk-On (Buying) 🚀")
+                    text: stableDomCard.dominance > 12.0 ? i18n("Risk-Off (Fear)") : i18n("Risk-On (Buying)")
                     font {
                         pointSize: 7.5 * stableDomCard.scaleFactor
                         bold: true

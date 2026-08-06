@@ -122,15 +122,67 @@ Item {
                     }
                 }
 
-                PlasmaComponents.Label {
-                    text: coinCard.coinId.toUpperCase()
-                    font {
-                        bold: false
-                        pointSize: 8.5 * coinCard.scaleFactor
-                    }
-                    opacity: 0.6
+                Item {
+                    id: cardLabelContainer
                     Layout.fillWidth: true
-                    elide: Text.ElideRight
+                    implicitHeight: cardLabel1.implicitHeight
+                    clip: true
+
+                    readonly property string cardCoinTitle: coinCard.coinId.toUpperCase()
+                    readonly property bool isOverflowing: cardLabel1.implicitWidth > cardLabelContainer.width
+
+                    Row {
+                        id: cardMarqueeRow
+                        spacing: 20
+
+                        PlasmaComponents.Label {
+                            id: cardLabel1
+                            text: cardLabelContainer.cardCoinTitle
+                            font {
+                                bold: false
+                                pointSize: 8.5 * coinCard.scaleFactor
+                            }
+                            color: Kirigami.Theme.textColor
+                            opacity: 0.6
+                        }
+
+                        PlasmaComponents.Label {
+                            id: cardLabel2
+                            text: cardLabelContainer.cardCoinTitle
+                            font {
+                                bold: false
+                                pointSize: 8.5 * coinCard.scaleFactor
+                            }
+                            color: Kirigami.Theme.textColor
+                            opacity: 0.6
+                            visible: cardLabelContainer.isOverflowing
+                        }
+                    }
+
+                    SequentialAnimation {
+                        running: cardLabelContainer.isOverflowing
+                        loops: Animation.Infinite
+
+                        // 1. Пауза перед початком руху (1.8 секунди)
+                        PauseAnimation { duration: 1800 }
+
+                        // 2. Рух в один бік
+                        NumberAnimation {
+                            target: cardMarqueeRow
+                            property: "x"
+                            from: 0
+                            to: -(cardLabel1.implicitWidth + cardMarqueeRow.spacing)
+                            duration: Math.max(2500, (cardLabel1.implicitWidth + cardMarqueeRow.spacing) * 35)
+                            easing.type: Easing.Linear
+                        }
+
+                        // 3. Миттєве скидання позиції на початкову
+                        PropertyAction {
+                            target: cardMarqueeRow
+                            property: "x"
+                            value: 0
+                        }
+                    }
                 }
             }
 

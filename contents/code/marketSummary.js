@@ -1,71 +1,68 @@
-function evaluateMarketSummary(globalData, fngData, marketCoinsData, vsCurrency, Constants, trFunc) {
-    var tr = (typeof trFunc === "function") ? trFunc : (typeof i18n === "function" ? i18n : function(s) { return s; });
+.pragma library
 
-    if (!globalData || !fngData) {
-        return {
-            status: tr("Accumulation ⚖️"),
-            desc: tr("Market is range-bound in a low volatility consolidation phase."),
-            shortDesc: tr("Market consolidation phase in progress."),
-            isBullish: false,
-            isBearish: false,
-            isAltseason: false
-        };
-    }
-
-    var fngVal = parseInt(fngData.value || "50");
-    var mcChange = globalData.market_cap_change_percentage_24h_usd || 0.0;
-    var btcDom = (globalData.market_cap_percentage && globalData.market_cap_percentage["btc"]) ? globalData.market_cap_percentage["btc"] : 50.0;
-
-    if (fngVal <= 25 && mcChange < -3.0) {
-        return {
-            status: tr("Panic / Crash 🚨"),
-            desc: tr("Extreme fear in the market. Historic buying opportunity zone."),
-            shortDesc: tr("Extreme market fear with high volatility and panic selling."),
-            isBullish: false,
-            isBearish: true,
-            isAltseason: false
-        };
-    }
-
-    if (fngVal >= 75 && mcChange > 2.0) {
-        return {
-            status: tr("Rally / Bull Run 🚀"),
-            desc: tr("Strong bullish momentum across major assets."),
-            shortDesc: tr("Strong market growth and active buying momentum."),
-            isBullish: true,
-            isBearish: false,
-            isAltseason: false
-        };
-    }
-
-    if (btcDom < 42.0 && fngVal > 60) {
-        return {
-            status: tr("Altseason Peak ⚡"),
-            desc: tr("Capital actively flowing into altcoins while BTC dominance decreases."),
-            shortDesc: tr("Altseason in full swing as altcoins outperform BTC."),
-            isBullish: true,
-            isBearish: false,
-            isAltseason: true
-        };
-    }
-
-    if (mcChange < -1.5 || fngVal < 40) {
-        return {
-            status: tr("Correction / Fear 🐻"),
-            desc: tr("Market correction phase. Buyers show caution near support levels."),
-            shortDesc: tr("Market correction phase. High caution among buyers."),
-            isBullish: false,
-            isBearish: true,
-            isAltseason: false
-        };
-    }
-
-    return {
-        status: tr("Accumulation ⚖️"),
-        desc: tr("Market is range-bound in a low volatility consolidation phase."),
-        shortDesc: tr("Market is in an accumulation and consolidation range."),
-        isBullish: false,
+function evaluateMarketSummary(globalData, fngData, marketCoinsData, vsCurrency, constants) {
+    var res = {
+        status: "Accumulation",
+        icon: "⚖️",
+        desc: "Market is range-bound in a low volatility consolidation phase.",
+        shortDesc: "Market consolidation phase in progress.",
         isBearish: false,
+        isBullish: false,
         isAltseason: false
     };
+
+    if (!globalData || !fngData) {
+        return res;
+    }
+
+    var fngVal = parseInt(fngData.value) || 50;
+    var mcChange = (globalData.market_cap_change_percentage_24h_usd !== undefined) ? globalData.market_cap_change_percentage_24h_usd : 0.0;
+    var btcDom = (globalData.market_cap_percentage && globalData.market_cap_percentage.btc) ? globalData.market_cap_percentage.btc : 50.0;
+
+    // Паніка / Крах
+    if (fngVal <= 25 || mcChange <= -5.0) {
+        res.status = "Panic / Crash";
+        res.icon = "🚨";
+        res.desc = "Extreme fear in the market. Historic buying opportunity zone.";
+        res.shortDesc = "Extreme market fear with high volatility and panic selling.";
+        res.isBearish = true;
+        return res;
+    }
+
+    // Корекція / Страх
+    if (fngVal <= 45 || mcChange < 0.0) {
+        res.status = "Correction / Fear";
+        res.icon = "🐻";
+        res.desc = "Market correction phase. Buyers show caution near support levels.";
+        res.shortDesc = "Market correction phase. High caution among buyers.";
+        res.isBearish = true;
+        return res;
+    }
+
+    // Пік альтсезону
+    if (btcDom < 45.0 && fngVal >= 60) {
+        res.status = "Altseason Peak";
+        res.icon = "⚡";
+        res.desc = "Capital actively flowing into altcoins while BTC dominance decreases.";
+        res.shortDesc = "Altseason in full swing as altcoins outperform BTC.";
+        res.isAltseason = true;
+        return res;
+    }
+
+    // Ралі / Бичий ринок
+    if (fngVal >= 65 || mcChange >= 3.0) {
+        res.status = "Rally / Bull Run";
+        res.icon = "🚀";
+        res.desc = "Strong bullish momentum across major assets.";
+        res.shortDesc = "Strong market growth and active buying momentum.";
+        res.isBullish = true;
+        return res;
+    }
+
+    // Накопичення (за замовчуванням)
+    res.status = "Accumulation";
+    res.icon = "⚖️";
+    res.desc = "Market is range-bound in a low volatility consolidation phase.";
+    res.shortDesc = "Market is in an accumulation and consolidation range.";
+    return res;
 }

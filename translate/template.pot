@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"POT-Creation-Date: 2026-08-06 13:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1199 +17,1253 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
-msgid "General"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:149
+msgid "Price Reached Target"
 msgstr ""
 
-#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
-msgid "Coin List"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
 msgstr ""
 
-#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
-msgid "Alerts"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:155
+msgid "Price Above Target"
 msgstr ""
 
-#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
-msgid "Support & Info"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:91
-msgid "Target Currency:"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:161
+msgid "Price Below Target"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
-msgid "USD ($) — US Dollar"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
-msgid "EUR (€) — Euro"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:167
+msgid "24h Surge"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
-msgid "UAH (₴) — Ukrainian Hryvnia"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
-msgid "GBP (£) — British Pound"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:173
+msgid "24h Drop"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
-msgid "JPY (¥) — Japanese Yen"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
-msgid "CAD ($) — Canadian Dollar"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
-msgid "AUD ($) — Australian Dollar"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
-msgid "CHF — Swiss Franc"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
-msgid "PLN (zł) — Polish Zloty"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
-msgid "TRY (₺) — Turkish Lira"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:191
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:78
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:149
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:213
+msgid "24h High Breakout"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
-msgid "CNY (¥) — Chinese Yuan"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
-msgid "CZK (Kč) — Czech Koruna"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:197
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:79
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:150
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:214
+msgid "24h Low Breakout"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
-msgid "DKK (kr) — Danish Krone"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
-msgid "SEK (kr) — Swedish Krona"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:205
+msgid "Drop from ATH"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
-msgid "NOK (kr) — Norwegian Krone"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
-msgid "HUF (Ft) — Hungarian Forint"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:214
+msgid "Rise from ATL"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
-msgid "ILS (₪) — Israeli Shekel"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
-msgid "INR (₹) — Indian Rupee"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:151
-msgid "Auto-refresh Interval:"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:157
-msgid "1 minute"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:158
-msgid "5 minutes"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:159
-msgid "10 minutes"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:160
-msgid "15 minutes"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:161
-msgid "30 minutes"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:162
-msgid "45 minutes"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:163
-msgid "1 hour"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:200
-msgid "Desktop Widget:"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:203
-msgid "Selected Coin Card"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:204
-#: contents/ui/settings/AlertsSettings.qml:158
-#: contents/ui/settings/AlertsSettings.qml:170
-#: contents/ui/settings/AlertsSettings.qml:626
-#: contents/ui/components/cards/FearGreedCard.qml:63
-#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
-#: contents/code/alertSettingsHelper.js:38
-#: contents/code/alertSettingsHelper.js:50
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:229
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:233
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:38
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:50
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:63
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:158
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:170
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:626
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:204
 msgid "Fear & Greed Index"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:205
-#: contents/ui/settings/AlertsSettings.qml:159
-#: contents/ui/settings/AlertsSettings.qml:171
-#: contents/ui/settings/AlertsSettings.qml:627 contents/code/alertEngine.js:248
-#: contents/code/alertEngine.js:252 contents/code/alertSettingsHelper.js:39
-#: contents/code/alertSettingsHelper.js:51
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:248
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:252
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:39
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:51
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:159
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:171
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:627
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:205
 msgid "Global Market Cap"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:206
-msgid "Dominance Distribution"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:207
-#: contents/ui/settings/AlertsSettings.qml:161
-#: contents/ui/settings/AlertsSettings.qml:175
-#: contents/ui/settings/AlertsSettings.qml:632 contents/code/alertEngine.js:296
-#: contents/code/alertEngine.js:300 contents/code/alertSettingsHelper.js:41
-#: contents/code/alertSettingsHelper.js:55
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:260
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:264
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:42
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:52
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:162
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:172
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:628
+msgid "24h Total Volume"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:270
+#: /home/alex/Crypto-hub/contents/ui/components/cards/DominanceCard.qml:74
+msgid "Dominance"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:296
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:300
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:41
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:55
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:161
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:175
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:632
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:207
 msgid "Active Cryptocurrencies"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:208
-#: contents/ui/settings/GeneralSettings.qml:349
-msgid "Marquee Price Ticker"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:209
-#: contents/ui/components/cards/TopGainersCard.qml:43
-msgid "Top 5 Gainers"
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:210
-#: contents/ui/components/cards/TopLosersCard.qml:43
-msgid "Top 5 Losers"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:211
-msgid "Trending Coins"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:212
-msgid "24h Trading Volume"
-msgstr ""
-
-#: contents/ui/settings/GeneralSettings.qml:213
-#: contents/ui/settings/AlertsSettings.qml:163
-#: contents/ui/settings/AlertsSettings.qml:178
-#: contents/ui/settings/AlertsSettings.qml:634
-#: contents/ui/components/cards/EthBtcRatioCard.qml:107
-#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
-#: contents/code/alertSettingsHelper.js:43
-#: contents/code/alertSettingsHelper.js:58
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:311
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:315
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:43
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:58
+#: /home/alex/Crypto-hub/contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:163
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:178
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:634
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:213
 msgid "ETH/BTC Ratio"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:214
-#: contents/ui/settings/GeneralSettings.qml:409
-#: contents/ui/settings/AlertsSettings.qml:164
-#: contents/ui/settings/AlertsSettings.qml:182
-#: contents/code/alertSettingsHelper.js:44
-#: contents/code/alertSettingsHelper.js:62
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:322
+#: /home/alex/Crypto-hub/contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:635
+msgid "BTC Halving"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:37
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:48
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:157
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:168
+msgid "Selected Coin"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:40
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:53
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:160
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:173
+msgid "Dominance (BTC / ETH)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:44
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:62
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:164
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:182
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:214
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:409
 msgid "BTC Halving Countdown"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:215
-#: contents/ui/components/cards/RainbowChartCard.qml:97
-msgid "BTC Price Valuation"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:45
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:59
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:165
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:179
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:633
+msgid "BTC Rainbow Zone"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:216
-#: contents/ui/settings/AlertsSettings.qml:166
-#: contents/ui/settings/AlertsSettings.qml:174
-#: contents/ui/settings/AlertsSettings.qml:631
-#: contents/code/alertSettingsHelper.js:46
-#: contents/code/alertSettingsHelper.js:54
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:46
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:54
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:166
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:174
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:631
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:216
 msgid "Stablecoin Dominance"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:217
-#: contents/ui/settings/GeneralSettings.qml:361
-msgid "Market Analytics Summary"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:71
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:142
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:206
+msgid "Price reaches"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:231
-msgid "Widget Coin (ID or Ticker):"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:72
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:207
+msgid "Price above"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:234
-msgid "e.g. btc, eth, sol, doge..."
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:73
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:208
+msgid "Price below"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:342
-msgid "Feed Settings"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:74
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:209
+msgid "24h Change above (%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:373
-msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:75
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:210
+msgid "24h Change below (%)"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:385
-msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:76
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:211
+msgid "ATH Reached"
 msgstr ""
 
-#: contents/ui/settings/GeneralSettings.qml:397
-msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:77
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:212
+msgid "ATL Reached"
 msgstr ""
 
-#: contents/ui/settings/CoinsSettings.qml:95
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:80
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:215
+msgid "Drop from ATH (%) >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:81
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:216
+msgid "Rise from ATL (%) >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:85
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:218
+msgid "Index above"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:86
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:219
+msgid "Index below"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:87
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:220
+msgid "Zone status changes"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:91
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:222
+msgid "Value above"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:92
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:223
+msgid "Value below"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:96
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:225
+msgid "Dominance above (%)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:97
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:226
+msgid "Dominance below (%)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:101
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:228
+msgid "Count above"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:102
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:229
+msgid "Count below"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:106
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:231
+msgid "Ratio above"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:107
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:232
+msgid "Ratio below"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:111
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:234
+msgid "Valuation Zone changes"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:115
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:236
+msgid "Days remaining less than"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:155
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:24
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:97
+msgid "USD ($) — US Dollar"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:25
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:98
+msgid "EUR (€) — Euro"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:26
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:99
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:27
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:100
+msgid "GBP (£) — British Pound"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:28
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:101
+msgid "JPY (¥) — Japanese Yen"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:29
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:102
+msgid "CAD ($) — Canadian Dollar"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:30
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:103
+msgid "AUD ($) — Australian Dollar"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:31
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:104
+msgid "CHF — Swiss Franc"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:32
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:105
+msgid "PLN (zł) — Polish Zloty"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:33
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:106
+msgid "TRY (₺) — Turkish Lira"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:34
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:107
+msgid "CNY (¥) — Chinese Yuan"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:35
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:108
+msgid "CZK (Kč) — Czech Koruna"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:36
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:109
+msgid "DKK (kr) — Danish Krone"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:37
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:110
+msgid "SEK (kr) — Swedish Krona"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:38
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:111
+msgid "NOK (kr) — Norwegian Krone"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:39
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:112
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:40
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:113
+msgid "ILS (₪) — Israeli Shekel"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/code/database.js:41
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:114
+msgid "INR (₹) — Indian Rupee"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/config/config.qml:9
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/config/config.qml:14
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/config/config.qml:23
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/config/config.qml:28
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/services/NotificationManager.qml:13
+#: /home/alex/Crypto-hub/contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:159
+#: /home/alex/Crypto-hub/contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TrendingCard.qml:111
+#: /home/alex/Crypto-hub/contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/HalvingCountdownCard.qml:78
+msgid "Epoch progress: %1%"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:22
+#: /home/alex/Crypto-hub/contents/ui/main.qml:31
+#: /home/alex/Crypto-hub/contents/ui/main.qml:168
+msgid "Accumulation"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Panic / Crash"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Rally / Bull Run"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Strong bullish momentum across major assets."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Altseason Peak"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Correction / Fear"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/MarketSummaryCard.qml:84
+msgid "Market Summary:"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:57
+msgid "Fire Sale"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:58
+msgid "Buy!"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:59
+msgid "Accumulate"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:60
+msgid "Is this FOMO?"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:61
+msgid "Maximum Bubble!"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/RainbowChartCard.qml:97
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:215
+msgid "BTC Price Valuation"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TopGainersCard.qml:43
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:209
+msgid "Top 5 Gainers"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TopGainersCard.qml:111
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TopLosersCard.qml:43
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:210
+msgid "Top 5 Losers"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:23
+msgid "Market consolidation phase in progress."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:24
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:25
+msgid "Strong market growth and active buying momentum."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:26
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:27
+msgid "Market correction phase. High caution among buyers."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:28
+msgid "Market is in an accumulation and consolidation range."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:102
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:103
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr ""
+
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:98
 msgid "Search or Add Coins:"
 msgstr ""
 
-#: contents/ui/settings/CoinsSettings.qml:96
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:99
 msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
 msgstr ""
 
-#: contents/ui/settings/CoinsSettings.qml:187
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:191
 msgid "Coin list is empty"
 msgstr ""
 
-#: contents/ui/settings/CoinsSettings.qml:188
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:192
 msgid ""
 "Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
 "name."
 msgstr ""
 
-#: contents/ui/settings/CoinsSettings.qml:203
+#: /home/alex/Crypto-hub/contents/ui/settings/CoinsSettings.qml:204
 msgid "Your watchlist (%1)"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:102
-#: contents/ui/settings/AlertsSettings.qml:656
-msgid "Only once"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:103
-#: contents/ui/settings/AlertsSettings.qml:656
-msgid "Once a day"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:104
-msgid "Every time reached"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:157
-#: contents/ui/settings/AlertsSettings.qml:168
-#: contents/code/alertSettingsHelper.js:37
-#: contents/code/alertSettingsHelper.js:48
-msgid "Selected Coin"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:160
-#: contents/ui/settings/AlertsSettings.qml:173
-#: contents/code/alertSettingsHelper.js:40
-#: contents/code/alertSettingsHelper.js:53
-msgid "Dominance (BTC / ETH)"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:162
-#: contents/ui/settings/AlertsSettings.qml:172
-#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
-#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
-#: contents/code/alertSettingsHelper.js:52
-msgid "24h Total Volume"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:165
-#: contents/ui/settings/AlertsSettings.qml:179
-#: contents/ui/settings/AlertsSettings.qml:633
-#: contents/code/alertSettingsHelper.js:45
-#: contents/code/alertSettingsHelper.js:59
-msgid "BTC Rainbow Zone"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:206
-#: contents/code/alertSettingsHelper.js:71
-#: contents/code/alertSettingsHelper.js:142
-msgid "Price reaches"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:207
-#: contents/code/alertSettingsHelper.js:72
-msgid "Price above"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:208
-#: contents/code/alertSettingsHelper.js:73
-msgid "Price below"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:209
-#: contents/code/alertSettingsHelper.js:74
-msgid "24h Change above (%)"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:210
-#: contents/code/alertSettingsHelper.js:75
-msgid "24h Change below (%)"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:211
-#: contents/code/alertSettingsHelper.js:76
-msgid "ATH Reached"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:208
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:212
-#: contents/code/alertSettingsHelper.js:77
-msgid "ATL Reached"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
-#: contents/code/alertSettingsHelper.js:78
-#: contents/code/alertSettingsHelper.js:149
-msgid "24h High Breakout"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
-#: contents/code/alertSettingsHelper.js:79
-#: contents/code/alertSettingsHelper.js:150
-msgid "24h Low Breakout"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:217
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:215
-#: contents/code/alertSettingsHelper.js:80
-msgid "Drop from ATH (%) >"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:216
-#: contents/code/alertSettingsHelper.js:81
-msgid "Rise from ATL (%) >"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:218
-#: contents/code/alertSettingsHelper.js:85
-msgid "Index above"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:219
-#: contents/code/alertSettingsHelper.js:86
-msgid "Index below"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:220
-#: contents/code/alertSettingsHelper.js:87
-msgid "Zone status changes"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:222
-#: contents/code/alertSettingsHelper.js:91
-msgid "Value above"
+#: /home/alex/Crypto-hub/contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
 msgstr ""
 
-#: contents/ui/settings/AlertsSettings.qml:223
-#: contents/code/alertSettingsHelper.js:92
-msgid "Value below"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:225
-#: contents/code/alertSettingsHelper.js:96
-msgid "Dominance above (%)"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:226
-#: contents/code/alertSettingsHelper.js:97
-msgid "Dominance below (%)"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:228
-#: contents/code/alertSettingsHelper.js:101
-msgid "Count above"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:229
-#: contents/code/alertSettingsHelper.js:102
-msgid "Count below"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:231
-#: contents/code/alertSettingsHelper.js:106
-msgid "Ratio above"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:232
-#: contents/code/alertSettingsHelper.js:107
-msgid "Ratio below"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:234
-#: contents/code/alertSettingsHelper.js:111
-msgid "Valuation Zone changes"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:236
-#: contents/code/alertSettingsHelper.js:115
-msgid "Days remaining less than"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:322
-msgid "Target:"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:405
-msgid "Condition:"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:421
-msgid "Disabled"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:421
-msgid "Auto"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:421
-msgid "Value"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:441
-msgid "Options:"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:457
-msgid "Note (optional)"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:468
-msgid "Create alert"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:468
-msgid "Save changes"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:556
-msgid "Test alert"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:564
-msgid "Cancel"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:581
-msgid "Your configured alerts:"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:629
-msgid "BTC Dominance"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:630
-msgid "ETH Dominance"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:635
-#: contents/ui/components/cards/HalvingCountdownCard.qml:53
-#: contents/code/alertEngine.js:322
-msgid "BTC Halving"
-msgstr ""
-
-#: contents/ui/settings/AlertsSettings.qml:656
-msgid "Every time"
-msgstr ""
-
-#: contents/ui/settings/SupportSettings.qml:97
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:95
 msgid ""
 "The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:114
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:112
 msgid "What's New"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:117
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:115
 msgid "About Project"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:120
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:118
 msgid "Authors"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:123
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:121
 msgid "Support"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:126
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:124
 msgid "FAQ"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:137
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:134
 msgid ""
 "Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
 "types, auto-refresh, and a local SQLite database for offline coin search. "
 "The project is fully open source under the GNU GPLv3 license."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:168
-msgid "Key features of version v1.0.0:"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:165
+msgid "Changes in version v1.0.1:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:182
-msgid "🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:179
+msgid ""
+"• Continuous single-direction text marquee scrolling with initial pause for "
+"long coin names and tickers.\n"
+"• Fixed layout jumps and twitching when searching, adding, or removing coins "
+"in settings.\n"
+"• Improved geometry and alignment stability across settings tabs.\n"
+"• General performance optimizations and UI refinements."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:227
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:218
 msgid "Universal Development Hub (UniDevHub)"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:241
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:232
 msgid ""
 "The UniDevHub project was created by a visually impaired developer from "
 "Ukraine to build open-source software products, primarily for Linux and "
 "Android."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:250
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:241
 msgid "Project Goals:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:263
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:254
 msgid "1. Create software products missing in daily use."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:273
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:264
 msgid "2. Involve more people in open-source development."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:283
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:274
 msgid "3. Promote open-source software and digital sovereignty."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:293
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:284
 msgid "4. Stay connected with community and ensure accessibility for everyone."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:330
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:321
 msgid "Join the UniDevHub project!"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:337
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:328
 msgid ""
 "Whether you are a developer, designer, translator, or user — your ideas and "
 "contribution will help make open-source software better and more accessible "
 "for everyone."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:378
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:368
 msgid "Development Team:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:394
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:384
 msgid "• Concept & Development:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:406
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:396
 msgid "• Design & Base Localization:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:418
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:408
 msgid "Open project repository on GitHub"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:456
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:445
 msgid ""
 "By supporting us financially, you support not only the development of this "
 "widget, but also other open-source projects for the Linux community from our "
 "team!"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:471
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:460
 msgid "Community & Development"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:476
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:465
 msgid "Contact Email:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:490
-#: contents/ui/settings/SupportSettings.qml:556
-#: contents/ui/settings/SupportSettings.qml:576
-#: contents/ui/settings/SupportSettings.qml:596
-#: contents/ui/settings/SupportSettings.qml:616
-#: contents/ui/settings/SupportSettings.qml:636
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:479
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:545
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:565
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:585
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:605
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:625
 msgid "Copy"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:496
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:485
 msgid "YouTube channel:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:507
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:496
 msgid "Subscribe"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:514
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:503
 msgid "GitHub team:"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:519
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:508
 msgid "Join us in improving the code"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:525
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:514
 msgid "Join"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:537
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:526
 msgid "Financial Support (Donations)"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:650
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:638
 msgid "Frequently Asked Questions (FAQ):"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:684
-msgid "❓ How to add a new coin to the widget?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:672
+msgid "How to add a new coin to the widget?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:709
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:697
 msgid ""
 "Go to the \"Coin List\" tab in settings and use the search bar by name or "
 "ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:742
-msgid "❓ What does \"Rate limit exceeded\" mean?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:730
+msgid "What does \"Rate limit exceeded\" mean?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:767
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:755
 msgid ""
 "The free public CoinGecko API has a request limit per minute. If this limit "
 "is exceeded, the widget automatically enables a 60-second protective "
 "countdown timer and will resume updating data after it finishes."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:800
-msgid "❓ How do system notifications (Alerts) work?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:788
+msgid "How do system notifications (Alerts) work?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:825
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:813
 msgid ""
 "In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
 "prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
 "(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:858
-msgid "❓ Why does the panel icon emoji change?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:846
+msgid "Why does the panel indicator status change?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:883
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:871
 msgid ""
-"The emoji on the Plasma panel reflects the real-time overall state of the "
-"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
-"accumulation, ⚡ — altseason)."
+"The indicator on the Plasma panel reflects the real-time overall state of "
+"the crypto market (e.g. panic/correction, rally/growth, flat/accumulation, "
+"altseason)."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:916
-msgid "❓ How to select an individual card for the desktop?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:904
+msgid "How to select an individual card for the desktop?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:941
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:929
 msgid ""
 "When placing the widget directly on the desktop (desktop mode), open "
 "\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
 "Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:974
-msgid "❓ Where does the widget fetch price data from?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:962
+msgid "Where does the widget fetch price data from?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:999
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:987
 msgid ""
 "The widget receives current price quotes from the CoinGecko API, and the "
 "Fear & Greed Index from the Alternative.me API."
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:1032
-msgid "❓ Does the widget work without an internet connection?"
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:1020
+msgid "Does the widget work without an internet connection?"
 msgstr ""
 
-#: contents/ui/settings/SupportSettings.qml:1057
+#: /home/alex/Crypto-hub/contents/ui/settings/SupportSettings.qml:1045
 msgid ""
 "Searching and adding coins work offline thanks to a local SQLite database. "
 "An active internet connection is required to update real-time prices."
-msgstr ""
-
-#: contents/ui/components/cards/FearGreedCard.qml:23
-msgid "Extreme Fear"
-msgstr ""
-
-#: contents/ui/components/cards/FearGreedCard.qml:24
-msgid "Fear"
-msgstr ""
-
-#: contents/ui/components/cards/FearGreedCard.qml:25
-msgid "Neutral"
-msgstr ""
-
-#: contents/ui/components/cards/FearGreedCard.qml:26
-msgid "Greed"
-msgstr ""
-
-#: contents/ui/components/cards/FearGreedCard.qml:27
-msgid "Extreme Greed"
-msgstr ""
-
-#: contents/ui/components/cards/MarketCapCard.qml:69
-msgid "Market Cap"
-msgstr ""
-
-#: contents/ui/components/cards/DominanceCard.qml:74
-#: contents/code/alertEngine.js:270
-msgid "Dominance"
-msgstr ""
-
-#: contents/ui/components/cards/ActiveCoinsCard.qml:43
-msgid "Active Cryptos"
-msgstr ""
-
-#: contents/ui/components/cards/ActiveCoinsCard.qml:69
-msgid "coins on market"
-msgstr ""
-
-#: contents/ui/components/cards/TopGainersCard.qml:111
-#: contents/ui/components/cards/TopLosersCard.qml:111
-msgid "No data"
-msgstr ""
-
-#: contents/ui/components/cards/TrendingCard.qml:43
-msgid "Trending Now"
-msgstr ""
-
-#: contents/ui/components/cards/TrendingCard.qml:111
-#: contents/ui/components/cards/Volume24hCard.qml:133
-#: contents/ui/components/cards/EthBtcRatioCard.qml:168
-#: contents/ui/components/cards/RainbowChartCard.qml:159
-#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
-msgid "Loading..."
-msgstr ""
-
-#: contents/ui/components/cards/Volume24hCard.qml:71
-msgid "24h Volume"
-msgstr ""
-
-#: contents/ui/components/cards/HalvingCountdownCard.qml:64
-msgid "%1 days"
-msgstr ""
-
-#: contents/ui/components/cards/HalvingCountdownCard.qml:78
-msgid "Epoch progress: %1%"
-msgstr ""
-
-#: contents/ui/components/cards/RainbowChartCard.qml:57
-#: contents/code/alertSettingsHelper.js:238
-msgid "Fire Sale 📉"
-msgstr ""
-
-#: contents/ui/components/cards/RainbowChartCard.qml:58
-#: contents/code/alertSettingsHelper.js:239
-msgid "Buy! 🟢"
-msgstr ""
-
-#: contents/ui/components/cards/RainbowChartCard.qml:59
-#: contents/code/alertSettingsHelper.js:240
-msgid "Accumulate 🟡"
-msgstr ""
-
-#: contents/ui/components/cards/RainbowChartCard.qml:60
-#: contents/code/alertSettingsHelper.js:241
-msgid "Is this FOMO? 🟠"
-msgstr ""
-
-#: contents/ui/components/cards/RainbowChartCard.qml:61
-#: contents/code/alertSettingsHelper.js:242
-msgid "Maximum Bubble! 🚨"
-msgstr ""
-
-#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
-msgid "Stablecoin Dom"
-msgstr ""
-
-#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
-msgid "Risk-Off (Fear) 🛡️"
-msgstr ""
-
-#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
-msgid "Risk-On (Buying) 🚀"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:23
-#: contents/ui/main.qml:31 contents/ui/main.qml:168
-msgid "Accumulation ⚖️"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:24
-msgid "Market is range-bound in a low volatility consolidation phase."
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:25
-msgid "Panic / Crash 🚨"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:26
-msgid "Extreme fear in the market. Historic buying opportunity zone."
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:27
-msgid "Rally / Bull Run 🚀"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:28
-msgid "Strong bullish momentum across major assets."
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:29
-msgid "Altseason Peak ⚡"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:30
-msgid "Capital actively flowing into altcoins while BTC dominance decreases."
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:31
-msgid "Correction / Fear 🐻"
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:32
-msgid "Market correction phase. Buyers show caution near support levels."
-msgstr ""
-
-#: contents/ui/components/cards/MarketSummaryCard.qml:85
-msgid "Market Summary:"
-msgstr ""
-
-#: contents/ui/components/FavoritesTab.qml:79
-msgid "Favorites list is empty"
-msgstr ""
-
-#: contents/ui/components/FavoritesTab.qml:90
-msgid ""
-"Add your favorite coins in widget settings to track their prices on this tab."
-msgstr ""
-
-#: contents/ui/components/FavoritesTab.qml:100
-msgid "Go to Settings"
-msgstr ""
-
-#: contents/ui/main.qml:24
-msgid "Market consolidation phase in progress."
-msgstr ""
-
-#: contents/ui/main.qml:25
-msgid "Extreme market fear with high volatility and panic selling."
-msgstr ""
-
-#: contents/ui/main.qml:26
-msgid "Strong market growth and active buying momentum."
-msgstr ""
-
-#: contents/ui/main.qml:27
-msgid "Altseason in full swing as altcoins outperform BTC."
-msgstr ""
-
-#: contents/ui/main.qml:28
-msgid "Market correction phase. High caution among buyers."
-msgstr ""
-
-#: contents/ui/main.qml:29
-msgid "Market is in an accumulation and consolidation range."
-msgstr ""
-
-#: contents/ui/main.qml:32
-msgid "Loading market analytics data..."
-msgstr ""
-
-#: contents/ui/main.qml:169
-msgid "Loading market analytics report..."
-msgstr ""
-
-#: contents/ui/DesktopFullRepresentation.qml:151
-msgid "Add Coin"
-msgstr ""
-
-#: contents/ui/DesktopFullRepresentation.qml:162
-msgid "Click to configure"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:124
-msgid "Updating data..."
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:151
-msgid "Rate limit exceeded"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:161
-msgid "(retry in %1 sec.)"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:187
-msgid "Successfully updated"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:197
-msgid "(at %1)"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:217
-msgid "Refresh data"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:267
-msgid "Feed"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:291
-msgid "Favorites"
-msgstr ""
-
-#: contents/ui/PanelFullRepresentation.qml:381
-msgid "Please wait, updating data..."
-msgstr ""
-
-#: contents/code/alertEngine.js:149
-msgid "Price Reached Target"
-msgstr ""
-
-#: contents/code/alertEngine.js:150
-msgid "%1 reached target price: %2"
-msgstr ""
-
-#: contents/code/alertEngine.js:155
-msgid "Price Above Target"
-msgstr ""
-
-#: contents/code/alertEngine.js:156
-msgid "%1 is above %2 (current: %3)"
-msgstr ""
-
-#: contents/code/alertEngine.js:161
-msgid "Price Below Target"
-msgstr ""
-
-#: contents/code/alertEngine.js:162
-msgid "%1 is below %2 (current: %3)"
-msgstr ""
-
-#: contents/code/alertEngine.js:167
-msgid "24h Surge"
-msgstr ""
-
-#: contents/code/alertEngine.js:168
-msgid "%1 24h change is +%2% (> %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:173
-msgid "24h Drop"
-msgstr ""
-
-#: contents/code/alertEngine.js:174
-msgid "%1 24h change is %2% (< %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:179
-msgid "New ATH! 🚀"
-msgstr ""
-
-#: contents/code/alertEngine.js:180
-msgid "%1 reached a new All-Time High of %2"
-msgstr ""
-
-#: contents/code/alertEngine.js:185
-msgid "New ATL 🚨"
-msgstr ""
-
-#: contents/code/alertEngine.js:186
-msgid "%1 dropped to a new All-Time Low of %2"
-msgstr ""
-
-#: contents/code/alertEngine.js:192
-msgid "%1 broke 24h high of %2"
-msgstr ""
-
-#: contents/code/alertEngine.js:198
-msgid "%1 broke 24h low of %2"
-msgstr ""
-
-#: contents/code/alertEngine.js:205
-msgid "Drop from ATH"
-msgstr ""
-
-#: contents/code/alertEngine.js:206
-msgid "%1 is down %2% from ATH (> %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:214
-msgid "Rise from ATL"
-msgstr ""
-
-#: contents/code/alertEngine.js:215
-msgid "%1 is up %2% from ATL (> %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:230
-msgid "Fear & Greed Index is %1 (> %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:234
-msgid "Fear & Greed Index is %1 (< %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:238
-msgid "Fear & Greed Shift"
-msgstr ""
-
-#: contents/code/alertEngine.js:239
-msgid "Market sentiment changed to %1 (%2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:249
-msgid "Global Market Cap is above target value"
-msgstr ""
-
-#: contents/code/alertEngine.js:253
-msgid "Global Market Cap is below target value"
-msgstr ""
-
-#: contents/code/alertEngine.js:261
-msgid "24h Total Volume is above target value"
-msgstr ""
-
-#: contents/code/alertEngine.js:265
-msgid "24h Total Volume is below target value"
-msgstr ""
-
-#: contents/code/alertEngine.js:285
-msgid "%1 is %2% (> %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:289
-msgid "%1 is %2% (< %3%)"
-msgstr ""
-
-#: contents/code/alertEngine.js:297
-msgid "Active Cryptocurrencies count is %1 (> %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:301
-msgid "Active Cryptocurrencies count is %1 (< %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:312
-msgid "ETH/BTC Ratio is %1 (> %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:316
-msgid "ETH/BTC Ratio is %1 (< %2)"
-msgstr ""
-
-#: contents/code/alertEngine.js:323
-msgid "Days remaining to BTC Halving: %1 (< %2 days)"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:143
-msgid "Price >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:144
-msgid "Price <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:145
-msgid "24h Change >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:146
-msgid "24h Change <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:147
-msgid "Reached ATH"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:148
-msgid "Reached ATL"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:151
-msgid "Drop from ATH >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:152
-msgid "Rise from ATL >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:153
-msgid "Index >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:154
-msgid "Index <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:155
-#: contents/code/alertSettingsHelper.js:164
-msgid "Zone shift"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:156
-msgid "Value >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:157
-msgid "Value <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:158
-msgid "Dominance >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:159
-msgid "Dominance <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:160
-msgid "Count >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:161
-msgid "Count <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:162
-msgid "Ratio >"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:163
-msgid "Ratio <"
-msgstr ""
-
-#: contents/code/alertSettingsHelper.js:165
-msgid "Days left <"
-msgstr ""
-
-#: contents/services/NotificationManager.qml:13
-#: contents/services/NotificationManager.qml:26
-msgid "Crypto-hub"
-msgstr ""
-
-#: contents/services/NotificationManager.qml:27
-msgid "Test notification is working correctly!"
 msgstr ""

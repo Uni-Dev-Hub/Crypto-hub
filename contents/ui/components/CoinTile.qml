@@ -147,13 +147,61 @@ Item {
                     }
                 }
 
-                PlasmaComponents.Label {
-                    text: tile.coinId.toUpperCase()
-                    font.pointSize: 9
-                    color: Kirigami.Theme.textColor
-                    opacity: 0.8
+                Item {
+                    id: labelContainer
                     Layout.fillWidth: true
-                    elide: Text.ElideRight
+                    implicitHeight: label1.implicitHeight
+                    clip: true
+
+                    readonly property string coinTitle: tile.coinId.toUpperCase()
+                    readonly property bool isOverflowing: label1.implicitWidth > labelContainer.width
+
+                    Row {
+                        id: marqueeRow
+                        spacing: 20
+
+                        PlasmaComponents.Label {
+                            id: label1
+                            text: labelContainer.coinTitle
+                            font.pointSize: 9
+                            color: Kirigami.Theme.textColor
+                            opacity: 0.8
+                        }
+
+                        PlasmaComponents.Label {
+                            id: label2
+                            text: labelContainer.coinTitle
+                            font.pointSize: 9
+                            color: Kirigami.Theme.textColor
+                            opacity: 0.8
+                            visible: labelContainer.isOverflowing
+                        }
+                    }
+
+                    SequentialAnimation {
+                        running: labelContainer.isOverflowing
+                        loops: Animation.Infinite
+
+                        // 1. Пауза перед початком руху (1.8 секунди)
+                        PauseAnimation { duration: 1800 }
+
+                        // 2. Рух в один бік
+                        NumberAnimation {
+                            target: marqueeRow
+                            property: "x"
+                            from: 0
+                            to: -(label1.implicitWidth + marqueeRow.spacing)
+                            duration: Math.max(2500, (label1.implicitWidth + marqueeRow.spacing) * 35)
+                            easing.type: Easing.Linear
+                        }
+
+                        // 3. Миттєве скидання позиції на початкову
+                        PropertyAction {
+                            target: marqueeRow
+                            property: "x"
+                            value: 0
+                        }
+                    }
                 }
             }
 
