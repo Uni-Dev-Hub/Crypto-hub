@@ -1,0 +1,1405 @@
+# Turkish translations for Crypto-hub.
+# Türkçe çevirileri Crypto-hub paketi için.
+# Copyright (C) 2026 Crypto-hub AUTHORS
+# This file is distributed under the same license as the Crypto-hub package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"PO-Revision-Date: 2026-07-25 23:50+0300\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+""
+
+#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr "Genel"
+
+#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr "Coin Listesi"
+
+#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr "Uyarılar"
+
+#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr "Destek ve Bilgi"
+
+#: contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr "Coin Ekle"
+
+#: contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr "Yapılandırmak için tıklayın"
+
+#: contents/ui/main.qml:24
+msgid "Market consolidation phase in progress."
+msgstr "Piyasa konsolidasyon evresi devam ediyor."
+
+#: contents/ui/main.qml:25
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "Yüksek oynaklık ve panik satışlarıyla piyasada aşırı korku."
+
+#: contents/ui/main.qml:26
+msgid "Strong market growth and active buying momentum."
+msgstr "Güçlü piyasa büyümesi ve aktif alım ivmesi."
+
+#: contents/ui/main.qml:27
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "Altcoinler BTC'den daha iyi performans gösterirken altcoin sezonu tüm hızıyla sürüyor."
+
+#: contents/ui/main.qml:28
+msgid "Market correction phase. High caution among buyers."
+msgstr "Piyasa düzeltme evresi. Alıcılar arasında yüksek temkinlilik."
+
+#: contents/ui/main.qml:29
+msgid "Market is in an accumulation and consolidation range."
+msgstr "Piyasa bir akümülasyon ve konsolidasyon aralığında."
+
+#: contents/ui/main.qml:31 contents/ui/main.qml:168
+#: contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Accumulation ⚖️"
+msgstr "Akümülasyon ⚖️"
+
+#: contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr "Piyasa analiz verileri yükleniyor..."
+
+#: contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr "Piyasa analiz raporu yükleniyor..."
+
+#: contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr "Veriler güncelleniyor..."
+
+#: contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr "İstek sınırı aşıldı"
+
+#: contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr "(%1 sn. içinde tekrar dene)"
+
+#: contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr "Başarıyla güncellendi"
+
+#: contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr "(saat %1)"
+
+#: contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr "Verileri yenile"
+
+#: contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr "Akış"
+
+#: contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr "Favoriler"
+
+#: contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr "Lütfen bekleyin, veriler güncelleniyor..."
+
+#: contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr "Favori listesi boş"
+
+#: contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "Bu sekmede fiyatlarını takip etmek için araç ayarlarından favori coinlerinizi ekleyin."
+
+#: contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr "Ayarlara Git"
+
+#: contents/ui/settings/AlertsSettings.qml:102
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr "Yalnızca bir kez"
+
+#: contents/ui/settings/AlertsSettings.qml:103
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr "Günde bir kez"
+
+#: contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr "Her ulaşıldığında"
+
+#: contents/ui/settings/AlertsSettings.qml:157
+#: contents/ui/settings/AlertsSettings.qml:168
+#: contents/code/alertSettingsHelper.js:37
+#: contents/code/alertSettingsHelper.js:48
+msgid "Selected Coin"
+msgstr "Seçili Coin"
+
+#: contents/ui/settings/AlertsSettings.qml:158
+#: contents/ui/settings/AlertsSettings.qml:170
+#: contents/ui/settings/AlertsSettings.qml:626
+#: contents/ui/settings/GeneralSettings.qml:204
+#: contents/ui/components/cards/FearGreedCard.qml:63
+#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
+#: contents/code/alertSettingsHelper.js:38
+#: contents/code/alertSettingsHelper.js:50
+msgid "Fear & Greed Index"
+msgstr "Korku ve Açgözlülük Endeksi"
+
+#: contents/ui/settings/AlertsSettings.qml:159
+#: contents/ui/settings/AlertsSettings.qml:171
+#: contents/ui/settings/AlertsSettings.qml:627
+#: contents/ui/settings/GeneralSettings.qml:205
+#: contents/code/alertEngine.js:248 contents/code/alertEngine.js:252
+#: contents/code/alertSettingsHelper.js:39
+#: contents/code/alertSettingsHelper.js:51
+msgid "Global Market Cap"
+msgstr "Küresel Piyasa Değeri"
+
+#: contents/ui/settings/AlertsSettings.qml:160
+#: contents/ui/settings/AlertsSettings.qml:173
+#: contents/code/alertSettingsHelper.js:40
+#: contents/code/alertSettingsHelper.js:53
+msgid "Dominance (BTC / ETH)"
+msgstr "Dominans (BTC / ETH)"
+
+#: contents/ui/settings/AlertsSettings.qml:161
+#: contents/ui/settings/AlertsSettings.qml:175
+#: contents/ui/settings/AlertsSettings.qml:632
+#: contents/ui/settings/GeneralSettings.qml:207
+#: contents/code/alertEngine.js:296 contents/code/alertEngine.js:300
+#: contents/code/alertSettingsHelper.js:41
+#: contents/code/alertSettingsHelper.js:55
+msgid "Active Cryptocurrencies"
+msgstr "Aktif Kripto Paralar"
+
+#: contents/ui/settings/AlertsSettings.qml:162
+#: contents/ui/settings/AlertsSettings.qml:172
+#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
+#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
+#: contents/code/alertSettingsHelper.js:52
+msgid "24h Total Volume"
+msgstr "24s Toplam Hacim"
+
+#: contents/ui/settings/AlertsSettings.qml:163
+#: contents/ui/settings/AlertsSettings.qml:178
+#: contents/ui/settings/AlertsSettings.qml:634
+#: contents/ui/settings/GeneralSettings.qml:213
+#: contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
+#: contents/code/alertSettingsHelper.js:43
+#: contents/code/alertSettingsHelper.js:58
+msgid "ETH/BTC Ratio"
+msgstr "ETH/BTC Oranı"
+
+#: contents/ui/settings/AlertsSettings.qml:164
+#: contents/ui/settings/AlertsSettings.qml:182
+#: contents/ui/settings/GeneralSettings.qml:214
+#: contents/ui/settings/GeneralSettings.qml:409
+#: contents/code/alertSettingsHelper.js:44
+#: contents/code/alertSettingsHelper.js:62
+msgid "BTC Halving Countdown"
+msgstr "BTC Halving Geri Sayımı"
+
+#: contents/ui/settings/AlertsSettings.qml:165
+#: contents/ui/settings/AlertsSettings.qml:179
+#: contents/ui/settings/AlertsSettings.qml:633
+#: contents/code/alertSettingsHelper.js:45
+#: contents/code/alertSettingsHelper.js:59
+msgid "BTC Rainbow Zone"
+msgstr "BTC Rainbow Bölgesi"
+
+#: contents/ui/settings/AlertsSettings.qml:166
+#: contents/ui/settings/AlertsSettings.qml:174
+#: contents/ui/settings/AlertsSettings.qml:631
+#: contents/ui/settings/GeneralSettings.qml:216
+#: contents/code/alertSettingsHelper.js:46
+#: contents/code/alertSettingsHelper.js:54
+msgid "Stablecoin Dominance"
+msgstr "Stablecoin Dominansı"
+
+#: contents/ui/settings/AlertsSettings.qml:206
+#: contents/code/alertSettingsHelper.js:71
+#: contents/code/alertSettingsHelper.js:142
+msgid "Price reaches"
+msgstr "Fiyat ulaştığında"
+
+#: contents/ui/settings/AlertsSettings.qml:207
+#: contents/code/alertSettingsHelper.js:72
+msgid "Price above"
+msgstr "Fiyat üzerinde"
+
+#: contents/ui/settings/AlertsSettings.qml:208
+#: contents/code/alertSettingsHelper.js:73
+msgid "Price below"
+msgstr "Fiyat altında"
+
+#: contents/ui/settings/AlertsSettings.qml:209
+#: contents/code/alertSettingsHelper.js:74
+msgid "24h Change above (%)"
+msgstr "24s Değişim üzerinde (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:210
+#: contents/code/alertSettingsHelper.js:75
+msgid "24h Change below (%)"
+msgstr "24s Değişim altında (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:211
+#: contents/code/alertSettingsHelper.js:76
+msgid "ATH Reached"
+msgstr "ATH'ye Ulaşıldı"
+
+#: contents/ui/settings/AlertsSettings.qml:212
+#: contents/code/alertSettingsHelper.js:77
+msgid "ATL Reached"
+msgstr "ATL'ye Ulaşıldı"
+
+#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
+#: contents/code/alertSettingsHelper.js:78
+#: contents/code/alertSettingsHelper.js:149
+msgid "24h High Breakout"
+msgstr "24s Zirve Kırılımı"
+
+#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
+#: contents/code/alertSettingsHelper.js:79
+#: contents/code/alertSettingsHelper.js:150
+msgid "24h Low Breakout"
+msgstr "24s Dip Kırılımı"
+
+#: contents/ui/settings/AlertsSettings.qml:215
+#: contents/code/alertSettingsHelper.js:80
+msgid "Drop from ATH (%) >"
+msgstr "ATH'den Düşüş (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:216
+#: contents/code/alertSettingsHelper.js:81
+msgid "Rise from ATL (%) >"
+msgstr "ATL'den Yükseliş (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:218
+#: contents/code/alertSettingsHelper.js:85
+msgid "Index above"
+msgstr "Endeks üzerinde"
+
+#: contents/ui/settings/AlertsSettings.qml:219
+#: contents/code/alertSettingsHelper.js:86
+msgid "Index below"
+msgstr "Endeks altında"
+
+#: contents/ui/settings/AlertsSettings.qml:220
+#: contents/code/alertSettingsHelper.js:87
+msgid "Zone status changes"
+msgstr "Bölge durumu değiştiğinde"
+
+#: contents/ui/settings/AlertsSettings.qml:222
+#: contents/code/alertSettingsHelper.js:91
+msgid "Value above"
+msgstr "Değer üzerinde"
+
+#: contents/ui/settings/AlertsSettings.qml:223
+#: contents/code/alertSettingsHelper.js:92
+msgid "Value below"
+msgstr "Değer altında"
+
+#: contents/ui/settings/AlertsSettings.qml:225
+#: contents/code/alertSettingsHelper.js:96
+msgid "Dominance above (%)"
+msgstr "Dominans üzerinde (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:226
+#: contents/code/alertSettingsHelper.js:97
+msgid "Dominance below (%)"
+msgstr "Dominans altında (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:228
+#: contents/code/alertSettingsHelper.js:101
+msgid "Count above"
+msgstr "Sayı üzerinde"
+
+#: contents/ui/settings/AlertsSettings.qml:229
+#: contents/code/alertSettingsHelper.js:102
+msgid "Count below"
+msgstr "Sayı altında"
+
+#: contents/ui/settings/AlertsSettings.qml:231
+#: contents/code/alertSettingsHelper.js:106
+msgid "Ratio above"
+msgstr "Oran üzerinde"
+
+#: contents/ui/settings/AlertsSettings.qml:232
+#: contents/code/alertSettingsHelper.js:107
+msgid "Ratio below"
+msgstr "Oran altında"
+
+#: contents/ui/settings/AlertsSettings.qml:234
+#: contents/code/alertSettingsHelper.js:111
+msgid "Valuation Zone changes"
+msgstr "Değerleme Bölgesi değiştiğinde"
+
+#: contents/ui/settings/AlertsSettings.qml:236
+#: contents/code/alertSettingsHelper.js:115
+msgid "Days remaining less than"
+msgstr "Kalan gün şundan az"
+
+#: contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr "Hedef:"
+
+#: contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr "Koşul:"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr "Otomatik"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr "Değer"
+
+#: contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr "Seçenekler:"
+
+#: contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr "Not (isteğe bağlı)"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr "Uyarı oluştur"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr "Test uyarısı"
+
+#: contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr "İptal"
+
+#: contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr "Yapılandırılmış uyarılarınız:"
+
+#: contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr "BTC Dominansı"
+
+#: contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr "ETH Dominansı"
+
+#: contents/ui/settings/AlertsSettings.qml:635
+#: contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: contents/code/alertEngine.js:322
+msgid "BTC Halving"
+msgstr "BTC Halving"
+
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr "Her zaman"
+
+#: contents/ui/settings/CoinsSettings.qml:95
+msgid "Search or Add Coins:"
+msgstr "Coin Ara veya Ekle:"
+
+#: contents/ui/settings/CoinsSettings.qml:96
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "İsim, ticker (örn. btc) veya toplu (btc.eth.sol)..."
+
+#: contents/ui/settings/CoinsSettings.qml:187
+msgid "Coin list is empty"
+msgstr "Coin listesi boş"
+
+#: contents/ui/settings/CoinsSettings.qml:188
+msgid ""
+"Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
+"name."
+msgstr "Toplu ekleme (örn. btc.eth.sol) veya isme göre arama için yukarıdaki arama çubuğunu kullanın."
+
+#: contents/ui/settings/CoinsSettings.qml:203
+msgid "Your watchlist (%1)"
+msgstr "İzleme listeniz (%1)"
+
+#: contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
+msgstr "Hedef Para Birimi:"
+
+#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — ABD Doları"
+
+#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — Euro"
+
+#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — Ukrayna Grivnası"
+
+#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — İngiliz Sterlini"
+
+#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — Japon Yeni"
+
+#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — Kanada Doları"
+
+#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — Avustralya Doları"
+
+#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
+msgid "CHF — Swiss Franc"
+msgstr "CHF — İsviçre Frangı"
+
+#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — Polonya Zlotosu"
+
+#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — Türk Lirası"
+
+#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — Çin Yuanı"
+
+#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — Çek Korunası"
+
+#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — Danimarka Kronu"
+
+#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — İsveç Kronu"
+
+#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — Norveç Kronu"
+
+#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — Macar Forinti"
+
+#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — İsrail Şekeli"
+
+#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — Hindistan Rupisi"
+
+#: contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
+msgstr "Otomatik Yenileme Aralığı:"
+
+#: contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
+msgstr "1 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
+msgstr "5 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
+msgstr "10 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
+msgstr "15 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
+msgstr "30 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
+msgstr "45 dakika"
+
+#: contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
+msgstr "1 saat"
+
+#: contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
+msgstr "Masaüstü Aracı:"
+
+#: contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
+msgstr "Seçili Coin Kartı"
+
+#: contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
+msgstr "Dominans Dağılımı"
+
+#: contents/ui/settings/GeneralSettings.qml:208
+#: contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
+msgstr "Kayan Fiyat Bandı"
+
+#: contents/ui/settings/GeneralSettings.qml:209
+#: contents/ui/components/cards/TopGainersCard.qml:43
+msgid "Top 5 Gainers"
+msgstr "En Çok Yükselen 5"
+
+#: contents/ui/settings/GeneralSettings.qml:210
+#: contents/ui/components/cards/TopLosersCard.qml:43
+msgid "Top 5 Losers"
+msgstr "En Çok Düşen 5"
+
+#: contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
+msgstr "Trend Olan Coinler"
+
+#: contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
+msgstr "24s İşlem Hacmi"
+
+#: contents/ui/settings/GeneralSettings.qml:215
+#: contents/ui/components/cards/RainbowChartCard.qml:97
+msgid "BTC Price Valuation"
+msgstr "BTC Fiyat Değerlemesi"
+
+#: contents/ui/settings/GeneralSettings.qml:217
+#: contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
+msgstr "Piyasa Analizi Özeti"
+
+#: contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
+msgstr "Araç Coini (ID veya Ticker):"
+
+#: contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "örn. btc, eth, sol, doge..."
+
+#: contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
+msgstr "Akış Ayarları"
+
+#: contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "Temel Metrikler (Piyasa Değeri, Hacim, Korku ve Açgözlülük, Dominans)"
+
+#: contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "Analitik Modeller (ETH/BTC, BTC Fiyat Değerlemesi)"
+
+#: contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "Liderlik Tabloları (Yükselenler, Düşenler ve Trendler)"
+
+#: contents/ui/settings/SupportSettings.qml:97
+msgid ""
+"The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "KDE Plasma 6 için ilk zengin özellikli kripto para izleme aracı."
+
+#: contents/ui/settings/SupportSettings.qml:114
+msgid "What's New"
+msgstr "Yenilikler"
+
+#: contents/ui/settings/SupportSettings.qml:117
+msgid "About Project"
+msgstr "Proje Hakkında"
+
+#: contents/ui/settings/SupportSettings.qml:120
+msgid "Authors"
+msgstr "Yazarlar"
+
+#: contents/ui/settings/SupportSettings.qml:123
+msgid "Support"
+msgstr "Destek"
+
+#: contents/ui/settings/SupportSettings.qml:126
+msgid "FAQ"
+msgstr "SSS"
+
+#: contents/ui/settings/SupportSettings.qml:137
+msgid ""
+"Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
+"types, auto-refresh, and a local SQLite database for offline coin search. "
+"The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub, 15 masaüstü kart türü, otomatik yenileme ve çevrimdışı coin araması için yerel SQLite veritabanı aracılığıyla gerçek zamanlı kripto piyasası izleme sağlar. Proje, GNU GPLv3 lisansı altında tamamen açık kaynaktır."
+
+#: contents/ui/settings/SupportSettings.qml:168
+msgid "Key features of version v1.0.0:"
+msgstr "v1.0.0 sürümünün temel özellikleri:"
+
+#: contents/ui/settings/SupportSettings.qml:182
+msgid ""
+"🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+"🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, "
+"Rainbow Zone, etc.).\n"
+"📊 Market analytics feed with top gainers, losers, and trending coins.\n"
+"🔔 Flexible system notification builder for price breakouts, ATH/ATL, and "
+"Fear & Greed shifts.\n"
+"🗄️ Offline coin cache powered by a local SQLite database.\n"
+"🎨 Dynamic market condition status icon on the Plasma panel."
+msgstr ""
+
+#: contents/ui/settings/SupportSettings.qml:227
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "Universal Development Hub (UniDevHub)"
+
+#: contents/ui/settings/SupportSettings.qml:241
+msgid ""
+"The UniDevHub project was created by a visually impaired developer from "
+"Ukraine to build open-source software products, primarily for Linux and "
+"Android."
+msgstr "UniDevHub (Evrensel Geliştirme Merkezi) projesi, öncelikle Linux ve Android için açık kaynaklı yazılım ürünleri geliştirmek amacıyla Ukraynalı görme engelli bir geliştirici tarafından oluşturulmuştur."
+
+#: contents/ui/settings/SupportSettings.qml:250
+msgid "Project Goals:"
+msgstr "Proje Hedefleri:"
+
+#: contents/ui/settings/SupportSettings.qml:263
+msgid "1. Create software products missing in daily use."
+msgstr "1. Günlük kullanımda eksik olan yazılım ürünlerini oluşturmak."
+
+#: contents/ui/settings/SupportSettings.qml:273
+msgid "2. Involve more people in open-source development."
+msgstr "2. Açık kaynak geliştirmeye daha fazla insanı dahil etmek."
+
+#: contents/ui/settings/SupportSettings.qml:283
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. Açık kaynaklı yazılımı ve dijital egemenliği teşvik etmek."
+
+#: contents/ui/settings/SupportSettings.qml:293
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. Toplulukla iletişimde kalmak ve herkes için erişilebilirliği sağlamak."
+
+#: contents/ui/settings/SupportSettings.qml:330
+msgid "Join the UniDevHub project!"
+msgstr "UniDevHub projesine katılın!"
+
+#: contents/ui/settings/SupportSettings.qml:337
+msgid ""
+"Whether you are a developer, designer, translator, or user — your ideas and "
+"contribution will help make open-source software better and more accessible "
+"for everyone."
+msgstr "Geliştirici, tasarımcı, çevirmen veya kullanıcı olun — fikirleriniz ve katkılarınız açık kaynaklı yazılımları herkes için daha iyi ve erişilebilir kılmaya yardımcı olacaktır."
+
+#: contents/ui/settings/SupportSettings.qml:378
+msgid "Development Team:"
+msgstr "Geliştirme Takımı:"
+
+#: contents/ui/settings/SupportSettings.qml:394
+msgid "• Concept & Development:"
+msgstr "• Konsept ve Geliştirme:"
+
+#: contents/ui/settings/SupportSettings.qml:406
+msgid "• Design & Base Localization:"
+msgstr "• Tasarım ve Temel Yerelleştirme:"
+
+#: contents/ui/settings/SupportSettings.qml:418
+msgid "Open project repository on GitHub"
+msgstr "GitHub'da proje deposunu aç"
+
+#: contents/ui/settings/SupportSettings.qml:456
+msgid ""
+"By supporting us financially, you support not only the development of this "
+"widget, but also other open-source projects for the Linux community from our "
+"team!"
+msgstr "Bizi finansal olarak destekleyerek, yalnızca bu aracın geliştirilmesini değil, ekibimizin Linux topluluğuna yönelik diğer açık kaynaklı projelerini de desteklemiş olursunuz!"
+
+#: contents/ui/settings/SupportSettings.qml:471
+msgid "Community & Development"
+msgstr "Topluluk ve Geliştirme"
+
+#: contents/ui/settings/SupportSettings.qml:476
+msgid "Contact Email:"
+msgstr "İletişim E-postası:"
+
+#: contents/ui/settings/SupportSettings.qml:490
+#: contents/ui/settings/SupportSettings.qml:556
+#: contents/ui/settings/SupportSettings.qml:576
+#: contents/ui/settings/SupportSettings.qml:596
+#: contents/ui/settings/SupportSettings.qml:616
+#: contents/ui/settings/SupportSettings.qml:636
+msgid "Copy"
+msgstr "Kopyala"
+
+#: contents/ui/settings/SupportSettings.qml:496
+msgid "YouTube channel:"
+msgstr "YouTube kanalı:"
+
+#: contents/ui/settings/SupportSettings.qml:507
+msgid "Subscribe"
+msgstr "Abone Ol"
+
+#: contents/ui/settings/SupportSettings.qml:514
+msgid "GitHub team:"
+msgstr "GitHub takımı:"
+
+#: contents/ui/settings/SupportSettings.qml:519
+msgid "Join us in improving the code"
+msgstr "Kodu geliştirmede bize katılın"
+
+#: contents/ui/settings/SupportSettings.qml:525
+msgid "Join"
+msgstr "Katıl"
+
+#: contents/ui/settings/SupportSettings.qml:537
+msgid "Financial Support (Donations)"
+msgstr "Finansal Destek (Bağışlar)"
+
+#: contents/ui/settings/SupportSettings.qml:650
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "Sıkça Sorulan Sorular (SSS):"
+
+#: contents/ui/settings/SupportSettings.qml:684
+msgid "❓ How to add a new coin to the widget?"
+msgstr "❓ Araca yeni bir coin nasıl eklenir?"
+
+#: contents/ui/settings/SupportSettings.qml:709
+msgid ""
+"Go to the \"Coin List\" tab in settings and use the search bar by name or "
+"ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "Ayarlardaki «Coin Listesi» sekmesine gidin ve isme veya ticker'a göre (btc, eth, sol) arama çubuğunu kullanın ya da noktalarla ayrılmış toplu eklemeyi (btc.eth.sol) kullanın."
+
+#: contents/ui/settings/SupportSettings.qml:742
+msgid "❓ What does \"Rate limit exceeded\" mean?"
+msgstr "❓ «Rate limit exceeded» ne anlama gelir?"
+
+#: contents/ui/settings/SupportSettings.qml:767
+msgid ""
+"The free public CoinGecko API has a request limit per minute. If this limit "
+"is exceeded, the widget automatically enables a 60-second protective "
+"countdown timer and will resume updating data after it finishes."
+msgstr "Ücretsiz halka açık CoinGecko API'sinin dakika başına istek sınırı vardır. Bu sınır aşılırsa, araç otomatik olarak 60 saniyelik koruyucu bir geri sayım zamanlayıcısını etkinleştirir ve bittiğinde veri güncellemeye devam eder."
+
+#: contents/ui/settings/SupportSettings.qml:800
+msgid "❓ How do system notifications (Alerts) work?"
+msgstr "❓ Sistem bildirimleri (Uyarılar) nasıl çalışır?"
+
+#: contents/ui/settings/SupportSettings.qml:825
+msgid ""
+"In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
+"prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
+"(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "«Uyarılar» sekmesinde, belirli fiyatlara ulaşan coinler, 24s zirve/dip kırılımları, ATH/ATL ulaşımı ve makro göstergeler (Korku ve Açgözlülük endeksi değişimleri, BTC/ETH dominansı vb.) için tetikleyiciler ayarlayabilirsiniz."
+
+#: contents/ui/settings/SupportSettings.qml:858
+msgid "❓ Why does the panel icon emoji change?"
+msgstr "❓ Panel simgesindeki emoji neden değişiyor?"
+
+#: contents/ui/settings/SupportSettings.qml:883
+msgid ""
+"The emoji on the Plasma panel reflects the real-time overall state of the "
+"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
+"accumulation, ⚡ — altseason)."
+msgstr "Plasma panelindeki emoji, kripto piyasasının gerçek zamanlı genel durumunu yansıtır (örn. 🐻 — panik/düzeltme, 🚀 — ralli/büyüme, ⚖️ — yatay/akümülasyon, ⚡ — altcoin sezonu)."
+
+#: contents/ui/settings/SupportSettings.qml:916
+msgid "❓ How to select an individual card for the desktop?"
+msgstr "❓ Masaüstü için bireysel bir kart nasıl seçilir?"
+
+#: contents/ui/settings/SupportSettings.qml:941
+msgid ""
+"When placing the widget directly on the desktop (desktop mode), open "
+"\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
+"Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "Aracı doğrudan masaüstüne yerleştirirken (masaüstü modu), «Genel Ayarlar»ı açın ve 15 kart türünden birini seçin (Coin Kartı, Korku ve Açgözlülük Endeksi, Küresel Piyasa Değeri, BTC Halving, ETH/BTC, Rainbow Bölgesi vb.)."
+
+#: contents/ui/settings/SupportSettings.qml:974
+msgid "❓ Where does the widget fetch price data from?"
+msgstr "❓ Araç fiyat verilerini nereden çeker?"
+
+#: contents/ui/settings/SupportSettings.qml:999
+msgid ""
+"The widget receives current price quotes from the CoinGecko API, and the "
+"Fear & Greed Index from the Alternative.me API."
+msgstr "Araç güncel fiyat tekliflerini CoinGecko API'sinden, Korku ve Açgözlülük Endeksini ise Alternative.me API'sinden alır."
+
+#: contents/ui/settings/SupportSettings.qml:1032
+msgid "❓ Does the widget work without an internet connection?"
+msgstr "❓ Araç internet bağlantısı olmadan çalışır mı?"
+
+#: contents/ui/settings/SupportSettings.qml:1057
+msgid ""
+"Searching and adding coins work offline thanks to a local SQLite database. "
+"An active internet connection is required to update real-time prices."
+msgstr "Coin arama ve ekleme, yerel bir SQLite veritabanı sayesinde çevrimdışı çalışır. Gerçek zamanlı fiyatları güncellemek için aktif bir internet bağlantısı gereklidir."
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr "Aktif Kriptolar"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr "piyasadaki coinler"
+
+#: contents/ui/components/cards/DominanceCard.qml:74
+#: contents/code/alertEngine.js:270
+msgid "Dominance"
+msgstr "Dominans"
+
+#: contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: contents/ui/components/cards/RainbowChartCard.qml:159
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: contents/ui/components/cards/TrendingCard.qml:111
+#: contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr "Aşırı Korku"
+
+#: contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr "Korku"
+
+#: contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr "Nötr"
+
+#: contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr "Açgözlülük"
+
+#: contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr "Aşırı Açgözlülük"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr "%1 gün"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:78
+#, javascript-format
+msgid "Epoch progress: %1%"
+msgstr "Dönem ilerlemesi: %1%"
+
+#: contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr "Piyasa Değeri"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "Piyasa düşük oynaklıklı bir konsolidasyon evresinde yatay seyrediyor."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Panic / Crash 🚨"
+msgstr "Panik / Çöküş 🚨"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "Piyasada aşırı korku var. Tarihi alım fırsatı bölgesi."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Rally / Bull Run 🚀"
+msgstr "Ralli / Boğa Sezonu 🚀"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Strong bullish momentum across major assets."
+msgstr "Ana varlıklarda güçlü yükseliş ivmesi."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Altseason Peak ⚡"
+msgstr "Altcoin Sezonu Zirvesi ⚡"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "BTC dominansı düşerken sermaye aktif olarak altcoinlere akıyor."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Correction / Fear 🐻"
+msgstr "Düzeltme / Korku 🐻"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:32
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "Piyasa düzeltme evresi. Alıcılar destek seviyeleri yakınında temkinli."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:85
+msgid "Market Summary:"
+msgstr "Piyasa Özeti:"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:57
+#: contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr "Kelepir Satış 📉"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:58
+#: contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr "Satın Al! 🟢"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:59
+#: contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr "Biriktir 🟡"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:60
+#: contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr "Bu FOMO mu? 🟠"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:61
+#: contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr "Maksimum Balon! 🚨"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr "Stablecoin Dom."
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear) 🛡️"
+msgstr "Riskten Kaçış (Korku) 🛡️"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying) 🚀"
+msgstr "Riski Kabul (Alım) 🚀"
+
+#: contents/ui/components/cards/TopGainersCard.qml:111
+#: contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr "Veri yok"
+
+#: contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr "Şu Anda Trendde"
+
+#: contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr "24s Hacim"
+
+#: contents/code/alertEngine.js:149
+msgid "Price Reached Target"
+msgstr "Hedef Fiyata Ulaşıldı"
+
+#: contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
+msgstr "%1 hedef fiyata ulaştı: %2"
+
+#: contents/code/alertEngine.js:155
+msgid "Price Above Target"
+msgstr "Fiyat Hedefin Üzerinde"
+
+#: contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 %2 üzerinde (güncel: %3)"
+
+#: contents/code/alertEngine.js:161
+msgid "Price Below Target"
+msgstr "Fiyat Hedefin Altında"
+
+#: contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 %2 altında (güncel: %3)"
+
+#: contents/code/alertEngine.js:167
+msgid "24h Surge"
+msgstr "24s Hacim"
+
+#: contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 24s değişim: +%2% (> %3%)"
+
+#: contents/code/alertEngine.js:173
+msgid "24h Drop"
+msgstr "24 Saat Bırakma"
+
+#: contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 24s değişim: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
+msgstr "Yeni ATH! 🚀"
+
+#: contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 yeni ATH'ye ulaştı: $%2"
+
+#: contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
+msgstr "Yeni ATL 🚨"
+
+#: contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 tüm zamanların en düşük seviyesi olan %2'ye düştü"
+
+#: contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
+msgstr "%1 24s zirvesini kırdı ($%2)"
+
+#: contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
+msgstr "%1 24s dibini kırdı ($%2)"
+
+#: contents/code/alertEngine.js:205
+msgid "Drop from ATH"
+msgstr "ATH'den Düşüş >"
+
+#: contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 ATH'den düşüş %2% (> %3%)"
+
+#: contents/code/alertEngine.js:214
+msgid "Rise from ATL"
+msgstr "ATL'den Yükseliş >"
+
+#: contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 ATL'den yükseliş %2% (> %3%)"
+
+#: contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "Korku ve Açgözlülük Endeksi %1 (> %2)"
+
+#: contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "Korku ve Açgözlülük Endeksi %1 (< %2)"
+
+#: contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr "Korku ve Açgözlülük Endeksi"
+
+#: contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "Piyasa duyarlılığı %1 (%2) olarak değiştirildi"
+
+#: contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
+msgstr "Küresel Piyasa Değeri"
+
+#: contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr "Küresel Piyasa Değeri"
+
+#: contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr "24 saatlik Toplam Hacim hedef değerin üzerinde"
+
+#: contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr "24 saatlik Toplam Hacim hedef değerin altında"
+
+#: contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 ATH'den düşüş %2% (> %3%)"
+
+#: contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 24s değişim: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "Aktif kripto para sayısı %1 (> %2)"
+
+#: contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "Aktif kripto para sayısı %1 (< %2)"
+
+#: contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "ETH/BTC Oranı %1 (> %2)"
+
+#: contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "ETH/BTC Oranı %1 (< %2)"
+
+#: contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "BTC Halving için kalan gün: %1 (< %2 gün)"
+
+#: contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr "Fiyat >"
+
+#: contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr "Fiyat <"
+
+#: contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr "24s Değişim >"
+
+#: contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr "24s Değişim <"
+
+#: contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr "ATH'ye Ulaşıldı"
+
+#: contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr "ATL'ye Ulaşıldı"
+
+#: contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr "ATH'den Düşüş >"
+
+#: contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr "ATL'den Yükseliş >"
+
+#: contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr "Endeks >"
+
+#: contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr "Endeks <"
+
+#: contents/code/alertSettingsHelper.js:155
+#: contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr "Bölge Değişimi"
+
+#: contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr "Değer >"
+
+#: contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr "Değer <"
+
+#: contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr "Dominans >"
+
+#: contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr "Dominans <"
+
+#: contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr "Sayı >"
+
+#: contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr "Sayı <"
+
+#: contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr "Oran >"
+
+#: contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr "Oran <"
+
+#: contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr "Kalan Gün <"
+
+#: contents/services/NotificationManager.qml:13
+#: contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+#: contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr "Test bildirimi sorunsuz çalışıyor!"
+
+#, kde-format
+#~ msgid "🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+#~ msgstr "🚀 KDE Plazma 6 ve Qt 6 ortamı için resmi sürüm."
+
+msgid "Portfolio"
+msgstr "Portföy"
+
+msgid "Portfolio Tracking:"
+msgstr "Portföy Takibi:"
+
+msgid "Enable Crypto Portfolio"
+msgstr "Kripto Portföyünü Etkinleştir"
+
+msgid "100% Local & Private"
+msgstr "%100 Yerel ve Gizli"
+
+msgid "Your portfolio assets, quantities, and transactions are stored strictly on your device. No balances or financial data are ever transmitted to third parties or remote servers."
+msgstr "Portföy varlıklarınız, miktarlarınız ve işlemleriniz yalnızca cihazınızda saklanır. Hiçbir bakiye veya finansal veri üçüncü taraflara iletilmez."
+
+msgid "Add Asset to Portfolio:"
+msgstr "Portföye Varlık Ekle:"
+
+msgid "Edit Asset:"
+msgstr "Varlığı Düzenle:"
+
+msgid "Coin (Ticker or ID):"
+msgstr "Coin (Sembol veya ID):"
+
+msgid "Holdings Quantity:"
+msgstr "Varlık Miktarı:"
+
+msgid "Avg. Buy Price (Optional):"
+msgstr "Ort. Alış Fiyatı (İsteğe bağlı):"
+
+msgid "Add to Portfolio"
+msgstr "Portföye Ekle"
+
+msgid "Your Portfolio Assets (%1)"
+msgstr "Portföy Varlıklarınız (%1)"
+
+msgid "No assets added yet"
+msgstr "Henüz varlık eklenmedi"
+
+msgid "Add your crypto holdings using the form above."
+msgstr "Yukarıdaki formu kullanarak kripto varlıklarınızı ekleyin."
+
+msgid "Amount: %1 %2"
+msgstr "Miktar: %1 %2"
+
+msgid "Buy: %1"
+msgstr "Alış: %1"
+
+msgid "Total Portfolio Balance"
+msgstr "Toplam Portföy Bakiyesi"
+
+msgid "Show balance"
+msgstr "Bakiyeyi göster"
+
+msgid "Hide balance"
+msgstr "Bakiyeyi gizle"
+
+msgid "Asset Allocation"
+msgstr "Varlık Dağılımı"
+
+msgid "%1 Assets"
+msgstr "%1 Varlık"
+
+msgid "Portfolio is empty"
+msgstr "Portföy boş"
+
+msgid "Add your crypto assets in widget settings to track your balances, 24h PnL, and allocation."
+msgstr "Bakiyelerinizi, 24s K/Z ve dağılımınızı takip etmek için araç ayarlarından kripto varlıklarınızı ekleyin."
+
+msgid "Crypto Portfolio"
+msgstr "Kripto Portföyü"
+
+msgid "Empty"
+msgstr "Boş"
+
+msgid "In Portfolio"
+msgstr "Portföyde"
+
+msgid "ROI:"
+msgstr "ROI:"
+
+msgid "Save Backup to File (.json)"
+msgstr "Yedeği Dosyaya Kaydet (.json)"
+
+msgid "Save Backup to File (.json)..."
+msgstr "Yedeği Dosyaya Kaydet (.json)..."
+
+msgid "Quick Save to Downloads"
+msgstr "İndirilenlere Hızlı Kaydet"
+
+msgid "Open Folder in Dolphin"
+msgstr "Klasörü Dolphin'de Aç"
+
+msgid "Watchlist: %1 coins"
+msgstr "İzleme listesi: %1 coin"
+
+msgid "Portfolio: %1 assets"
+msgstr "Portföy: %1 varlık"
+
+msgid "Alerts: %1 rules"
+msgstr "Uyarılar: %1 kural"
+
+msgid "Coins: %1"
+msgstr "Coin: %1"
+
+msgid "Restore from File (.json)"
+msgstr "Dosyadan Geri Yükle (.json)"
+
+msgid "Choose Backup File (.json)..."
+msgstr "Yedek Dosyası Seç (.json)..."
+
+msgid "No file chosen"
+msgstr "Dosya seçilmedi"
+
+msgid "Valid Backup File Detected:"
+msgstr "Geçerli Yedek Dosyası Algılandı:"
+
+msgid "Restore from Selected File"
+msgstr "Seçilen Dosyadan Geri Yükle"
+
+msgid "Factory Reset"
+msgstr "Fabrika Ayarlarına Sıfırla"
+
+msgid "Reset All to Defaults"
+msgstr "Tümünü Varsayılana Sıfırla"
+
+msgid "Clears watchlist, alerts, portfolio, and restores initial settings."
+msgstr "İzleme listesini, uyarıları, portföyü temizler ve başlangıç ayarlarını geri yükler."
+
+msgid "Reset All Settings?"
+msgstr "Tüm Ayarlar Sıfırlansın mı?"
+
+msgid "Are you sure you want to reset all Crypto-hub settings, watchlist, alerts, and portfolio to default values? This action cannot be undone unless you have a backup."
+msgstr "Tüm Crypto-hub ayarlarını, izleme listesini, uyarıları ve portföyü varsayılan değerlere sıfırlamak istediğinizden emin misiniz?"
+
+msgid "All settings have been reset to defaults."
+msgstr "Tüm ayarlar varsayılan değerlere sıfırlandı."
+
+msgid "File \"%1\" successfully saved in %2!"
+msgstr "«%1» dosyası %2 içine başarıyla kaydedildi!"
+
+msgid "Failed to write file (error code: %1)"
+msgstr "Dosya yazılamadı (hata kodu: %1)"
+
+msgid "File \"%1\" verified! Click 'Restore from Selected File' to apply."
+msgstr "«%1» dosyası doğrulandı! Uygulamak için 'Seçilen Dosyadan Geri Yükle'ye tıklayın."
+
+msgid "Failed to parse JSON file: %1"
+msgstr "JSON dosyası ayrıştırılamadı: %1"
+
+msgid "Could not read the selected file."
+msgstr "Seçilen dosya okunamadı."
+
+msgid "Backup successfully restored! Watchlist (%1 coins) and all settings are applied."
+msgstr "Yedek başarıyla geri yüklendi! İzleme listesi (%1 coin) ve ayarlar uygulandı."
+
+msgid "Save Backup File (.json)"
+msgstr "Yedek Dosyasını Kaydet (.json)"
+
+msgid "Select Backup File (.json)"
+msgstr "Yedek Dosyası Seç (.json)"
+
+msgid "JSON Backup files (*.json)"
+msgstr "JSON Yedek dosyaları (*.json)"
+
+msgid "All files (*)"
+msgstr "Tüm dosyalar (*)"
+
+msgid "Changes in version v1.1.0:"
+msgstr "v1.1.0 sürümündeki değişiklikler:"
+
+msgid "• Added full-featured Crypto Portfolio with 100% private, client-side storage.\n• Dynamic 3-tab popup slider with total balance, 24h PnL, all-time PnL, and allocation bar.\n• 16th standalone desktop widget card for Portfolio monitoring.\n• Quick balance privacy toggle (hide/show balance) across desktop and popup.\n• General performance optimizations and UI refinements."
+msgstr "• %100 yerel ve gizli depolamaya sahip tam özellikli Kripto Portföyü eklendi.\n• Toplam bakiye, 24s K/Z, genel ROI ve dağılım çubuğuna sahip dinamik 3 sekmeli açılır pencere kaydırıcısı.\n• Portföy takibi için 16. bağımsız masaüstü araç kartı.\n• Hızlı bakiye gizlilik anahtarı (bakiyeyi gizle/göster).\n• Genel performans optimizasyonları ve kullanıcı arayüzü iyileştirmeleri."

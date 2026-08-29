@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="vsCurrency" type="String">
+      <default>usd</default>
+    </entry>
+    <entry name="updateInterval" type="Int">
+      <default>5</default>
+    </entry>
+    <entry name="desktopCardType" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="favoriteCoins" type="String">
+      <default></default>
+    </entry>
+    <entry name="showTicker" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showSummary" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showMiniCards" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showAnalysisCards" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showTables" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showHalving" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="alertsJson" type="String">
+      <default>{"alerts":[]}</default>
+    </entry>
+    <entry name="portfolioJson" type="String">
+      <default>{"enabled":false,"hideBalance":false,"items":[]}</default>
+    </entry>
+  </group>
+</kcfg>

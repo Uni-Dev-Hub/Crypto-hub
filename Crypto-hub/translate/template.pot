@@ -1,0 +1,668 @@
+# Translations template for Crypto-hub.
+# Copyright (C) 2026 UniDevHub
+# This file is distributed under the GNU GPLv3 license.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.1.0\n"
+"Report-Msgid-Bugs-To: unidevhub@gmail.com\n"
+"POT-Creation-Date: 2026-08-28 20:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "General"
+msgstr ""
+
+msgid "Coin List"
+msgstr ""
+
+msgid "Portfolio"
+msgstr ""
+
+msgid "Alerts"
+msgstr ""
+
+msgid "Backup & Restore"
+msgstr ""
+
+msgid "Support & Info"
+msgstr ""
+
+msgid "Crypto-hub"
+msgstr ""
+
+msgid "Test notification is working correctly!"
+msgstr ""
+
+msgid "Add Coin"
+msgstr ""
+
+msgid "Click to configure"
+msgstr ""
+
+msgid "Updating data..."
+msgstr ""
+
+msgid "Rate limit exceeded"
+msgstr ""
+
+msgid "(retry in %1 sec.)"
+msgstr ""
+
+msgid "Successfully updated"
+msgstr ""
+
+msgid "(at %1)"
+msgstr ""
+
+msgid "Refresh data"
+msgstr ""
+
+msgid "Feed"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+msgid "Please wait, updating data..."
+msgstr ""
+
+msgid "Favorites list is empty"
+msgstr ""
+
+msgid "Add your favorite coins in widget settings to track their prices on this tab."
+msgstr ""
+
+msgid "Go to Settings"
+msgstr ""
+
+msgid "Active Cryptos"
+msgstr ""
+
+msgid "coins on market"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Extreme Fear"
+msgstr ""
+
+msgid "Fear"
+msgstr ""
+
+msgid "Neutral"
+msgstr ""
+
+msgid "Greed"
+msgstr ""
+
+msgid "Extreme Greed"
+msgstr ""
+
+msgid "%1 days"
+msgstr ""
+
+msgid "Epoch progress: %1%"
+msgstr ""
+
+msgid "Market Cap"
+msgstr ""
+
+msgid "Accumulation"
+msgstr ""
+
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr ""
+
+msgid "Panic / Crash"
+msgstr ""
+
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr ""
+
+msgid "Rally / Bull Run"
+msgstr ""
+
+msgid "Strong bullish momentum across major assets."
+msgstr ""
+
+msgid "Altseason Peak"
+msgstr ""
+
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr ""
+
+msgid "Correction / Fear"
+msgstr ""
+
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr ""
+
+msgid "Market Summary:"
+msgstr ""
+
+msgid "Fire Sale"
+msgstr ""
+
+msgid "Buy!"
+msgstr ""
+
+msgid "Accumulate"
+msgstr ""
+
+msgid "Is this FOMO?"
+msgstr ""
+
+msgid "Maximum Bubble!"
+msgstr ""
+
+msgid "BTC Price Valuation"
+msgstr ""
+
+msgid "Stablecoin Dom"
+msgstr ""
+
+msgid "Risk-Off (Fear)"
+msgstr ""
+
+msgid "Risk-On (Buying)"
+msgstr ""
+
+msgid "Top 5 Gainers"
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "Top 5 Losers"
+msgstr ""
+
+msgid "Trending Now"
+msgstr ""
+
+msgid "24h Volume"
+msgstr ""
+
+msgid "ETH/BTC Ratio"
+msgstr ""
+
+msgid "BTC Halving"
+msgstr ""
+
+msgid "Selected Coin"
+msgstr ""
+
+msgid "Dominance"
+msgstr ""
+
+msgid "Dominance (BTC / ETH)"
+msgstr ""
+
+msgid "BTC Halving Countdown"
+msgstr ""
+
+msgid "BTC Rainbow Zone"
+msgstr ""
+
+msgid "Stablecoin Dominance"
+msgstr ""
+
+msgid "Active Cryptocurrencies"
+msgstr ""
+
+msgid "Global Market Cap"
+msgstr ""
+
+msgid "24h Total Volume"
+msgstr ""
+
+msgid "Fear & Greed Index"
+msgstr ""
+
+msgid "Target:"
+msgstr ""
+
+msgid "Condition:"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Options:"
+msgstr ""
+
+msgid "Note (optional)"
+msgstr ""
+
+msgid "Create alert"
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+msgid "Test alert"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Your configured alerts:"
+msgstr ""
+
+msgid "BTC Dominance"
+msgstr ""
+
+msgid "ETH Dominance"
+msgstr ""
+
+msgid "Only once"
+msgstr ""
+
+msgid "Once a day"
+msgstr ""
+
+msgid "Every time"
+msgstr ""
+
+msgid "Every time reached"
+msgstr ""
+
+msgid "Search or Add Coins:"
+msgstr ""
+
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr ""
+
+msgid "Coin list is empty"
+msgstr ""
+
+msgid "Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by name."
+msgstr ""
+
+msgid "Your watchlist (%1)"
+msgstr ""
+
+msgid "Target Currency:"
+msgstr ""
+
+msgid "Auto-refresh Interval:"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+msgid "5 minutes"
+msgstr ""
+
+msgid "10 minutes"
+msgstr ""
+
+msgid "15 minutes"
+msgstr ""
+
+msgid "30 minutes"
+msgstr ""
+
+msgid "45 minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "Desktop Widget:"
+msgstr ""
+
+msgid "Selected Coin Card"
+msgstr ""
+
+msgid "Dominance Distribution"
+msgstr ""
+
+msgid "Marquee Price Ticker"
+msgstr ""
+
+msgid "Trending Coins"
+msgstr ""
+
+msgid "24h Trading Volume"
+msgstr ""
+
+msgid "Market Analytics Summary"
+msgstr ""
+
+msgid "Widget Coin (ID or Ticker):"
+msgstr ""
+
+msgid "e.g. btc, eth, sol, doge..."
+msgstr ""
+
+msgid "Feed Settings"
+msgstr ""
+
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr ""
+
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr ""
+
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr ""
+
+msgid "Portfolio Tracking:"
+msgstr ""
+
+msgid "Enable Crypto Portfolio"
+msgstr ""
+
+msgid "100% Local & Private"
+msgstr ""
+
+msgid "Your portfolio assets, quantities, and transactions are stored strictly on your device. No balances or financial data are ever transmitted to third parties or remote servers."
+msgstr ""
+
+msgid "Add Asset to Portfolio:"
+msgstr ""
+
+msgid "Edit Asset:"
+msgstr ""
+
+msgid "Coin (Ticker or ID):"
+msgstr ""
+
+msgid "Holdings Quantity:"
+msgstr ""
+
+msgid "Avg. Buy Price (Optional):"
+msgstr ""
+
+msgid "Add to Portfolio"
+msgstr ""
+
+msgid "Your Portfolio Assets (%1)"
+msgstr ""
+
+msgid "No assets added yet"
+msgstr ""
+
+msgid "Add your crypto holdings using the form above."
+msgstr ""
+
+msgid "Amount: %1 %2"
+msgstr ""
+
+msgid "Buy: %1"
+msgstr ""
+
+msgid "Total Portfolio Balance"
+msgstr ""
+
+msgid "Show balance"
+msgstr ""
+
+msgid "Hide balance"
+msgstr ""
+
+msgid "Asset Allocation"
+msgstr ""
+
+msgid "%1 Assets"
+msgstr ""
+
+msgid "Portfolio is empty"
+msgstr ""
+
+msgid "Add your crypto assets in widget settings to track your balances, 24h PnL, and allocation."
+msgstr ""
+
+msgid "Crypto Portfolio"
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+msgid "In Portfolio"
+msgstr ""
+
+msgid "ROI:"
+msgstr ""
+
+msgid "Save Backup to File (.json)"
+msgstr ""
+
+msgid "Save Backup to File (.json)..."
+msgstr ""
+
+msgid "Quick Save to Downloads"
+msgstr ""
+
+msgid "Open Folder in Dolphin"
+msgstr ""
+
+msgid "Watchlist: %1 coins"
+msgstr ""
+
+msgid "Portfolio: %1 assets"
+msgstr ""
+
+msgid "Alerts: %1 rules"
+msgstr ""
+
+msgid "Coins: %1"
+msgstr ""
+
+msgid "Restore from File (.json)"
+msgstr ""
+
+msgid "Choose Backup File (.json)..."
+msgstr ""
+
+msgid "No file chosen"
+msgstr ""
+
+msgid "Valid Backup File Detected:"
+msgstr ""
+
+msgid "Restore from Selected File"
+msgstr ""
+
+msgid "Factory Reset"
+msgstr ""
+
+msgid "Reset All to Defaults"
+msgstr ""
+
+msgid "Clears watchlist, alerts, portfolio, and restores initial settings."
+msgstr ""
+
+msgid "Reset All Settings?"
+msgstr ""
+
+msgid "Are you sure you want to reset all Crypto-hub settings, watchlist, alerts, and portfolio to default values? This action cannot be undone unless you have a backup."
+msgstr ""
+
+msgid "All settings have been reset to defaults."
+msgstr ""
+
+msgid "File \"%1\" successfully saved in %2!"
+msgstr ""
+
+msgid "Failed to write file (error code: %1)"
+msgstr ""
+
+msgid "File \"%1\" verified! Click 'Restore from Selected File' to apply."
+msgstr ""
+
+msgid "Failed to parse JSON file: %1"
+msgstr ""
+
+msgid "Could not read the selected file."
+msgstr ""
+
+msgid "Backup successfully restored! Watchlist (%1 coins) and all settings are applied."
+msgstr ""
+
+msgid "Save Backup File (.json)"
+msgstr ""
+
+msgid "Select Backup File (.json)"
+msgstr ""
+
+msgid "JSON Backup files (*.json)"
+msgstr ""
+
+msgid "All files (*)"
+msgstr ""
+
+msgid "The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr ""
+
+msgid "What's New"
+msgstr ""
+
+msgid "About Project"
+msgstr ""
+
+msgid "Authors"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "Crypto-hub provides real-time crypto market monitoring via 16 desktop card types, custom crypto portfolio, auto-refresh, and a local SQLite database for offline coin search. The project is fully open source under the GNU GPLv3 license."
+msgstr ""
+
+msgid "Changes in version v1.1.0:"
+msgstr ""
+
+msgid "• Added full-featured Crypto Portfolio with 100% private, client-side storage.\n• Dynamic 3-tab popup slider with total balance, 24h PnL, all-time PnL, and allocation bar.\n• 16th standalone desktop widget card for Portfolio monitoring.\n• Quick balance privacy toggle (hide/show balance) across desktop and popup.\n• General performance optimizations and UI refinements."
+msgstr ""
+
+msgid "Universal Development Hub (UniDevHub)"
+msgstr ""
+
+msgid "The UniDevHub project was created by a visually impaired developer from Ukraine to build open-source software products, primarily for Linux and Android."
+msgstr ""
+
+msgid "Project Goals:"
+msgstr ""
+
+msgid "1. Create software products missing in daily use."
+msgstr ""
+
+msgid "2. Involve more people in open-source development."
+msgstr ""
+
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr ""
+
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr ""
+
+msgid "Join the UniDevHub project!"
+msgstr ""
+
+msgid "Whether you are a developer, designer, translator, or user — your ideas and contribution will help make open-source software better and more accessible for everyone."
+msgstr ""
+
+msgid "Development Team:"
+msgstr ""
+
+msgid "• Concept & Development:"
+msgstr ""
+
+msgid "• Design & Base Localization:"
+msgstr ""
+
+msgid "Open project repository on GitHub"
+msgstr ""
+
+msgid "By supporting us financially, you support not only the development of this widget, but also other open-source projects for the Linux community from our team!"
+msgstr ""
+
+msgid "Community & Development"
+msgstr ""
+
+msgid "Contact Email:"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "YouTube channel:"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "GitHub team:"
+msgstr ""
+
+msgid "Join us in improving the code"
+msgstr ""
+
+msgid "Join"
+msgstr ""
+
+msgid "Financial Support (Donations)"
+msgstr ""
+
+msgid "Frequently Asked Questions (FAQ):"
+msgstr ""
+
+msgid "How to add a new coin to the widget?"
+msgstr ""
+
+msgid "Go to the \"Coin List\" tab in settings and use the search bar by name or ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr ""
+
+msgid "What does \"Rate limit exceeded\" mean?"
+msgstr ""
+
+msgid "The free public CoinGecko API has a request limit per minute. If this limit is exceeded, the widget automatically enables a 60-second protective countdown timer and will resume updating data after it finishes."
+msgstr ""
+
+msgid "How do system notifications (Alerts) work?"
+msgstr ""
+
+msgid "In the \"Alerts\" tab, you can set up triggers for coins reaching specific prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators (Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr ""
+
+msgid "Why does the panel indicator status change?"
+msgstr ""
+
+msgid "The indicator on the Plasma panel reflects the real-time overall state of the crypto market (e.g. panic/correction, rally/growth, flat/accumulation, altseason)."
+msgstr ""
+
+msgid "How to select an individual card for the desktop?"
+msgstr ""
+
+msgid "When placing the widget directly on the desktop (desktop mode), open \"General Settings\" and choose one of the 16 card types (Coin Card, Fear & Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr ""
+
+msgid "Where does the widget fetch price data from?"
+msgstr ""
+
+msgid "The widget receives current price quotes from the CoinGecko API, and the Fear & Greed Index from the Alternative.me API."
+msgstr ""
+
+msgid "Does the widget work without an internet connection?"
+msgstr ""
+
+msgid "Searching and adding coins work offline thanks to a local SQLite database. An active internet connection is required to update real-time prices."
+msgstr ""

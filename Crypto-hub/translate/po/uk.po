@@ -1,0 +1,1025 @@
+# Ukrainian translations for Crypto-hub.
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.1.0\n"
+"Report-Msgid-Bugs-To: unidevhub@gmail.com\n"
+"POT-Creation-Date: 2026-08-28 20:00+0300\n"
+"PO-Revision-Date: 2026-08-28 20:00+0300\n"
+"Last-Translator: Олександр Афанасьєв<unidevhub@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "General"
+msgstr "Загальні"
+
+msgid "Coin List"
+msgstr "Список монет"
+
+msgid "Portfolio"
+msgstr "Портфель"
+
+msgid "Alerts"
+msgstr "Сповіщення"
+
+msgid "Backup & Restore"
+msgstr "Резервна копія та відновлення"
+
+msgid "Support & Info"
+msgstr "Підтримка та інформація"
+
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+msgid "The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "Перший багатофункціональний віджет моніторингу криптовалют для KDE Plasma 6."
+
+msgid "What's New"
+msgstr "Що нового"
+
+msgid "About Project"
+msgstr "Про проєкт"
+
+msgid "Authors"
+msgstr "Автори"
+
+msgid "Support"
+msgstr "Підтримка"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Crypto-hub provides real-time crypto market monitoring via 16 desktop card types, custom crypto portfolio, auto-refresh, and a local SQLite database for offline coin search. The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub забезпечує моніторинг криптовалютного ринку в реальному часі за допомогою 16 типів карток для робочого столу, власного криптовалютного портфелю, автооновлення та локальної бази даних SQLite для офлайн-пошуку монет. Проєкт повністю відкритий під ліцензією GNU GPLv3."
+
+msgid "Changes in version v1.1.0:"
+msgstr "Зміни у версії v1.1.0:"
+
+msgid "• Added full-featured Crypto Portfolio with 100% private, client-side storage.\n• Dynamic 3-tab popup slider with total balance, 24h PnL, all-time PnL, and allocation bar.\n• 16th standalone desktop widget card for Portfolio monitoring.\n• Quick balance privacy toggle (hide/show balance) across desktop and popup.\n• General performance optimizations and UI refinements."
+msgstr "• Додано повнофункціональний модуль «Криптовалютний портфель» зі 100% локальним зберіганням.\n• Динамічний 3-вкладковий поп-ап із балансом, 24h PnL, All-Time ROI та смугою часток.\n• 16-та окрема віджет-картка для робочого столу для портфелю.\n• Швидке приховування сум балансу на робочому столі та в поп-апі.\n• Загальна оптимізація продуктивності та покращення UI."
+
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "Хаб універсальної розробки (UniDevHub)"
+
+msgid "The UniDevHub project was created by a visually impaired developer from Ukraine to build open-source software products, primarily for Linux and Android."
+msgstr "Проєкт хаб універсальної розробки \"UniDevHub\" було створено розробником з вадами зору з України, задля створення програмних продуктів з відкритим вихідним кодом, переважно для Linux/Android."
+
+msgid "Project Goals:"
+msgstr "Мета проєкту:"
+
+msgid "1. Create software products missing in daily use."
+msgstr "1. Створювати програмні продукти, котрих не вистачає у повсякденному використанні."
+
+msgid "2. Involve more people in open-source development."
+msgstr "2. Залучати до відкритої розробки більше людей."
+
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. Просувати ідею відкритого коду та цифрового суверенітету."
+
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. Бути на одній хвилі зі спільнотою і робити все, щоб програмні продукти були доступними кожному."
+
+msgid "Join the UniDevHub project!"
+msgstr "Приєднуйтесь до проєкту UniDevHub!"
+
+msgid "Whether you are a developer, designer, translator, or user — your ideas and contribution will help make open-source software better and more accessible for everyone."
+msgstr "Незалежно від того, чи ви розробник, дизайнер, перекладач або просто користувач — ваші ідеї та внесок допоможуть зробити відкрите програмне забезпечення кращим та доступнішим для всіх."
+
+msgid "Development Team:"
+msgstr "Команда розробників:"
+
+msgid "• Concept & Development:"
+msgstr "• Концепція та розробка:"
+
+msgid "• Design & Base Localization:"
+msgstr "• Дизайн та базова локалізація:"
+
+msgid "Open project repository on GitHub"
+msgstr "Відкрити репозиторій проєкту на GitHub"
+
+msgid "By supporting us financially, you support not only the development of this widget, but also other open-source projects for the Linux community from our team!"
+msgstr "Підтримуючи нас фінансово, ви підтримуєте не лише розробку цього віджета, а й інші відкриті проєкти для спільноти Linux від нашої команди!"
+
+msgid "Community & Development"
+msgstr "Спільнота та розробка"
+
+msgid "Contact Email:"
+msgstr "Контактний Email:"
+
+msgid "Copy"
+msgstr "Копіювати"
+
+msgid "YouTube channel:"
+msgstr "YouTube-канал:"
+
+msgid "Subscribe"
+msgstr "Підписатися"
+
+msgid "GitHub team:"
+msgstr "Команда GitHub:"
+
+msgid "Join us in improving the code"
+msgstr "Приєднуйтесь до вдосконалення коду"
+
+msgid "Join"
+msgstr "Приєднатися"
+
+msgid "Financial Support (Donations)"
+msgstr "Фінансова підтримка (Донати)"
+
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "Часті запитання (FAQ):"
+
+msgid "How to add a new coin to the widget?"
+msgstr "Як додати нову монету у віджет?"
+
+msgid "Go to the \"Coin List\" tab in settings and use the search bar by name or ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "Перейдіть на вкладку «Список монет» у налаштуваннях та скористайтеся пошуком за назвою або тікером (btc, eth, sol), або використовуйте пакетне додавання через крапку (btc.eth.sol)."
+
+msgid "What does \"Rate limit exceeded\" mean?"
+msgstr "Що означає «Rate limit exceeded»?"
+
+msgid "The free public CoinGecko API has a request limit per minute. If this limit is exceeded, the widget automatically enables a 60-second protective countdown timer and will resume updating data after it finishes."
+msgstr "Безкоштовний публічний CoinGecko API має ліміт запитів на хвилину. Якщо цей ліміт перевищено, віджет автоматично вмикає захисний 60-секундний таймер зворотного відліку та відновить оновлення даних після його завершення."
+
+msgid "How do system notifications (Alerts) work?"
+msgstr "Як працюють системні сповіщення (Alerts)?"
+
+msgid "In the \"Alerts\" tab, you can set up triggers for coins reaching specific prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators (Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "На вкладці «Сповіщення» ви можете налаштувати тригери досягнення монетами певних цін, пробиття максимумів/мінімумів за 24г, досягнення ATH/ATL, a також макроіндикаторів (зміни Індексу Страху та Жадібності, домінації BTC/ETH тощо)."
+
+msgid "Why does the panel indicator status change?"
+msgstr "Чому змінюється статус індикатора на панелі?"
+
+msgid "The indicator on the Plasma panel reflects the real-time overall state of the crypto market (e.g. panic/correction, rally/growth, flat/accumulation, altseason)."
+msgstr "Індикатор на панелі Plasma відображає поточний загальний стан крипторинку в реальному часі (наприклад, паніка/корекція, ралі/зростання, флет/накопичення, альтсезон)."
+
+msgid "How to select an individual card for the desktop?"
+msgstr "Як обрати окрему картку для робочого столу?"
+
+msgid "When placing the widget directly on the desktop (desktop mode), open \"General Settings\" and choose one of the 16 card types (Coin Card, Fear & Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "При розміщенні віджета безпосередньо на робочому столі (десктопний режим), відкрийте «Загальні налаштування» та оберіть один із 16 типів карток (Картка монети, Портфель, Індекс страху та жадібності, Глобальна капіталізація, Халвінг BTC, ETH/BTC, Rainbow Zone тощо)."
+
+msgid "Where does the widget fetch price data from?"
+msgstr "Звідки віджет отримує дані про ціни?"
+
+msgid "The widget receives current price quotes from the CoinGecko API, and the Fear & Greed Index from the Alternative.me API."
+msgstr "Віджет отримує актуальні котирування цін з CoinGecko API, а Індекс страху та жадібності — з Alternative.me API."
+
+msgid "Does the widget work without an internet connection?"
+msgstr "Чи працює віджет без підключення до інтернету?"
+
+msgid "Searching and adding coins work offline thanks to a local SQLite database. An active internet connection is required to update real-time prices."
+msgstr "Пошук та додавання монет працюють офлайн завдяки локальній базі даних SQLite. Активне інтернет-з'єднання потрібне для оновлення актуальних цін у реальному часі."
+
+msgid "Portfolio Tracking:"
+msgstr "Відстеження портфелю:"
+
+msgid "Enable Crypto Portfolio"
+msgstr "Увімкнути криптовалютний портфель"
+
+msgid "100% Local & Private"
+msgstr "100% Локально та конфіденційно"
+
+msgid "Your portfolio assets, quantities, and transactions are stored strictly on your device. No balances or financial data are ever transmitted to third parties or remote servers."
+msgstr "Активи, баланси та транзакції вашого портфелю зберігаються виключно на вашому пристрої. Жодні фінансові дані ніколи не передаються стороннім сервісам чи серверам."
+
+msgid "Add Asset to Portfolio:"
+msgstr "Додати актив до портфелю:"
+
+msgid "Edit Asset:"
+msgstr "Редагувати актив:"
+
+msgid "Coin (Ticker or ID):"
+msgstr "Монета (Тікер або ID):"
+
+msgid "Holdings Quantity:"
+msgstr "Кількість монет:"
+
+msgid "Avg. Buy Price (Optional):"
+msgstr "Сер. ціна покупки (необов'язково):"
+
+msgid "Add to Portfolio"
+msgstr "Додати до портфелю"
+
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+msgid "Your Portfolio Assets (%1)"
+msgstr "Активи у вашому портфелі (%1)"
+
+msgid "No assets added yet"
+msgstr "Ще не додано жодного активу"
+
+msgid "Add your crypto holdings using the form above."
+msgstr "Додайте ваші криптовалютні активи за допомогою форми вище."
+
+msgid "Amount: %1 %2"
+msgstr "Кількість: %1 %2"
+
+msgid "Buy: %1"
+msgstr "Купівля: %1"
+
+msgid "Total Portfolio Balance"
+msgstr "Загальний баланс портфелю"
+
+msgid "Show balance"
+msgstr "Показати баланс"
+
+msgid "Hide balance"
+msgstr "Приховати баланс"
+
+msgid "Asset Allocation"
+msgstr "Розподіл активів"
+
+msgid "%1 Assets"
+msgstr "%1 активів"
+
+msgid "Portfolio is empty"
+msgstr "Портфель порожній"
+
+msgid "Add your crypto assets in widget settings to track your balances, 24h PnL, and allocation."
+msgstr "Додайте ваші криптовалютні активи в налаштуваннях віджета, щоб відстежувати баланс, добовий PnL та структуру портфелю."
+
+msgid "Crypto Portfolio"
+msgstr "Криптовалютний портфель"
+
+msgid "Empty"
+msgstr "Порожньо"
+
+msgid "In Portfolio"
+msgstr "У портфелі"
+
+msgid "ROI:"
+msgstr "ROI:"
+
+msgid "Save Backup to File (.json)"
+msgstr "Зберегти резервну копію у файл (.json)"
+
+msgid "Save Backup to File (.json)..."
+msgstr "Зберегти резервну копію у файл (.json)..."
+
+msgid "Quick Save to Downloads"
+msgstr "Швидко у Завантаження"
+
+msgid "Open Folder in Dolphin"
+msgstr "Відкрити теку в Dolphin"
+
+msgid "Watchlist: %1 coins"
+msgstr "Обране: %1 монет"
+
+msgid "Portfolio: %1 assets"
+msgstr "Портфель: %1 активів"
+
+msgid "Alerts: %1 rules"
+msgstr "Сповіщення: %1 правил"
+
+msgid "Coins: %1"
+msgstr "Монет: %1"
+
+msgid "Restore from File (.json)"
+msgstr "Відновлення з файлу (.json)"
+
+msgid "Choose Backup File (.json)..."
+msgstr "Обрати файл резервної копії (.json)..."
+
+msgid "No file chosen"
+msgstr "Файл не обрано"
+
+msgid "Valid Backup File Detected:"
+msgstr "Виявлено валідний файл резервної копії:"
+
+msgid "Restore from Selected File"
+msgstr "Відновити з обраного файлу"
+
+msgid "Factory Reset"
+msgstr "Скидання налаштувань"
+
+msgid "Reset All to Defaults"
+msgstr "Скинути все до початкового стану"
+
+msgid "Clears watchlist, alerts, portfolio, and restores initial settings."
+msgstr "Очищує список обраного, сповіщення, портфель та повертає початкові налаштування."
+
+msgid "Reset All Settings?"
+msgstr "Скинути всі налаштування?"
+
+msgid "Are you sure you want to reset all Crypto-hub settings, watchlist, alerts, and portfolio to default values? This action cannot be undone unless you have a backup."
+msgstr "Ви дійсно бажаєте скинути всі налаштування Crypto-hub, обрані монети, сповіщення та портфель до значень за замовчуванням? Цю дію неможливо буде скасувати, якщо у вас немає резервної копії."
+
+msgid "All settings have been reset to defaults."
+msgstr "Всі налаштування скинуто до значень за замовчуванням."
+
+msgid "File \"%1\" successfully saved in %2!"
+msgstr "Файл «%1» успішно збережено у %2!"
+
+msgid "Failed to write file (error code: %1)"
+msgstr "Не вдалося записати файл (код помилки: %1)"
+
+msgid "File \"%1\" verified! Click 'Restore from Selected File' to apply."
+msgstr "Файл «%1» перевірено! Натисніть «Відновити з обраного файлу», щоб застосувати."
+
+msgid "Failed to parse JSON file: %1"
+msgstr "Помилка читання JSON файлу: %1"
+
+msgid "Could not read the selected file."
+msgstr "Не вдалося прочитати обраний файл."
+
+msgid "Backup successfully restored! Watchlist (%1 coins) and all settings are applied."
+msgstr "Резервну копію успішно відновлено! Список монет (%1 шт.) та всі налаштування застосовані."
+
+msgid "Save Backup File (.json)"
+msgstr "Збереження файлу резервної копії (.json)"
+
+msgid "Select Backup File (.json)"
+msgstr "Вибір файлу резервної копії (.json)"
+
+msgid "JSON Backup files (*.json)"
+msgstr "Файли резервної копії JSON (*.json)"
+
+msgid "All files (*)"
+msgstr "Всі файли (*)"
+
+msgid "Target Currency:"
+msgstr "Цільова валюта:"
+
+msgid "Auto-refresh Interval:"
+msgstr "Інтервал автооновлення:"
+
+msgid "1 minute"
+msgstr "1 хвилина"
+
+msgid "5 minutes"
+msgstr "5 хвилин"
+
+msgid "10 minutes"
+msgstr "10 хвилин"
+
+msgid "15 minutes"
+msgstr "15 хвилин"
+
+msgid "30 minutes"
+msgstr "30 хвилин"
+
+msgid "45 minutes"
+msgstr "45 хвилин"
+
+msgid "1 hour"
+msgstr "1 година"
+
+msgid "Desktop Widget:"
+msgstr "Віджет робочого столу:"
+
+msgid "Selected Coin Card"
+msgstr "Картка обраної монети"
+
+msgid "Dominance Distribution"
+msgstr "Розподіл домінації"
+
+msgid "Marquee Price Ticker"
+msgstr "Рядок з цінами (тікер)"
+
+msgid "Trending Coins"
+msgstr "Популярні монети"
+
+msgid "24h Trading Volume"
+msgstr "Об'єм торгів за 24г"
+
+msgid "Market Analytics Summary"
+msgstr "Аналітичний підсумок ринку"
+
+msgid "Widget Coin (ID or Ticker):"
+msgstr "Монета віджета (ID або тікер):"
+
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "наприклад: btc, eth, sol, doge..."
+
+msgid "Feed Settings"
+msgstr "Налаштування стрічки"
+
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "Ключові метрики (Капіталізація, Об'єм, Страх і Жадібність, Домінація)"
+
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "Аналітичні моделі (ETH/BTC, Оцінка ціни BTC)"
+
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "Таблиці лідерів (Зростання, Падіння та Тренди)"
+
+msgid "Search or Add Coins:"
+msgstr "Пошук або додавання монет:"
+
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "Назва, тікер (наприклад btc) або пакет (btc.eth.sol)..."
+
+msgid "Coin list is empty"
+msgstr "Список монет порожній"
+
+msgid "Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by name."
+msgstr "Використовуйте рядок пошуку вище для пакетного додавання (наприклад btc.eth.sol) або пошуку за назвою."
+
+msgid "Your watchlist (%1)"
+msgstr "Ваш список відстеження (%1)"
+
+msgid "Target:"
+msgstr "Ціль:"
+
+msgid "Condition:"
+msgstr "Умова:"
+
+msgid "Disabled"
+msgstr "Вимкнено"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Value"
+msgstr "Значення"
+
+msgid "Options:"
+msgstr "Параметри:"
+
+msgid "Note (optional)"
+msgstr "Примітка (необов'язково)"
+
+msgid "Create alert"
+msgstr "Створити сповіщення"
+
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+msgid "Test alert"
+msgstr "Тестове сповіщення"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Your configured alerts:"
+msgstr "Налаштовані сповіщення:"
+
+msgid "Only once"
+msgstr "Лише один раз"
+
+msgid "Once a day"
+msgstr "Один раз на день"
+
+msgid "Every time"
+msgstr "Щоразу"
+
+msgid "Every time reached"
+msgstr "Щоразу при досягненні"
+
+msgid "BTC Dominance"
+msgstr "Домінація BTC"
+
+msgid "ETH Dominance"
+msgstr "Домінація ETH"
+
+msgid "Feed"
+msgstr "Стрічка"
+
+msgid "Favorites"
+msgstr "Обране"
+
+msgid "Updating data..."
+msgstr "Оновлення даних..."
+
+msgid "Rate limit exceeded"
+msgstr "Перевищено ліміт запитів"
+
+msgid "(retry in %1 sec.)"
+msgstr "(повтор через %1 сек.)"
+
+msgid "Successfully updated"
+msgstr "Успішно оновлено"
+
+msgid "(at %1)"
+msgstr "(о %1)"
+
+msgid "Refresh data"
+msgstr "Оновити дані"
+
+msgid "Please wait, updating data..."
+msgstr "Будь ласка, зачекайте, оновлення даних..."
+
+msgid "Favorites list is empty"
+msgstr "Список обраного порожній"
+
+msgid "Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "Додайте ваші улюблені монети в налаштуваннях віджета, щоб відстежувати їхні ціни на цій вкладці."
+
+msgid "Go to Settings"
+msgstr "Перейти до налаштувань"
+
+msgid "Active Cryptos"
+msgstr "Активні крипто"
+
+msgid "coins on market"
+msgstr "монет на ринку"
+
+msgid "Loading..."
+msgstr "Завантаження..."
+
+msgid "Extreme Fear"
+msgstr "Екстремальний страх"
+
+msgid "Fear"
+msgstr "Страх"
+
+msgid "Neutral"
+msgstr "Нейтрально"
+
+msgid "Greed"
+msgstr "Жадібність"
+
+msgid "Extreme Greed"
+msgstr "Екстремальна жадібність"
+
+msgid "%1 days"
+msgstr "%1 дн."
+
+msgid "Epoch progress: %1%"
+msgstr "Прогрес епохи: %1%"
+
+msgid "Market Cap"
+msgstr "Капіталізація"
+
+msgid "Accumulation"
+msgstr "Накопичення"
+
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "Ринок знаходиться у боковому діапазоні низької волатильності."
+
+msgid "Panic / Crash"
+msgstr "Паніка / Крах"
+
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "Екстремальний страх на ринку. Зона історичних можливостей для покупки."
+
+msgid "Rally / Bull Run"
+msgstr "Ралі / Бичий ринок"
+
+msgid "Strong bullish momentum across major assets."
+msgstr "Сильний бичий імпульс серед основних активів."
+
+msgid "Altseason Peak"
+msgstr "Пік альтсезону"
+
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "Капітал активно перетікає в альткоїни, поки домінація BTC знижується."
+
+msgid "Correction / Fear"
+msgstr "Корекція / Страх"
+
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "Фаза корекції ринку. Покупці виявляють обережність біля рівнів підтримки."
+
+msgid "Market Summary:"
+msgstr "Підсумок ринку:"
+
+msgid "Fire Sale"
+msgstr "Розпродаж"
+
+msgid "Buy!"
+msgstr "Купуй!"
+
+msgid "Accumulate"
+msgstr "Накопичуй"
+
+msgid "Is this FOMO?"
+msgstr "Це вже FOMO?"
+
+msgid "Maximum Bubble!"
+msgstr "Максимальна бульбашка!"
+
+msgid "BTC Price Valuation"
+msgstr "Оцінка ціни BTC"
+
+msgid "Stablecoin Dom"
+msgstr "Домінація стейблів"
+
+msgid "Risk-Off (Fear)"
+msgstr "Захист капіталу (Страх)"
+
+msgid "Risk-On (Buying)"
+msgstr "Вхід у ризик (Покупки)"
+
+msgid "Top 5 Gainers"
+msgstr "Топ-5 зростання"
+
+msgid "No data"
+msgstr "Немає даних"
+
+msgid "Top 5 Losers"
+msgstr "Топ-5 падіння"
+
+msgid "Trending Now"
+msgstr "Зараз у тренді"
+
+msgid "24h Volume"
+msgstr "Об'єм за 24г"
+
+msgid "ETH/BTC Ratio"
+msgstr "Співвідношення ETH/BTC"
+
+msgid "BTC Halving"
+msgstr "Халвінг BTC"
+
+msgid "Selected Coin"
+msgstr "Обрана монета"
+
+msgid "Dominance"
+msgstr "Домінація"
+
+msgid "Dominance (BTC / ETH)"
+msgstr "Домінація (BTC / ETH)"
+
+msgid "BTC Halving Countdown"
+msgstr "Зворотний відлік до Халвінгу BTC"
+
+msgid "BTC Rainbow Zone"
+msgstr "Зона BTC Rainbow"
+
+msgid "Stablecoin Dominance"
+msgstr "Домінація стейблкоїнів"
+
+msgid "Active Cryptocurrencies"
+msgstr "Активні криптовалюти"
+
+msgid "Global Market Cap"
+msgstr "Глобальна капіталізація"
+
+msgid "24h Total Volume"
+msgstr "Загальний об'єм торгів"
+
+msgid "Fear & Greed Index"
+msgstr "Індекс страху та жадібності"
+
+msgid "Price Reached Target"
+msgstr "Ціна досягла цілі"
+
+msgid "%1 reached target price: %2"
+msgstr "%1 досяг цільової ціни: %2"
+
+msgid "Price Above Target"
+msgstr "Ціна вище цілі"
+
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 вище %2 (поточна: %3)"
+
+msgid "Price Below Target"
+msgstr "Ціна нижче цілі"
+
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 нижче %2 (поточна: %3)"
+
+msgid "24h Surge"
+msgstr "Стрибок за 24г"
+
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 зміна за 24г: +%2% (> %3%)"
+
+msgid "24h Drop"
+msgstr "Падіння за 24г"
+
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 зміна за 24г: %2% (< %3%)"
+
+msgid "New ATH! 🚀"
+msgstr "Новий ATH! 🚀"
+
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 досяг нового ATH: %2"
+
+msgid "New ATL 🚨"
+msgstr "Новий ATL 🚨"
+
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 опустився до нового ATL: %2"
+
+msgid "24h High Breakout"
+msgstr "Пробиття 24г максимуму"
+
+msgid "%1 broke 24h high of %2"
+msgstr "%1 пробив 24г максимум (%2)"
+
+msgid "24h Low Breakout"
+msgstr "Пробиття 24г мінімуму"
+
+msgid "%1 broke 24h low of %2"
+msgstr "%1 пробив 24г мінімум (%2)"
+
+msgid "Drop from ATH"
+msgstr "Падіння від ATH"
+
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 впав на %2% від ATH (> %3%)"
+
+msgid "Rise from ATL"
+msgstr "Зростання від ATL"
+
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 виріс на %2% від ATL (> %3%)"
+
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "Індекс страху та жадібності складає %1 (> %2)"
+
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "Індекс страху та жадібності складає %1 (< %2)"
+
+msgid "Fear & Greed Shift"
+msgstr "Зміна зони Страху/Жадібності"
+
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "Настрій ринку змінився на %1 (%2)"
+
+msgid "Global Market Cap is above target value"
+msgstr "Глобальна капіталізація вища за цільову"
+
+msgid "Global Market Cap is below target value"
+msgstr "Глобальна капіталізація нижча за цільову"
+
+msgid "24h Total Volume is above target value"
+msgstr "Добовий об'єм торгів вищий за цільовий"
+
+msgid "24h Total Volume is below target value"
+msgstr "Добовий об'єм торгів нижчий за цільовий"
+
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 складає %2% (> %3%)"
+
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 складає %2% (< %3%)"
+
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "Кількість активних криптовалют складає %1 (> %2)"
+
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "Кількість активних криптовалют складає %1 (< %2)"
+
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "Паритет ETH/BTC складає %1 (> %2)"
+
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "Паритет ETH/BTC складає %1 (< %2)"
+
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "До халвінгу BTC залишилося: %1 дн. (< %2 дн.)"
+
+msgid "Price reaches"
+msgstr "Ціна досягає"
+
+msgid "Price above"
+msgstr "Ціна вище"
+
+msgid "Price below"
+msgstr "Ціна нижче"
+
+msgid "24h Change above (%)"
+msgstr "Зміна за 24г вище (%)"
+
+msgid "24h Change below (%)"
+msgstr "Зміна за 24г нижче (%)"
+
+msgid "ATH Reached"
+msgstr "Досягнуто ATH"
+
+msgid "ATL Reached"
+msgstr "Досягнуто ATL"
+
+msgid "Drop from ATH (%) >"
+msgstr "Падіння від ATH (%) >"
+
+msgid "Rise from ATL (%) >"
+msgstr "Зростання від ATL (%) >"
+
+msgid "Index above"
+msgstr "Індекс вище"
+
+msgid "Index below"
+msgstr "Індекс нижче"
+
+msgid "Zone status changes"
+msgstr "Зміна статусу зони"
+
+msgid "Value above"
+msgstr "Значення вище"
+
+msgid "Value below"
+msgstr "Значення нижче"
+
+msgid "Dominance above (%)"
+msgstr "Домінація вище (%)"
+
+msgid "Dominance below (%)"
+msgstr "Домінація нижче (%)"
+
+msgid "Count above"
+msgstr "Кількість вище"
+
+msgid "Count below"
+msgstr "Кількість нижче"
+
+msgid "Ratio above"
+msgstr "Співвідношення вище"
+
+msgid "Ratio below"
+msgstr "Співвідношення нижче"
+
+msgid "Valuation Zone changes"
+msgstr "Зміна зони оцінки"
+
+msgid "Days remaining less than"
+msgstr "Днів залишилося менше ніж"
+
+msgid "Price >"
+msgstr "Ціна >"
+
+msgid "Price <"
+msgstr "Ціна <"
+
+msgid "24h Change >"
+msgstr "Зміна за 24г >"
+
+msgid "24h Change <"
+msgstr "Зміна за 24г <"
+
+msgid "Reached ATH"
+msgstr "Досягнуто ATH"
+
+msgid "Reached ATL"
+msgstr "Досягнуто ATL"
+
+msgid "Drop from ATH >"
+msgstr "Падіння від ATH >"
+
+msgid "Rise from ATL >"
+msgstr "Зростання від ATL >"
+
+msgid "Index >"
+msgstr "Індекс >"
+
+msgid "Index <"
+msgstr "Індекс <"
+
+msgid "Zone shift"
+msgstr "Зміна зони"
+
+msgid "Value >"
+msgstr "Значення >"
+
+msgid "Value <"
+msgstr "Значення <"
+
+msgid "Dominance >"
+msgstr "Домінація >"
+
+msgid "Dominance <"
+msgstr "Домінація <"
+
+msgid "Count >"
+msgstr "Кількість >"
+
+msgid "Count <"
+msgstr "Кількість <"
+
+msgid "Ratio >"
+msgstr "Співвідношення >"
+
+msgid "Ratio <"
+msgstr "Співвідношення <"
+
+msgid "Days left <"
+msgstr "Днів залишилось <"
+
+msgid "Fire Sale 📉"
+msgstr "Розпродаж 📉"
+
+msgid "Buy! 🟢"
+msgstr "Купуй! 🟢"
+
+msgid "Accumulate 🟡"
+msgstr "Накопичуй 🟡"
+
+msgid "Is this FOMO? 🟠"
+msgstr "Це вже FOMO? 🟠"
+
+msgid "Maximum Bubble! 🚨"
+msgstr "Максимальна бульбашка! 🚨"
+
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — Долар США"
+
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — Євро"
+
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — Українська гривня"
+
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — Британський фунт"
+
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — Японська єна"
+
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — Канадський долар"
+
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — Австралійський долар"
+
+msgid "CHF — Swiss Franc"
+msgstr "CHF — Швейцарський франк"
+
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — Польський злотий"
+
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — Турецька ліра"
+
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — Китайський юань"
+
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — Чеська крона"
+
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — Данська крона"
+
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — Шведська крона"
+
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — Норвезька крона"
+
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — Угорський форинт"
+
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — Ізраїльський шекель"
+
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — Індійська рупія"
+
+msgid "Market consolidation phase in progress."
+msgstr "Триває фаза консолідації ринку."
+
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "Екстремальний страх на ринку з високою волатильністю та панічними продажами."
+
+msgid "Strong market growth and active buying momentum."
+msgstr "Сильне зростання ринку та активний імпульс покупок."
+
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "Альтсезон у розпалі, альткоїни випереджають BTC."
+
+msgid "Market correction phase. High caution among buyers."
+msgstr "Фаза корекції ринку. Висока обережність серед покупців."
+
+msgid "Market is in an accumulation and consolidation range."
+msgstr "Ринок знаходиться у діапазоні накопичення та консолідації."
+
+msgid "Loading market analytics data..."
+msgstr "Завантаження даних аналітики ринку..."
+
+msgid "Loading market analytics report..."
+msgstr "Завантаження аналітичного звіту ринку..."
+
+msgid "Test notification is working correctly!"
+msgstr "Тестове сповіщення працює коректно!"
+
+msgid "Add Coin"
+msgstr "Додати монету"
+
+msgid "Click to configure"
+msgstr "Натисніть для налаштування"
+
+msgid "Total Value above"
+msgstr "Загальний баланс вище"
+
+msgid "Total Value below"
+msgstr "Загальний баланс нижче"
+
+msgid "All-Time ROI above (%)"
+msgstr "Загальний ROI вище (%)"
+
+msgid "All-Time ROI below (%)"
+msgstr "Загальний ROI нижче (%)"
+
+msgid "Total Value >"
+msgstr "Баланс >"
+
+msgid "Total Value <"
+msgstr "Баланс <"
+
+msgid "All-Time ROI >"
+msgstr "Загальний ROI >"
+
+msgid "All-Time ROI <"
+msgstr "Загальний ROI <"
+
+msgid "days"
+msgstr "дн."

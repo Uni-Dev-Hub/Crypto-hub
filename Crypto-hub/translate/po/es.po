@@ -1,0 +1,1406 @@
+# Spanish translations for Crypto-hub.
+# Traducción al español para el paquete Crypto-hub.
+# Copyright (C) 2026 Crypto-hub AUTHORS
+# This file is distributed under the same license as the Crypto-hub package.
+# Kira Novak <kira@novak-design>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto-hub v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 19:49+0300\n"
+"PO-Revision-Date: 2026-07-25 23:30+0300\n"
+"Last-Translator: Kira Novak\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+""
+
+#: contents/config/config.qml:9 contents/ui/settings/GeneralSettings.qml:15
+msgid "General"
+msgstr "General"
+
+#: contents/config/config.qml:14 contents/ui/settings/CoinsSettings.qml:16
+msgid "Coin List"
+msgstr "Lista de monedas"
+
+#: contents/config/config.qml:23 contents/ui/settings/AlertsSettings.qml:18
+msgid "Alerts"
+msgstr "Alertas"
+
+#: contents/config/config.qml:28 contents/ui/settings/SupportSettings.qml:12
+msgid "Support & Info"
+msgstr "Soporte e información"
+
+#: contents/ui/DesktopFullRepresentation.qml:151
+msgid "Add Coin"
+msgstr "Añadir moneda"
+
+#: contents/ui/DesktopFullRepresentation.qml:162
+msgid "Click to configure"
+msgstr "Haz clic para configurar"
+
+#: contents/ui/main.qml:24
+msgid "Market consolidation phase in progress."
+msgstr "Fase de consolidación del mercado en curso."
+
+#: contents/ui/main.qml:25
+msgid "Extreme market fear with high volatility and panic selling."
+msgstr "Miedo extremo en el mercado con alta volatilidad y ventas de pánico."
+
+#: contents/ui/main.qml:26
+msgid "Strong market growth and active buying momentum."
+msgstr "Fuerte crecimiento del mercado e impulso comprador activo."
+
+#: contents/ui/main.qml:27
+msgid "Altseason in full swing as altcoins outperform BTC."
+msgstr "Altseason en su punto máximo mientras las altcoins superan a BTC."
+
+#: contents/ui/main.qml:28
+msgid "Market correction phase. High caution among buyers."
+msgstr "Fase de corrección del mercado. Alta cautela entre los compradores."
+
+#: contents/ui/main.qml:29
+msgid "Market is in an accumulation and consolidation range."
+msgstr "El mercado se encuentra en un rango de acumulación y consolidación."
+
+#: contents/ui/main.qml:31 contents/ui/main.qml:168
+#: contents/ui/components/cards/MarketSummaryCard.qml:23
+msgid "Accumulation ⚖️"
+msgstr "Acumulación ⚖️"
+
+#: contents/ui/main.qml:32
+msgid "Loading market analytics data..."
+msgstr "Cargando datos de análisis de mercado..."
+
+#: contents/ui/main.qml:169
+msgid "Loading market analytics report..."
+msgstr "Cargando informe de análisis de mercado..."
+
+#: contents/ui/PanelFullRepresentation.qml:124
+msgid "Updating data..."
+msgstr "Actualizando datos..."
+
+#: contents/ui/PanelFullRepresentation.qml:151
+msgid "Rate limit exceeded"
+msgstr "Límite de solicitudes superado"
+
+#: contents/ui/PanelFullRepresentation.qml:161
+msgid "(retry in %1 sec.)"
+msgstr "(reintentar en %1 s)"
+
+#: contents/ui/PanelFullRepresentation.qml:187
+msgid "Successfully updated"
+msgstr "Actualizado con éxito"
+
+#: contents/ui/PanelFullRepresentation.qml:197
+msgid "(at %1)"
+msgstr "(a las %1)"
+
+#: contents/ui/PanelFullRepresentation.qml:217
+msgid "Refresh data"
+msgstr "Actualizar datos"
+
+#: contents/ui/PanelFullRepresentation.qml:267
+msgid "Feed"
+msgstr "Feed"
+
+#: contents/ui/PanelFullRepresentation.qml:291
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: contents/ui/PanelFullRepresentation.qml:381
+msgid "Please wait, updating data..."
+msgstr "Por favor espera, actualizando datos..."
+
+#: contents/ui/components/FavoritesTab.qml:79
+msgid "Favorites list is empty"
+msgstr "La lista de favoritos está vacía"
+
+#: contents/ui/components/FavoritesTab.qml:90
+msgid ""
+"Add your favorite coins in widget settings to track their prices on this tab."
+msgstr "Añade tus monedas favoritas en la configuración del widget para seguir sus precios en esta pestaña."
+
+#: contents/ui/components/FavoritesTab.qml:100
+msgid "Go to Settings"
+msgstr "Ir a la configuración"
+
+#: contents/ui/settings/AlertsSettings.qml:102
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Only once"
+msgstr "Solo una vez"
+
+#: contents/ui/settings/AlertsSettings.qml:103
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Once a day"
+msgstr "Una vez al día"
+
+#: contents/ui/settings/AlertsSettings.qml:104
+msgid "Every time reached"
+msgstr "Cada vez que se alcance"
+
+#: contents/ui/settings/AlertsSettings.qml:157
+#: contents/ui/settings/AlertsSettings.qml:168
+#: contents/code/alertSettingsHelper.js:37
+#: contents/code/alertSettingsHelper.js:48
+msgid "Selected Coin"
+msgstr "Moneda seleccionada"
+
+#: contents/ui/settings/AlertsSettings.qml:158
+#: contents/ui/settings/AlertsSettings.qml:170
+#: contents/ui/settings/AlertsSettings.qml:626
+#: contents/ui/settings/GeneralSettings.qml:204
+#: contents/ui/components/cards/FearGreedCard.qml:63
+#: contents/code/alertEngine.js:229 contents/code/alertEngine.js:233
+#: contents/code/alertSettingsHelper.js:38
+#: contents/code/alertSettingsHelper.js:50
+msgid "Fear & Greed Index"
+msgstr "Índice Fear & Greed"
+
+#: contents/ui/settings/AlertsSettings.qml:159
+#: contents/ui/settings/AlertsSettings.qml:171
+#: contents/ui/settings/AlertsSettings.qml:627
+#: contents/ui/settings/GeneralSettings.qml:205
+#: contents/code/alertEngine.js:248 contents/code/alertEngine.js:252
+#: contents/code/alertSettingsHelper.js:39
+#: contents/code/alertSettingsHelper.js:51
+msgid "Global Market Cap"
+msgstr "Cap. de mercado global"
+
+#: contents/ui/settings/AlertsSettings.qml:160
+#: contents/ui/settings/AlertsSettings.qml:173
+#: contents/code/alertSettingsHelper.js:40
+#: contents/code/alertSettingsHelper.js:53
+msgid "Dominance (BTC / ETH)"
+msgstr "Dominancia (BTC / ETH)"
+
+#: contents/ui/settings/AlertsSettings.qml:161
+#: contents/ui/settings/AlertsSettings.qml:175
+#: contents/ui/settings/AlertsSettings.qml:632
+#: contents/ui/settings/GeneralSettings.qml:207
+#: contents/code/alertEngine.js:296 contents/code/alertEngine.js:300
+#: contents/code/alertSettingsHelper.js:41
+#: contents/code/alertSettingsHelper.js:55
+msgid "Active Cryptocurrencies"
+msgstr "Criptomonedas activas"
+
+#: contents/ui/settings/AlertsSettings.qml:162
+#: contents/ui/settings/AlertsSettings.qml:172
+#: contents/ui/settings/AlertsSettings.qml:628 contents/code/alertEngine.js:260
+#: contents/code/alertEngine.js:264 contents/code/alertSettingsHelper.js:42
+#: contents/code/alertSettingsHelper.js:52
+msgid "24h Total Volume"
+msgstr "Volumen total de 24h"
+
+#: contents/ui/settings/AlertsSettings.qml:163
+#: contents/ui/settings/AlertsSettings.qml:178
+#: contents/ui/settings/AlertsSettings.qml:634
+#: contents/ui/settings/GeneralSettings.qml:213
+#: contents/ui/components/cards/EthBtcRatioCard.qml:107
+#: contents/code/alertEngine.js:311 contents/code/alertEngine.js:315
+#: contents/code/alertSettingsHelper.js:43
+#: contents/code/alertSettingsHelper.js:58
+msgid "ETH/BTC Ratio"
+msgstr "Relación ETH/BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:164
+#: contents/ui/settings/AlertsSettings.qml:182
+#: contents/ui/settings/GeneralSettings.qml:214
+#: contents/ui/settings/GeneralSettings.qml:409
+#: contents/code/alertSettingsHelper.js:44
+#: contents/code/alertSettingsHelper.js:62
+msgid "BTC Halving Countdown"
+msgstr "Cuenta regresiva del Halving de BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:165
+#: contents/ui/settings/AlertsSettings.qml:179
+#: contents/ui/settings/AlertsSettings.qml:633
+#: contents/code/alertSettingsHelper.js:45
+#: contents/code/alertSettingsHelper.js:59
+msgid "BTC Rainbow Zone"
+msgstr "Zona Rainbow de BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:166
+#: contents/ui/settings/AlertsSettings.qml:174
+#: contents/ui/settings/AlertsSettings.qml:631
+#: contents/ui/settings/GeneralSettings.qml:216
+#: contents/code/alertSettingsHelper.js:46
+#: contents/code/alertSettingsHelper.js:54
+msgid "Stablecoin Dominance"
+msgstr "Dominancia de stablecoins"
+
+#: contents/ui/settings/AlertsSettings.qml:206
+#: contents/code/alertSettingsHelper.js:71
+#: contents/code/alertSettingsHelper.js:142
+msgid "Price reaches"
+msgstr "El precio alcanza"
+
+#: contents/ui/settings/AlertsSettings.qml:207
+#: contents/code/alertSettingsHelper.js:72
+msgid "Price above"
+msgstr "Precio por encima de"
+
+#: contents/ui/settings/AlertsSettings.qml:208
+#: contents/code/alertSettingsHelper.js:73
+msgid "Price below"
+msgstr "Precio por debajo de"
+
+#: contents/ui/settings/AlertsSettings.qml:209
+#: contents/code/alertSettingsHelper.js:74
+msgid "24h Change above (%)"
+msgstr "Cambio de 24h por encima de (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:210
+#: contents/code/alertSettingsHelper.js:75
+msgid "24h Change below (%)"
+msgstr "Cambio de 24h por debajo de (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:211
+#: contents/code/alertSettingsHelper.js:76
+msgid "ATH Reached"
+msgstr "ATH alcanzado"
+
+#: contents/ui/settings/AlertsSettings.qml:212
+#: contents/code/alertSettingsHelper.js:77
+msgid "ATL Reached"
+msgstr "ATL alcanzado"
+
+#: contents/ui/settings/AlertsSettings.qml:213 contents/code/alertEngine.js:191
+#: contents/code/alertSettingsHelper.js:78
+#: contents/code/alertSettingsHelper.js:149
+msgid "24h High Breakout"
+msgstr "Ruptura de máximo de 24h"
+
+#: contents/ui/settings/AlertsSettings.qml:214 contents/code/alertEngine.js:197
+#: contents/code/alertSettingsHelper.js:79
+#: contents/code/alertSettingsHelper.js:150
+msgid "24h Low Breakout"
+msgstr "Ruptura de mínimo de 24h"
+
+#: contents/ui/settings/AlertsSettings.qml:215
+#: contents/code/alertSettingsHelper.js:80
+msgid "Drop from ATH (%) >"
+msgstr "Caída desde ATH (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:216
+#: contents/code/alertSettingsHelper.js:81
+msgid "Rise from ATL (%) >"
+msgstr "Subida desde ATL (%) >"
+
+#: contents/ui/settings/AlertsSettings.qml:218
+#: contents/code/alertSettingsHelper.js:85
+msgid "Index above"
+msgstr "Índice por encima de"
+
+#: contents/ui/settings/AlertsSettings.qml:219
+#: contents/code/alertSettingsHelper.js:86
+msgid "Index below"
+msgstr "Índice por debajo de"
+
+#: contents/ui/settings/AlertsSettings.qml:220
+#: contents/code/alertSettingsHelper.js:87
+msgid "Zone status changes"
+msgstr "El estado de la zona cambia"
+
+#: contents/ui/settings/AlertsSettings.qml:222
+#: contents/code/alertSettingsHelper.js:91
+msgid "Value above"
+msgstr "Valor por encima de"
+
+#: contents/ui/settings/AlertsSettings.qml:223
+#: contents/code/alertSettingsHelper.js:92
+msgid "Value below"
+msgstr "Valor por debajo de"
+
+#: contents/ui/settings/AlertsSettings.qml:225
+#: contents/code/alertSettingsHelper.js:96
+msgid "Dominance above (%)"
+msgstr "Dominancia por encima de (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:226
+#: contents/code/alertSettingsHelper.js:97
+msgid "Dominance below (%)"
+msgstr "Dominancia por debajo de (%)"
+
+#: contents/ui/settings/AlertsSettings.qml:228
+#: contents/code/alertSettingsHelper.js:101
+msgid "Count above"
+msgstr "Cantidad por encima de"
+
+#: contents/ui/settings/AlertsSettings.qml:229
+#: contents/code/alertSettingsHelper.js:102
+msgid "Count below"
+msgstr "Cantidad por debajo de"
+
+#: contents/ui/settings/AlertsSettings.qml:231
+#: contents/code/alertSettingsHelper.js:106
+msgid "Ratio above"
+msgstr "Relación por encima de"
+
+#: contents/ui/settings/AlertsSettings.qml:232
+#: contents/code/alertSettingsHelper.js:107
+msgid "Ratio below"
+msgstr "Relación por debajo de"
+
+#: contents/ui/settings/AlertsSettings.qml:234
+#: contents/code/alertSettingsHelper.js:111
+msgid "Valuation Zone changes"
+msgstr "La zona de valoración cambia"
+
+#: contents/ui/settings/AlertsSettings.qml:236
+#: contents/code/alertSettingsHelper.js:115
+msgid "Days remaining less than"
+msgstr "Días restantes menos de"
+
+#: contents/ui/settings/AlertsSettings.qml:322
+msgid "Target:"
+msgstr "Objetivo:"
+
+#: contents/ui/settings/AlertsSettings.qml:405
+msgid "Condition:"
+msgstr "Condición:"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Auto"
+msgstr "Auto"
+
+#: contents/ui/settings/AlertsSettings.qml:421
+msgid "Value"
+msgstr "Valor"
+
+#: contents/ui/settings/AlertsSettings.qml:441
+msgid "Options:"
+msgstr "Opciones:"
+
+#: contents/ui/settings/AlertsSettings.qml:457
+msgid "Note (optional)"
+msgstr "Nota (opcional)"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Create alert"
+msgstr "Crear alerta"
+
+#: contents/ui/settings/AlertsSettings.qml:468
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: contents/ui/settings/AlertsSettings.qml:556
+msgid "Test alert"
+msgstr "Alerta de prueba"
+
+#: contents/ui/settings/AlertsSettings.qml:564
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: contents/ui/settings/AlertsSettings.qml:581
+msgid "Your configured alerts:"
+msgstr "Tus alertas configuradas:"
+
+#: contents/ui/settings/AlertsSettings.qml:629
+msgid "BTC Dominance"
+msgstr "Dominancia de BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:630
+msgid "ETH Dominance"
+msgstr "Dominancia de ETH"
+
+#: contents/ui/settings/AlertsSettings.qml:635
+#: contents/ui/components/cards/HalvingCountdownCard.qml:53
+#: contents/code/alertEngine.js:322
+msgid "BTC Halving"
+msgstr "Halving de BTC"
+
+#: contents/ui/settings/AlertsSettings.qml:656
+msgid "Every time"
+msgstr "Cada vez"
+
+#: contents/ui/settings/CoinsSettings.qml:95
+msgid "Search or Add Coins:"
+msgstr "Buscar o añadir monedas:"
+
+#: contents/ui/settings/CoinsSettings.qml:96
+msgid "Name, ticker (e.g. btc) or batch (btc.eth.sol)..."
+msgstr "Nombre, ticker (p. ej. btc) o lote (btc.eth.sol)..."
+
+#: contents/ui/settings/CoinsSettings.qml:187
+msgid "Coin list is empty"
+msgstr "La lista de monedas está vacía"
+
+#: contents/ui/settings/CoinsSettings.qml:188
+msgid ""
+"Use the search bar above for batch adding (e.g. btc.eth.sol) or searching by "
+"name."
+msgstr "Usa la barra de búsqueda de arriba para añadir en lote (p. ej., btc.eth.sol) o buscar por nombre."
+
+#: contents/ui/settings/CoinsSettings.qml:203
+msgid "Your watchlist (%1)"
+msgstr "Tu lista de seguimiento (%1)"
+
+#: contents/ui/settings/GeneralSettings.qml:91
+msgid "Target Currency:"
+msgstr "Moneda de destino:"
+
+#: contents/ui/settings/GeneralSettings.qml:97 contents/code/database.js:24
+msgid "USD ($) — US Dollar"
+msgstr "USD ($) — Dólar estadounidense"
+
+#: contents/ui/settings/GeneralSettings.qml:98 contents/code/database.js:25
+msgid "EUR (€) — Euro"
+msgstr "EUR (€) — Euro"
+
+#: contents/ui/settings/GeneralSettings.qml:99 contents/code/database.js:26
+msgid "UAH (₴) — Ukrainian Hryvnia"
+msgstr "UAH (₴) — Grivna ucraniana"
+
+#: contents/ui/settings/GeneralSettings.qml:100 contents/code/database.js:27
+msgid "GBP (£) — British Pound"
+msgstr "GBP (£) — Libra esterlina"
+
+#: contents/ui/settings/GeneralSettings.qml:101 contents/code/database.js:28
+msgid "JPY (¥) — Japanese Yen"
+msgstr "JPY (¥) — Yen japonés"
+
+#: contents/ui/settings/GeneralSettings.qml:102 contents/code/database.js:29
+msgid "CAD ($) — Canadian Dollar"
+msgstr "CAD ($) — Dólar canadiense"
+
+#: contents/ui/settings/GeneralSettings.qml:103 contents/code/database.js:30
+msgid "AUD ($) — Australian Dollar"
+msgstr "AUD ($) — Dólar australiano"
+
+#: contents/ui/settings/GeneralSettings.qml:104 contents/code/database.js:31
+msgid "CHF — Swiss Franc"
+msgstr "CHF — Franco suizo"
+
+#: contents/ui/settings/GeneralSettings.qml:105 contents/code/database.js:32
+msgid "PLN (zł) — Polish Zloty"
+msgstr "PLN (zł) — Zloty polaco"
+
+#: contents/ui/settings/GeneralSettings.qml:106 contents/code/database.js:33
+msgid "TRY (₺) — Turkish Lira"
+msgstr "TRY (₺) — Lira turca"
+
+#: contents/ui/settings/GeneralSettings.qml:107 contents/code/database.js:34
+msgid "CNY (¥) — Chinese Yuan"
+msgstr "CNY (¥) — Yuan chino"
+
+#: contents/ui/settings/GeneralSettings.qml:108 contents/code/database.js:35
+msgid "CZK (Kč) — Czech Koruna"
+msgstr "CZK (Kč) — Corona checa"
+
+#: contents/ui/settings/GeneralSettings.qml:109 contents/code/database.js:36
+msgid "DKK (kr) — Danish Krone"
+msgstr "DKK (kr) — Corona danesa"
+
+#: contents/ui/settings/GeneralSettings.qml:110 contents/code/database.js:37
+msgid "SEK (kr) — Swedish Krona"
+msgstr "SEK (kr) — Corona sueca"
+
+#: contents/ui/settings/GeneralSettings.qml:111 contents/code/database.js:38
+msgid "NOK (kr) — Norwegian Krone"
+msgstr "NOK (kr) — Corona noruega"
+
+#: contents/ui/settings/GeneralSettings.qml:112 contents/code/database.js:39
+msgid "HUF (Ft) — Hungarian Forint"
+msgstr "HUF (Ft) — Forinto húngaro"
+
+#: contents/ui/settings/GeneralSettings.qml:113 contents/code/database.js:40
+msgid "ILS (₪) — Israeli Shekel"
+msgstr "ILS (₪) — Séquel israelí"
+
+#: contents/ui/settings/GeneralSettings.qml:114 contents/code/database.js:41
+msgid "INR (₹) — Indian Rupee"
+msgstr "INR (₹) — Rupia india"
+
+#: contents/ui/settings/GeneralSettings.qml:151
+msgid "Auto-refresh Interval:"
+msgstr "Intervalo de actualización:"
+
+#: contents/ui/settings/GeneralSettings.qml:157
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: contents/ui/settings/GeneralSettings.qml:158
+msgid "5 minutes"
+msgstr "5 minutos"
+
+#: contents/ui/settings/GeneralSettings.qml:159
+msgid "10 minutes"
+msgstr "10 minutos"
+
+#: contents/ui/settings/GeneralSettings.qml:160
+msgid "15 minutes"
+msgstr "15 minutos"
+
+#: contents/ui/settings/GeneralSettings.qml:161
+msgid "30 minutes"
+msgstr "30 minutos"
+
+#: contents/ui/settings/GeneralSettings.qml:162
+msgid "45 minutes"
+msgstr "45 minutos"
+
+#: contents/ui/settings/GeneralSettings.qml:163
+msgid "1 hour"
+msgstr "1 hora"
+
+#: contents/ui/settings/GeneralSettings.qml:200
+msgid "Desktop Widget:"
+msgstr "Widget de escritorio:"
+
+#: contents/ui/settings/GeneralSettings.qml:203
+msgid "Selected Coin Card"
+msgstr "Tarjeta de moneda seleccionada"
+
+#: contents/ui/settings/GeneralSettings.qml:206
+msgid "Dominance Distribution"
+msgstr "Distribución de dominancia"
+
+#: contents/ui/settings/GeneralSettings.qml:208
+#: contents/ui/settings/GeneralSettings.qml:349
+msgid "Marquee Price Ticker"
+msgstr "Ticker de precios desplazable"
+
+#: contents/ui/settings/GeneralSettings.qml:209
+#: contents/ui/components/cards/TopGainersCard.qml:43
+msgid "Top 5 Gainers"
+msgstr "Top 5 ganadores"
+
+#: contents/ui/settings/GeneralSettings.qml:210
+#: contents/ui/components/cards/TopLosersCard.qml:43
+msgid "Top 5 Losers"
+msgstr "Top 5 perdedores"
+
+#: contents/ui/settings/GeneralSettings.qml:211
+msgid "Trending Coins"
+msgstr "Monedas en tendencia"
+
+#: contents/ui/settings/GeneralSettings.qml:212
+msgid "24h Trading Volume"
+msgstr "Volumen de comercio de 24h"
+
+#: contents/ui/settings/GeneralSettings.qml:215
+#: contents/ui/components/cards/RainbowChartCard.qml:97
+msgid "BTC Price Valuation"
+msgstr "Valoración de precio de BTC"
+
+#: contents/ui/settings/GeneralSettings.qml:217
+#: contents/ui/settings/GeneralSettings.qml:361
+msgid "Market Analytics Summary"
+msgstr "Resumen de análisis de mercado"
+
+#: contents/ui/settings/GeneralSettings.qml:231
+msgid "Widget Coin (ID or Ticker):"
+msgstr "Moneda del widget (ID o Ticker):"
+
+#: contents/ui/settings/GeneralSettings.qml:234
+msgid "e.g. btc, eth, sol, doge..."
+msgstr "p. ej., btc, eth, sol, doge..."
+
+#: contents/ui/settings/GeneralSettings.qml:342
+msgid "Feed Settings"
+msgstr "Configuración del feed"
+
+#: contents/ui/settings/GeneralSettings.qml:373
+msgid "Key Metrics (Market Cap, Volume, Fear & Greed, Dominance)"
+msgstr "Métricas clave (Cap. de mercado, Volumen, Fear & Greed, Dominancia)"
+
+#: contents/ui/settings/GeneralSettings.qml:385
+msgid "Analytical Models (ETH/BTC, BTC Price Valuation)"
+msgstr "Modelos analíticos (ETH/BTC, Valoración de BTC)"
+
+#: contents/ui/settings/GeneralSettings.qml:397
+msgid "Leaderboard Tables (Gainers, Losers & Trending)"
+msgstr "Tablas de clasificación (Ganadores, Perdedores y Tendencias)"
+
+#: contents/ui/settings/SupportSettings.qml:97
+msgid ""
+"The first feature-rich cryptocurrency monitoring widget for KDE Plasma 6."
+msgstr "El primer widget completo de monitoreo de criptomonedas para KDE Plasma 6."
+
+#: contents/ui/settings/SupportSettings.qml:114
+msgid "What's New"
+msgstr "Novedades"
+
+#: contents/ui/settings/SupportSettings.qml:117
+msgid "About Project"
+msgstr "Acerca del proyecto"
+
+#: contents/ui/settings/SupportSettings.qml:120
+msgid "Authors"
+msgstr "Autores"
+
+#: contents/ui/settings/SupportSettings.qml:123
+msgid "Support"
+msgstr "Soporte"
+
+#: contents/ui/settings/SupportSettings.qml:126
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+#: contents/ui/settings/SupportSettings.qml:137
+msgid ""
+"Crypto-hub provides real-time crypto market monitoring via 15 desktop card "
+"types, auto-refresh, and a local SQLite database for offline coin search. "
+"The project is fully open source under the GNU GPLv3 license."
+msgstr "Crypto-hub proporciona monitoreo del mercado cripto en tiempo real a través de 15 tipos de tarjetas de escritorio, actualización automática y una base de datos SQLite local para la búsqueda de monedas sin conexión. El proyecto es completamente de código abierto bajo la licencia GNU GPLv3."
+
+#: contents/ui/settings/SupportSettings.qml:168
+msgid "Key features of version v1.0.0:"
+msgstr "Características clave de la versión v1.0.0:"
+
+#: contents/ui/settings/SupportSettings.qml:182
+msgid ""
+"🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+"🪙 15 modular desktop widget cards (Price, Market Cap, Halving, ETH/BTC, "
+"Rainbow Zone, etc.).\n"
+"📊 Market analytics feed with top gainers, losers, and trending coins.\n"
+"🔔 Flexible system notification builder for price breakouts, ATH/ATL, and "
+"Fear & Greed shifts.\n"
+"🗄️ Offline coin cache powered by a local SQLite database.\n"
+"🎨 Dynamic market condition status icon on the Plasma panel."
+msgstr ""
+
+#: contents/ui/settings/SupportSettings.qml:227
+msgid "Universal Development Hub (UniDevHub)"
+msgstr "Universal Development Hub (UniDevHub)"
+
+#: contents/ui/settings/SupportSettings.qml:241
+msgid ""
+"The UniDevHub project was created by a visually impaired developer from "
+"Ukraine to build open-source software products, primarily for Linux and "
+"Android."
+msgstr "El proyecto UniDevHub (Universal Development Hub) fue creado por un desarrollador con discapacidad visual de Ucrania para crear productos de software de código abierto, principalmente para Linux y Android."
+
+#: contents/ui/settings/SupportSettings.qml:250
+msgid "Project Goals:"
+msgstr "Objetivos del proyecto:"
+
+#: contents/ui/settings/SupportSettings.qml:263
+msgid "1. Create software products missing in daily use."
+msgstr "1. Crear productos de software que faltan en el uso diario."
+
+#: contents/ui/settings/SupportSettings.qml:273
+msgid "2. Involve more people in open-source development."
+msgstr "2. Involucrar a más personas en el desarrollo de código abierto."
+
+#: contents/ui/settings/SupportSettings.qml:283
+msgid "3. Promote open-source software and digital sovereignty."
+msgstr "3. Promover el software de código abierto y la soberanía digital."
+
+#: contents/ui/settings/SupportSettings.qml:293
+msgid "4. Stay connected with community and ensure accessibility for everyone."
+msgstr "4. Mantenerse conectado con la comunidad y garantizar la accesibilidad para todos."
+
+#: contents/ui/settings/SupportSettings.qml:330
+msgid "Join the UniDevHub project!"
+msgstr "¡Únete al proyecto UniDevHub!"
+
+#: contents/ui/settings/SupportSettings.qml:337
+msgid ""
+"Whether you are a developer, designer, translator, or user — your ideas and "
+"contribution will help make open-source software better and more accessible "
+"for everyone."
+msgstr "Ya seas desarrollador, diseñador, traductor o usuario, tus ideas y contribuciones ayudarán a hacer que el software de código abierto sea mejor y más accesible para todos."
+
+#: contents/ui/settings/SupportSettings.qml:378
+msgid "Development Team:"
+msgstr "Equipo de desarrollo:"
+
+#: contents/ui/settings/SupportSettings.qml:394
+msgid "• Concept & Development:"
+msgstr "• Concepto y desarrollo:"
+
+#: contents/ui/settings/SupportSettings.qml:406
+msgid "• Design & Base Localization:"
+msgstr "• Diseño y localización base:"
+
+#: contents/ui/settings/SupportSettings.qml:418
+msgid "Open project repository on GitHub"
+msgstr "Abrir el repositorio del proyecto en GitHub"
+
+#: contents/ui/settings/SupportSettings.qml:456
+msgid ""
+"By supporting us financially, you support not only the development of this "
+"widget, but also other open-source projects for the Linux community from our "
+"team!"
+msgstr "¡Al apoyarnos financieramente, apoyas no solo el desarrollo de este widget, sino también otros proyectos de código abierto para la comunidad de Linux de nuestro equipo!"
+
+#: contents/ui/settings/SupportSettings.qml:471
+msgid "Community & Development"
+msgstr "Comunidad y desarrollo"
+
+#: contents/ui/settings/SupportSettings.qml:476
+msgid "Contact Email:"
+msgstr "Correo electrónico de contacto:"
+
+#: contents/ui/settings/SupportSettings.qml:490
+#: contents/ui/settings/SupportSettings.qml:556
+#: contents/ui/settings/SupportSettings.qml:576
+#: contents/ui/settings/SupportSettings.qml:596
+#: contents/ui/settings/SupportSettings.qml:616
+#: contents/ui/settings/SupportSettings.qml:636
+msgid "Copy"
+msgstr "Copiar"
+
+#: contents/ui/settings/SupportSettings.qml:496
+msgid "YouTube channel:"
+msgstr "Canal de YouTube:"
+
+#: contents/ui/settings/SupportSettings.qml:507
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: contents/ui/settings/SupportSettings.qml:514
+msgid "GitHub team:"
+msgstr "Equipo de GitHub:"
+
+#: contents/ui/settings/SupportSettings.qml:519
+msgid "Join us in improving the code"
+msgstr "Únete a nosotros para mejorar el código"
+
+#: contents/ui/settings/SupportSettings.qml:525
+msgid "Join"
+msgstr "Unirse"
+
+#: contents/ui/settings/SupportSettings.qml:537
+msgid "Financial Support (Donations)"
+msgstr "Apoyo financiero (Donaciones)"
+
+#: contents/ui/settings/SupportSettings.qml:650
+msgid "Frequently Asked Questions (FAQ):"
+msgstr "Preguntas frecuentes (FAQ):"
+
+#: contents/ui/settings/SupportSettings.qml:684
+msgid "❓ How to add a new coin to the widget?"
+msgstr "❓ ¿Cómo añadir una nueva moneda al widget?"
+
+#: contents/ui/settings/SupportSettings.qml:709
+msgid ""
+"Go to the \"Coin List\" tab in settings and use the search bar by name or "
+"ticker (btc, eth, sol), or use batch adding separated by dots (btc.eth.sol)."
+msgstr "Ve a la pestaña «Lista de monedas» en la configuración y usa la barra de búsqueda por nombre o ticker (btc, eth, sol), o usa la adición en lote separada por puntos (btc.eth.sol)."
+
+#: contents/ui/settings/SupportSettings.qml:742
+msgid "❓ What does \"Rate limit exceeded\" mean?"
+msgstr "❓ ¿Qué significa «Rate limit exceeded»?"
+
+#: contents/ui/settings/SupportSettings.qml:767
+msgid ""
+"The free public CoinGecko API has a request limit per minute. If this limit "
+"is exceeded, the widget automatically enables a 60-second protective "
+"countdown timer and will resume updating data after it finishes."
+msgstr "La API pública gratuita de CoinGecko tiene un límite de solicitudes por minuto. Si se supera este límite, el widget activa automáticamente un temporizador de protección de 60 segundos y reanudará la actualización al finalizar."
+
+#: contents/ui/settings/SupportSettings.qml:800
+msgid "❓ How do system notifications (Alerts) work?"
+msgstr "❓ ¿Cómo funcionan las notificaciones del sistema (Alertas)?"
+
+#: contents/ui/settings/SupportSettings.qml:825
+msgid ""
+"In the \"Alerts\" tab, you can set up triggers for coins reaching specific "
+"prices, 24h high/low breakouts, ATH/ATL reach, as well as macro indicators "
+"(Fear & Greed index shifts, BTC/ETH dominance, etc.)."
+msgstr "En la pestaña «Alertas», puedes configurar activadores cuando las monedas alcancen precios específicos, rupturas de máximos/mínimos de 24h, alcance de ATH/ATL, así como indicadores macro (cambios en el índice Fear & Greed, dominancia de BTC/ETH, etc.)."
+
+#: contents/ui/settings/SupportSettings.qml:858
+msgid "❓ Why does the panel icon emoji change?"
+msgstr "❓ ¿Por qué cambia el emoji del ícono del panel?"
+
+#: contents/ui/settings/SupportSettings.qml:883
+msgid ""
+"The emoji on the Plasma panel reflects the real-time overall state of the "
+"crypto market (e.g. 🐻 — panic/correction, 🚀 — rally/growth, ⚖️ — flat/"
+"accumulation, ⚡ — altseason)."
+msgstr "El emoji en el panel de Plasma refleja el estado general del mercado cripto en tiempo real (p. ej., 🐻 — pánico/corrección, 🚀 — rally/crecimiento, ⚖️ — lateral/acumulación, ⚡ — altseason)."
+
+#: contents/ui/settings/SupportSettings.qml:916
+msgid "❓ How to select an individual card for the desktop?"
+msgstr "❓ ¿Cómo seleccionar una tarjeta individual para el escritorio?"
+
+#: contents/ui/settings/SupportSettings.qml:941
+msgid ""
+"When placing the widget directly on the desktop (desktop mode), open "
+"\"General Settings\" and choose one of the 15 card types (Coin Card, Fear & "
+"Greed Index, Global Market Cap, BTC Halving, ETH/BTC, Rainbow Zone, etc.)."
+msgstr "Al colocar el widget directamente en el escritorio (modo escritorio), abre «Configuración general» y elige uno de los 15 tipos de tarjetas (Tarjeta de moneda, Índice Fear & Greed, Cap. de mercado global, Halving de BTC, ETH/BTC, Rainbow Zone, etc.)."
+
+#: contents/ui/settings/SupportSettings.qml:974
+msgid "❓ Where does the widget fetch price data from?"
+msgstr "❓ ¿De dónde obtiene el widget los datos de precios?"
+
+#: contents/ui/settings/SupportSettings.qml:999
+msgid ""
+"The widget receives current price quotes from the CoinGecko API, and the "
+"Fear & Greed Index from the Alternative.me API."
+msgstr "El widget recibe cotizaciones de precios actuales de la API de CoinGecko, y el Índice Fear & Greed de la API de Alternative.me."
+
+#: contents/ui/settings/SupportSettings.qml:1032
+msgid "❓ Does the widget work without an internet connection?"
+msgstr "❓ ¿Funciona el widget sin conexión a internet?"
+
+#: contents/ui/settings/SupportSettings.qml:1057
+msgid ""
+"Searching and adding coins work offline thanks to a local SQLite database. "
+"An active internet connection is required to update real-time prices."
+msgstr "La búsqueda y adición de monedas funcionan sin conexión gracias a una base de datos SQLite local. Se requiere una conexión activa a internet para actualizar los precios en tiempo real."
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:43
+msgid "Active Cryptos"
+msgstr "Criptos activas"
+
+#: contents/ui/components/cards/ActiveCoinsCard.qml:69
+msgid "coins on market"
+msgstr "monedas en el mercado"
+
+#: contents/ui/components/cards/DominanceCard.qml:74
+#: contents/code/alertEngine.js:270
+msgid "Dominance"
+msgstr "Dominancia"
+
+#: contents/ui/components/cards/EthBtcRatioCard.qml:168
+#: contents/ui/components/cards/RainbowChartCard.qml:159
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:103
+#: contents/ui/components/cards/TrendingCard.qml:111
+#: contents/ui/components/cards/Volume24hCard.qml:133
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: contents/ui/components/cards/FearGreedCard.qml:23
+msgid "Extreme Fear"
+msgstr "Miedo extremo"
+
+#: contents/ui/components/cards/FearGreedCard.qml:24
+msgid "Fear"
+msgstr "Miedo"
+
+#: contents/ui/components/cards/FearGreedCard.qml:25
+msgid "Neutral"
+msgstr "Neutral"
+
+#: contents/ui/components/cards/FearGreedCard.qml:26
+msgid "Greed"
+msgstr "Codicia"
+
+#: contents/ui/components/cards/FearGreedCard.qml:27
+msgid "Extreme Greed"
+msgstr "Codicia extrema"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:64
+msgid "%1 days"
+msgstr "%1 días"
+
+#: contents/ui/components/cards/HalvingCountdownCard.qml:78
+#, javascript-format
+msgid "Epoch progress: %1%"
+msgstr "Progreso de época: %1%"
+
+#: contents/ui/components/cards/MarketCapCard.qml:69
+msgid "Market Cap"
+msgstr "Cap. de mercado"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:24
+msgid "Market is range-bound in a low volatility consolidation phase."
+msgstr "El mercado está en un rango de consolidación de baja volatilidad."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:25
+msgid "Panic / Crash 🚨"
+msgstr "Pánico / Colapso 🚨"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:26
+msgid "Extreme fear in the market. Historic buying opportunity zone."
+msgstr "Miedo extremo en el mercado. Zona de oportunidad histórica de compra."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:27
+msgid "Rally / Bull Run 🚀"
+msgstr "Rally / Mercado alcista 🚀"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:28
+msgid "Strong bullish momentum across major assets."
+msgstr "Fuerte impulso alcista en los principales activos."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:29
+msgid "Altseason Peak ⚡"
+msgstr "Pico de Altseason ⚡"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:30
+msgid "Capital actively flowing into altcoins while BTC dominance decreases."
+msgstr "El capital fluye activamente hacia las altcoins mientras disminuye la dominancia de BTC."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:31
+msgid "Correction / Fear 🐻"
+msgstr "Corrección / Miedo 🐻"
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:32
+msgid "Market correction phase. Buyers show caution near support levels."
+msgstr "Fase de corrección del mercado. Los compradores muestran cautela cerca de los niveles de soporte."
+
+#: contents/ui/components/cards/MarketSummaryCard.qml:85
+msgid "Market Summary:"
+msgstr "Resumen del mercado:"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:57
+#: contents/code/alertSettingsHelper.js:238
+msgid "Fire Sale 📉"
+msgstr "Venta de liquidación 📉"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:58
+#: contents/code/alertSettingsHelper.js:239
+msgid "Buy! 🟢"
+msgstr "¡Compra! 🟢"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:59
+#: contents/code/alertSettingsHelper.js:240
+msgid "Accumulate 🟡"
+msgstr "Acumular 🟡"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:60
+#: contents/code/alertSettingsHelper.js:241
+msgid "Is this FOMO? 🟠"
+msgstr "¿Esto es FOMO? 🟠"
+
+#: contents/ui/components/cards/RainbowChartCard.qml:61
+#: contents/code/alertSettingsHelper.js:242
+msgid "Maximum Bubble! 🚨"
+msgstr "¡Burbuja máxima! 🚨"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:63
+msgid "Stablecoin Dom"
+msgstr "Dom. de stablecoins"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-Off (Fear) 🛡️"
+msgstr "Sin riesgo (Miedo) 🛡️"
+
+#: contents/ui/components/cards/StablecoinDominanceCard.qml:89
+msgid "Risk-On (Buying) 🚀"
+msgstr "Con riesgo (Compras) 🚀"
+
+#: contents/ui/components/cards/TopGainersCard.qml:111
+#: contents/ui/components/cards/TopLosersCard.qml:111
+msgid "No data"
+msgstr "Sin datos"
+
+#: contents/ui/components/cards/TrendingCard.qml:43
+msgid "Trending Now"
+msgstr "Tendencia actual"
+
+#: contents/ui/components/cards/Volume24hCard.qml:71
+msgid "24h Volume"
+msgstr "Volumen de 24h"
+
+#: contents/code/alertEngine.js:149
+msgid "Price Reached Target"
+msgstr "Precio objetivo alcanzado"
+
+#: contents/code/alertEngine.js:150
+msgid "%1 reached target price: %2"
+msgstr "%1 alcanzó el precio objetivo: %2"
+
+#: contents/code/alertEngine.js:155
+msgid "Price Above Target"
+msgstr "Precio por encima del objetivo"
+
+#: contents/code/alertEngine.js:156
+msgid "%1 is above %2 (current: %3)"
+msgstr "%1 está por encima de %2 (actual: %3)"
+
+#: contents/code/alertEngine.js:161
+msgid "Price Below Target"
+msgstr "Precio por debajo del objetivo"
+
+#: contents/code/alertEngine.js:162
+msgid "%1 is below %2 (current: %3)"
+msgstr "%1 está por debajo de %2 (actual: %3)"
+
+#: contents/code/alertEngine.js:167
+msgid "24h Surge"
+msgstr "Volumen de 24h"
+
+#: contents/code/alertEngine.js:168
+msgid "%1 24h change is +%2% (> %3%)"
+msgstr "%1 cambio 24h: +%2% (> %3%)"
+
+#: contents/code/alertEngine.js:173
+msgid "24h Drop"
+msgstr "Entrega 24h"
+
+#: contents/code/alertEngine.js:174
+msgid "%1 24h change is %2% (< %3%)"
+msgstr "%1 cambio 24h: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:179
+msgid "New ATH! 🚀"
+msgstr "¡Nuevo ATH! 🚀"
+
+#: contents/code/alertEngine.js:180
+msgid "%1 reached a new All-Time High of %2"
+msgstr "%1 alcanzó nuevo ATH: $%2"
+
+#: contents/code/alertEngine.js:185
+msgid "New ATL 🚨"
+msgstr "Nuevo ATL 🚨"
+
+#: contents/code/alertEngine.js:186
+msgid "%1 dropped to a new All-Time Low of %2"
+msgstr "%1 cayó a un nuevo mínimo histórico de %2"
+
+#: contents/code/alertEngine.js:192
+msgid "%1 broke 24h high of %2"
+msgstr "%1 superó el máximo de 24h ($%2)"
+
+#: contents/code/alertEngine.js:198
+msgid "%1 broke 24h low of %2"
+msgstr "%1 cayó por debajo del mínimo de 24h ($%2)"
+
+#: contents/code/alertEngine.js:205
+msgid "Drop from ATH"
+msgstr "Caída desde ATH >"
+
+#: contents/code/alertEngine.js:206
+msgid "%1 is down %2% from ATH (> %3%)"
+msgstr "%1 la caída desde ATH es del %2% (> %3%)"
+
+#: contents/code/alertEngine.js:214
+msgid "Rise from ATL"
+msgstr "Subida desde ATL >"
+
+#: contents/code/alertEngine.js:215
+msgid "%1 is up %2% from ATL (> %3%)"
+msgstr "%1 la subida desde ATL es del %2% (> %3%)"
+
+#: contents/code/alertEngine.js:230
+msgid "Fear & Greed Index is %1 (> %2)"
+msgstr "El índice Fear & Greed es %1 (> %2)"
+
+#: contents/code/alertEngine.js:234
+msgid "Fear & Greed Index is %1 (< %2)"
+msgstr "El índice Fear & Greed es %1 (< %2)"
+
+#: contents/code/alertEngine.js:238
+msgid "Fear & Greed Shift"
+msgstr "Índice Fear & Greed"
+
+#: contents/code/alertEngine.js:239
+msgid "Market sentiment changed to %1 (%2)"
+msgstr "El sentimiento del mercado cambió a %1 (%2)"
+
+#: contents/code/alertEngine.js:249
+msgid "Global Market Cap is above target value"
+msgstr "Cap. de mercado global"
+
+#: contents/code/alertEngine.js:253
+msgid "Global Market Cap is below target value"
+msgstr "Cap. de mercado global"
+
+#: contents/code/alertEngine.js:261
+msgid "24h Total Volume is above target value"
+msgstr "El volumen total de 24 horas está por encima del valor objetivo"
+
+#: contents/code/alertEngine.js:265
+msgid "24h Total Volume is below target value"
+msgstr "El volumen total de 24 horas está por debajo del valor objetivo"
+
+#: contents/code/alertEngine.js:285
+msgid "%1 is %2% (> %3%)"
+msgstr "%1 la caída desde ATH es del %2% (> %3%)"
+
+#: contents/code/alertEngine.js:289
+msgid "%1 is %2% (< %3%)"
+msgstr "%1 cambio 24h: %2% (< %3%)"
+
+#: contents/code/alertEngine.js:297
+msgid "Active Cryptocurrencies count is %1 (> %2)"
+msgstr "La cantidad de criptomonedas activas es %1 (> %2)"
+
+#: contents/code/alertEngine.js:301
+msgid "Active Cryptocurrencies count is %1 (< %2)"
+msgstr "La cantidad de criptomonedas activas es %1 (< %2)"
+
+#: contents/code/alertEngine.js:312
+msgid "ETH/BTC Ratio is %1 (> %2)"
+msgstr "La relación ETH/BTC es %1 (> %2)"
+
+#: contents/code/alertEngine.js:316
+msgid "ETH/BTC Ratio is %1 (< %2)"
+msgstr "La relación ETH/BTC es %1 (< %2)"
+
+#: contents/code/alertEngine.js:323
+msgid "Days remaining to BTC Halving: %1 (< %2 days)"
+msgstr "Días restantes para el Halving de BTC: %1 (< %2 días)"
+
+#: contents/code/alertSettingsHelper.js:143
+msgid "Price >"
+msgstr "Precio >"
+
+#: contents/code/alertSettingsHelper.js:144
+msgid "Price <"
+msgstr "Precio <"
+
+#: contents/code/alertSettingsHelper.js:145
+msgid "24h Change >"
+msgstr "Cambio 24h >"
+
+#: contents/code/alertSettingsHelper.js:146
+msgid "24h Change <"
+msgstr "Cambio 24h <"
+
+#: contents/code/alertSettingsHelper.js:147
+msgid "Reached ATH"
+msgstr "ATH alcanzado"
+
+#: contents/code/alertSettingsHelper.js:148
+msgid "Reached ATL"
+msgstr "ATL alcanzado"
+
+#: contents/code/alertSettingsHelper.js:151
+msgid "Drop from ATH >"
+msgstr "Caída desde ATH >"
+
+#: contents/code/alertSettingsHelper.js:152
+msgid "Rise from ATL >"
+msgstr "Subida desde ATL >"
+
+#: contents/code/alertSettingsHelper.js:153
+msgid "Index >"
+msgstr "Índice >"
+
+#: contents/code/alertSettingsHelper.js:154
+msgid "Index <"
+msgstr "Índice <"
+
+#: contents/code/alertSettingsHelper.js:155
+#: contents/code/alertSettingsHelper.js:164
+msgid "Zone shift"
+msgstr "Cambio de zona"
+
+#: contents/code/alertSettingsHelper.js:156
+msgid "Value >"
+msgstr "Valor >"
+
+#: contents/code/alertSettingsHelper.js:157
+msgid "Value <"
+msgstr "Valor <"
+
+#: contents/code/alertSettingsHelper.js:158
+msgid "Dominance >"
+msgstr "Dominancia >"
+
+#: contents/code/alertSettingsHelper.js:159
+msgid "Dominance <"
+msgstr "Dominancia <"
+
+#: contents/code/alertSettingsHelper.js:160
+msgid "Count >"
+msgstr "Cantidad >"
+
+#: contents/code/alertSettingsHelper.js:161
+msgid "Count <"
+msgstr "Cantidad <"
+
+#: contents/code/alertSettingsHelper.js:162
+msgid "Ratio >"
+msgstr "Relación >"
+
+#: contents/code/alertSettingsHelper.js:163
+msgid "Ratio <"
+msgstr "Relación <"
+
+#: contents/code/alertSettingsHelper.js:165
+msgid "Days left <"
+msgstr "Días restantes <"
+
+#: contents/services/NotificationManager.qml:13
+#: contents/services/NotificationManager.qml:26
+msgid "Crypto-hub"
+msgstr "Crypto-hub"
+
+#: contents/services/NotificationManager.qml:27
+msgid "Test notification is working correctly!"
+msgstr "¡La notificación de prueba funciona correctamente!"
+
+#, kde-format
+#~ msgid "🚀 Official release for KDE Plasma 6 and Qt 6 environment.\n"
+#~ msgstr "🚀 Lanzamiento oficial para el entorno KDE Plasma 6 y Qt 6."
+
+msgid "Portfolio"
+msgstr "Portafolio"
+
+msgid "Portfolio Tracking:"
+msgstr "Seguimiento de portafolio:"
+
+msgid "Enable Crypto Portfolio"
+msgstr "Activar portafolio cripto"
+
+msgid "100% Local & Private"
+msgstr "100% Local y Privado"
+
+msgid "Your portfolio assets, quantities, and transactions are stored strictly on your device. No balances or financial data are ever transmitted to third parties or remote servers."
+msgstr "Los activos, cantidades y transacciones de su portafolio se almacenan estrictamente en su dispositivo. Ningún saldo o dato financiero se transmite a terceros o servidores remotos."
+
+msgid "Add Asset to Portfolio:"
+msgstr "Añadir activo al portafolio:"
+
+msgid "Edit Asset:"
+msgstr "Editar activo:"
+
+msgid "Coin (Ticker or ID):"
+msgstr "Moneda (Ticker o ID):"
+
+msgid "Holdings Quantity:"
+msgstr "Cantidad de tenencias:"
+
+msgid "Avg. Buy Price (Optional):"
+msgstr "Precio medio de compra (opcional):"
+
+msgid "Add to Portfolio"
+msgstr "Añadir al portafolio"
+
+msgid "Your Portfolio Assets (%1)"
+msgstr "Activos de su portafolio (%1)"
+
+msgid "No assets added yet"
+msgstr "Aún no se han añadido activos"
+
+msgid "Add your crypto holdings using the form above."
+msgstr "Añada sus tenencias de criptomonedas utilizando el formulario anterior."
+
+msgid "Amount: %1 %2"
+msgstr "Cantidad: %1 %2"
+
+msgid "Buy: %1"
+msgstr "Compra: %1"
+
+msgid "Total Portfolio Balance"
+msgstr "Saldo total del portafolio"
+
+msgid "Show balance"
+msgstr "Mostrar saldo"
+
+msgid "Hide balance"
+msgstr "Ocultar saldo"
+
+msgid "Asset Allocation"
+msgstr "Distribución de activos"
+
+msgid "%1 Assets"
+msgstr "%1 Activos"
+
+msgid "Portfolio is empty"
+msgstr "El portafolio está vacío"
+
+msgid "Add your crypto assets in widget settings to track your balances, 24h PnL, and allocation."
+msgstr "Añada sus criptoactivos en los ajustes del widget para rastrear sus saldos, PnL de 24h y distribución."
+
+msgid "Crypto Portfolio"
+msgstr "Portafolio Cripto"
+
+msgid "Empty"
+msgstr "Vacío"
+
+msgid "In Portfolio"
+msgstr "En el portafolio"
+
+msgid "ROI:"
+msgstr "ROI:"
+
+msgid "Save Backup to File (.json)"
+msgstr "Guardar copia de seguridad en archivo (.json)"
+
+msgid "Save Backup to File (.json)..."
+msgstr "Guardar copia de seguridad en archivo (.json)..."
+
+msgid "Quick Save to Downloads"
+msgstr "Guardado rápido en Descargas"
+
+msgid "Open Folder in Dolphin"
+msgstr "Abrir carpeta en Dolphin"
+
+msgid "Watchlist: %1 coins"
+msgstr "Lista de seguimiento: %1 monedas"
+
+msgid "Portfolio: %1 assets"
+msgstr "Portafolio: %1 activos"
+
+msgid "Alerts: %1 rules"
+msgstr "Alertas: %1 reglas"
+
+msgid "Coins: %1"
+msgstr "Monedas: %1"
+
+msgid "Restore from File (.json)"
+msgstr "Restaurar desde archivo (.json)"
+
+msgid "Choose Backup File (.json)..."
+msgstr "Elegir archivo de copia (.json)..."
+
+msgid "No file chosen"
+msgstr "Ningún archivo seleccionado"
+
+msgid "Valid Backup File Detected:"
+msgstr "Archivo de copia de seguridad válido detectado:"
+
+msgid "Restore from Selected File"
+msgstr "Restaurar desde el archivo seleccionado"
+
+msgid "Factory Reset"
+msgstr "Restablecimiento de fábrica"
+
+msgid "Reset All to Defaults"
+msgstr "Restablecer todo a los valores predeterminados"
+
+msgid "Clears watchlist, alerts, portfolio, and restores initial settings."
+msgstr "Borra la lista de seguimiento, alertas, portafolio y restaura la configuración inicial."
+
+msgid "Reset All Settings?"
+msgstr "¿Restablecer todos los ajustes?"
+
+msgid "Are you sure you want to reset all Crypto-hub settings, watchlist, alerts, and portfolio to default values? This action cannot be undone unless you have a backup."
+msgstr "¿Está seguro de que desea restablecer todos los ajustes de Crypto-hub, lista de seguimiento, alertas y portafolio a los valores predeterminados?"
+
+msgid "All settings have been reset to defaults."
+msgstr "Todos los ajustes se han restablecido a los valores predeterminados."
+
+msgid "File \"%1\" successfully saved in %2!"
+msgstr "¡Archivo «%1» guardado con éxito en %2!"
+
+msgid "Failed to write file (error code: %1)"
+msgstr "Error al escribir el archivo (código de error: %1)"
+
+msgid "File \"%1\" verified! Click 'Restore from Selected File' to apply."
+msgstr "¡Archivo «%1» verificado! Haga clic en 'Restaurar desde el archivo seleccionado'."
+
+msgid "Failed to parse JSON file: %1"
+msgstr "Error al analizar el archivo JSON: %1"
+
+msgid "Could not read the selected file."
+msgstr "No se pudo leer el archivo seleccionado."
+
+msgid "Backup successfully restored! Watchlist (%1 coins) and all settings are applied."
+msgstr "¡Copia de seguridad restaurada con éxito! Lista (%1 monedas) y ajustes aplicados."
+
+msgid "Save Backup File (.json)"
+msgstr "Guardar archivo de copia de seguridad (.json)"
+
+msgid "Select Backup File (.json)"
+msgstr "Seleccionar archivo de copia de seguridad (.json)"
+
+msgid "JSON Backup files (*.json)"
+msgstr "Archivos de copia de seguridad JSON (*.json)"
+
+msgid "All files (*)"
+msgstr "Todos los archivos (*)"
+
+msgid "Changes in version v1.1.0:"
+msgstr "Cambios en la versión v1.1.0:"
+
+msgid "• Added full-featured Crypto Portfolio with 100% private, client-side storage.\n• Dynamic 3-tab popup slider with total balance, 24h PnL, all-time PnL, and allocation bar.\n• 16th standalone desktop widget card for Portfolio monitoring.\n• Quick balance privacy toggle (hide/show balance) across desktop and popup.\n• General performance optimizations and UI refinements."
+msgstr "• Añadido Portafolio Cripto completo con almacenamiento 100% privado en el dispositivo.\n• Control deslizante dinámico de 3 pestañas con saldo total, PnL de 24h, ROI histórico y barra de distribución.\n• 16ª tarjeta de widget de escritorio independiente para monitorizar el Portafolio.\n• Conmutador rápido de privacidad del saldo (ocultar/mostrar saldo).\n• Optimizaciones generales de rendimiento y mejoras de interfaz."
